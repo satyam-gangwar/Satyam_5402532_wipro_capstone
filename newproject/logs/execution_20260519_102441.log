@@ -1,0 +1,8 @@
+2026-05-19 10:24:41 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 10:24:42 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 10:24:42 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 10:24:47 | INFO     | CommercialPage | Verified filter applied
+2026-05-19 10:24:49 | INFO     | CommercialPage | Owner filter applied
+2026-05-19 10:24:49 | INFO     | CommercialPage | Parking filter applied
+2026-05-19 10:24:49 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 10:24:50 | INFO     | CommercialPage | Commercial results loaded successfully

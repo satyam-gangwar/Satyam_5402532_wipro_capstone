@@ -1,0 +1,29 @@
+2026-05-19 10:52:48 | INFO     | pytest | Starting browser: edge
+2026-05-19 10:52:49 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:52:51 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:52:55 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-19 10:52:55 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:52:55 | INFO     | HomePage | Commercial tab opened
+2026-05-19 10:52:55 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 10:52:56 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 10:52:56 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 10:52:58 | INFO     | CommercialPage | Verified
+2026-05-19 10:53:01 | INFO     | CommercialPage | Budget Min Dropdown
+2026-05-19 10:53:05 | INFO     | CommercialPage | Min Budget Selected
+2026-05-19 10:53:10 | INFO     | CommercialPage | Budget Max Dropdown
+2026-05-19 10:53:17 | INFO     | CommercialPage | Max Budget Selected skipped
+2026-05-19 10:53:17 | INFO     | CommercialPage | Apartment Selected
+2026-05-19 10:53:20 | INFO     | CommercialPage | Villa Selected
+2026-05-19 10:53:22 | INFO     | CommercialPage | 2 BHK Selected
+2026-05-19 10:53:30 | INFO     | CommercialPage | 3 BHK Selected skipped
+2026-05-19 10:53:30 | INFO     | CommercialPage | Ready To Move Selected
+2026-05-19 10:53:32 | INFO     | CommercialPage | Under Construction Selected
+2026-05-19 10:53:35 | INFO     | CommercialPage | Owner Selected
+2026-05-19 10:53:37 | INFO     | CommercialPage | Central Noida Selected
+2026-05-19 10:53:39 | INFO     | CommercialPage | Sector 150 Selected
+2026-05-19 10:53:41 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/noida?city=7&keyword=Noida&property_type=C&preference=S&res_com=R
+2026-05-19 10:53:41 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 10:53:41 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 10:53:51 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 10:53:51 | INFO     | CommercialPage | Validating location in results: Noida
+2026-05-19 10:53:51 | INFO     | pytest | Closing browser after complete test session

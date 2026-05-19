@@ -1,0 +1,15 @@
+2026-05-19 10:26:10 | INFO     | pytest | Starting browser: edge
+2026-05-19 10:26:11 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:26:13 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:26:18 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-19 10:26:18 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:26:18 | INFO     | HomePage | Commercial tab opened
+2026-05-19 10:26:18 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 10:26:19 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 10:26:19 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 10:26:24 | INFO     | CommercialPage | Verified filter applied
+2026-05-19 10:26:26 | INFO     | CommercialPage | Owner filter applied
+2026-05-19 10:26:27 | INFO     | CommercialPage | Parking filter applied
+2026-05-19 10:26:27 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 10:26:28 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 10:26:28 | INFO     | pytest | Closing browser after complete test session

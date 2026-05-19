@@ -1,0 +1,5 @@
+2026-05-18 23:04:34 | INFO     | pytest | Starting browser: edge
+2026-05-18 23:06:10 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_e2e_99acres.py_Test99AcresEndToEnd_test_login_search_and_filter_mumbai_properties_20260518_230609.png
+2026-05-18 23:06:50 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_login.py_TestLogin_test_login_dialog_opens_20260518_230649.png
+2026-05-18 23:07:28 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_login.py_TestLogin_test_user_can_start_login_flow_20260518_230727.png
+2026-05-18 23:09:37 | INFO     | pytest | Closing browser after complete test session

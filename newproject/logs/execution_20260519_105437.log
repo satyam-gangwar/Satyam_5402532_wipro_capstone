@@ -1,0 +1,8 @@
+2026-05-19 10:54:37 | INFO     | pytest | Starting browser: edge
+2026-05-19 10:54:45 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_01_home_20260519_105445.png
+2026-05-19 10:54:46 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_02_login_popup_20260519_105446.png
+2026-05-19 10:55:56 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_03_login_done_20260519_105556.png
+2026-05-19 10:55:56 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_04_login_success_20260519_105556.png
+2026-05-19 10:57:34 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_login.py_TestLogin_test_login_dialog_opens_20260519_105733.png
+2026-05-19 10:58:13 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_login.py_TestLogin_test_user_can_start_login_flow_20260519_105813.png
+2026-05-19 11:00:08 | INFO     | pytest | Closing browser after complete test session

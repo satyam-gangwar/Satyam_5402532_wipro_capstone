@@ -1,0 +1,3 @@
+2026-05-19 10:40:30 | INFO     | pytest | Starting browser: edge
+2026-05-19 10:42:02 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_commercial_flow_20260519_104202.png
+2026-05-19 10:42:02 | INFO     | pytest | Closing browser after complete test session

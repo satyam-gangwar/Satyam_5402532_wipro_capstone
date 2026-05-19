@@ -1,0 +1,27 @@
+2026-05-19 10:55:56 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:55:57 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:56:02 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:56:02 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:56:02 | INFO     | HomePage | Commercial tab opened
+2026-05-19 10:56:02 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 10:56:03 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 10:56:03 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 10:56:05 | INFO     | CommercialPage | Verified
+2026-05-19 10:56:07 | INFO     | CommercialPage | Budget Min Dropdown
+2026-05-19 10:56:11 | INFO     | CommercialPage | Min Budget Selected
+2026-05-19 10:56:13 | INFO     | CommercialPage | Budget Max Dropdown
+2026-05-19 10:56:20 | INFO     | CommercialPage | Max Budget Selected skipped
+2026-05-19 10:56:21 | INFO     | CommercialPage | Apartment Selected
+2026-05-19 10:56:23 | INFO     | CommercialPage | Villa Selected
+2026-05-19 10:56:25 | INFO     | CommercialPage | 2 BHK Selected
+2026-05-19 10:56:33 | INFO     | CommercialPage | 3 BHK Selected skipped
+2026-05-19 10:56:33 | INFO     | CommercialPage | Ready To Move Selected
+2026-05-19 10:56:36 | INFO     | CommercialPage | Under Construction Selected
+2026-05-19 10:56:38 | INFO     | CommercialPage | Owner Selected
+2026-05-19 10:56:41 | INFO     | CommercialPage | Central Noida Selected
+2026-05-19 10:56:43 | INFO     | CommercialPage | Sector 150 Selected
+2026-05-19 10:56:45 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/noida?city=7&keyword=Noida&property_type=C&preference=S&res_com=R
+2026-05-19 10:56:45 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 10:56:45 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 10:56:55 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 10:56:55 | INFO     | CommercialPage | Validating location in results: Noida

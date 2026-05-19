@@ -1,0 +1,20 @@
+2026-05-18 23:33:22 | INFO     | pytest | Starting browser: edge
+2026-05-18 23:33:24 | INFO     | e2e | Opening 99acres homepage
+2026-05-18 23:33:24 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-18 23:33:27 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-18 23:33:32 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-18 23:33:32 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-18 23:33:32 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\commercial_01_home_page_20260518_233332.png
+2026-05-18 23:33:33 | INFO     | HomePage | Hovered on login icon: ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-18 23:33:33 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-18 23:33:35 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\commercial_02_login_popup_20260518_233334.png
+2026-05-18 23:33:35 | INFO     | LoginPage | Entering mobile number using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-18 23:33:40 | INFO     | LoginPage | Clicked available locator: ('xpath', "//button[normalize-space()='Continue']")
+2026-05-18 23:33:45 | INFO     | LoginPage | Paused for 60 seconds so OTP can be entered manually.
+2026-05-18 23:34:45 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\commercial_03_login_completed_20260518_233445.png
+2026-05-18 23:34:45 | INFO     | HomePage | Commercial tab opened
+2026-05-18 23:34:46 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\commercial_04_commercial_tab_20260518_233445.png
+2026-05-18 23:34:46 | INFO     | CommercialPage | Searching commercial property: Noida Sector 62
+2026-05-18 23:34:46 | INFO     | CommercialPage | Current URL: https://www.99acres.com/
+2026-05-18 23:34:46 | INFO     | CommercialPage | Page source preview: <html lang="en" class="has-webp" data-iswebp="true"><head><meta data-jc="82" data-jc-version="r20260514"><script async="" src="https://scripts.clarity.ms/0.8.64/clarity.js"></script><script data-jc="86" src="https://pagead2.googlesyndication.com/pagead/js/r20260514/r20110914/elements/html/omrhp.js" data-jc-version="r20260514"></script><script async="" src="https://www.clarity.ms/tag/uet/97082203"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="/ext-pt/tag/UjGOL5ScpjZ1X4zynHHZdVLPaxfkK2sCCTE_DLaXuz66Ctl3jQs"></script><script async="" src="https://www.clarity.ms/tag/n849kawzxg"></script><script async="" src="//cdn.taboola.com/libtrc/unip/1645147/tfa.js" id="tb_tfa_script"></script><script src="//bat.bing.com/bat.js" async=""></script><script src="https://connect.facebook.net/signals/config/507931216032125?v=2.9.323&amp;r=stable&amp;domain=www.99acres.com&amp;hme=af8aa31887db259becaf
+2026-05-18 23:35:00 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_e2e_99acres.py_Test99AcresCommercialE2E_test_commercial_property_flow_20260518_233459.png

@@ -1,0 +1,37 @@
+2026-05-19 10:06:55 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:06:58 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:07:01 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-19 10:07:01 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:07:02 | INFO     | HomePage | Hovered on login icon: ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-19 10:07:02 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-19 10:07:02 | INFO     | LoginPage | Entering mobile number using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-19 10:07:07 | INFO     | LoginPage | Clicked available locator: ('xpath', "//button[normalize-space()='Continue']")
+2026-05-19 10:07:12 | INFO     | LoginPage | Paused for 60 seconds so OTP can be entered manually.
+2026-05-19 10:08:13 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:08:15 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:08:19 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:08:19 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:08:20 | INFO     | HomePage | Commercial tab opened
+2026-05-19 10:08:44 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:08:50 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:08:55 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:08:55 | INFO     | HomePage | Hovered on login icon: ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-19 10:08:55 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-19 10:08:56 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:08:57 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:09:02 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:09:02 | INFO     | HomePage | Hovered on login icon: ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-19 10:09:02 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-19 10:09:02 | INFO     | LoginPage | Entering mobile number using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-19 10:09:32 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:09:34 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:09:40 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:09:40 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:09:42 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:09:47 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:09:47 | INFO     | HomePage | Clicked available locator: ('id', 'searchform_search_btn')
+2026-05-19 10:09:50 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 10:09:52 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 10:09:57 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 10:10:00 | INFO     | HomePage | Clicked available locator: ('xpath', "//*[@id='suggestions_custom']/li[@title='Mumbai']")
+2026-05-19 10:10:00 | INFO     | HomePage | Clicked available locator: ('xpath', '//*[@id="searchform_search_btn"]')

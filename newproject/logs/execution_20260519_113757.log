@@ -1,0 +1,7 @@
+2026-05-19 11:37:57 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 11:37:58 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 11:38:03 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-19 11:38:03 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 11:38:03 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 11:38:05 | INFO     | HomePage | Hovered on Buy menu
+2026-05-19 11:38:05 | INFO     | HomePage | Commercial Buy found using: ('xpath', "//*[contains(text(),'Commercial') and contains(text(),'Buy')]")

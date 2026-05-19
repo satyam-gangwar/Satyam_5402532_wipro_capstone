@@ -1,0 +1,6 @@
+2026-05-19 11:04:08 | INFO     | pytest | Starting browser: edge
+2026-05-19 11:04:17 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_01_home_20260519_110416.png
+2026-05-19 11:04:18 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_02_login_popup_20260519_110417.png
+2026-05-19 11:05:27 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_03_login_done_20260519_110527.png
+2026-05-19 11:05:28 | INFO     | e2e | Screenshot saved: C:\Capstone_99acres\newproject\screenshots\e2e_04_login_success_20260519_110527.png
+2026-05-19 11:06:27 | INFO     | pytest | Closing browser after complete test session

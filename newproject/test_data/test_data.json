@@ -1,0 +1,24 @@
+{
+  "login": {
+    "mobile_number": "8299062481",
+    "username": "",
+    "password": "",
+    "before_mobile_entry_pause_seconds": 0,
+    "after_mobile_entry_pause_seconds": 0,
+    "otp_pause_seconds": 60
+  },
+  "navigation": {
+    "primary_menu_items": [
+      "For Buyers",
+      "For Tenants",
+      "For Owners",
+      "For Dealers / Builders",
+      "Insights"
+    ]
+  },
+ "property_search": {
+    "default_location": "Mumbai",
+    "filtered_location": "Mumbai",
+    "commercial_location": "Noida"
+}
+}

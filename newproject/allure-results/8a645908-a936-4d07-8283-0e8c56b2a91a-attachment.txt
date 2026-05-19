@@ -1,0 +1,4 @@
+2026-05-18 22:35:25 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-18 22:35:27 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-18 22:35:32 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-18 22:36:03 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_login.py_TestLogin_test_login_dialog_opens_20260518_223602.png
