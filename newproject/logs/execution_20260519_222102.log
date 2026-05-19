@@ -1,0 +1,8 @@
+2026-05-19 22:21:04 | INFO     | pytest | Starting browser: edge
+2026-05-19 22:26:24 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_search_shop_showroom_Noida-Shop_20260519_222623.png
+2026-05-19 22:27:44 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_invalid_location_search_20260519_222743.png
+2026-05-19 22:28:32 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_invalid_location_search_xyz123invalid_20260519_222832.png
+2026-05-19 22:28:59 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_invalid_commercial_url_https_www.99acres.com_search_property_buy_commercial-property-in-_20260519_222859.png
+2026-05-19 22:29:25 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_invalid_commercial_url_https_www.99acres.com_search_property_buy_commercial-property-in-invalidcity123_20260519_222925.png
+2026-05-19 22:29:51 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_invalid_commercial_url_https_www.99acres.com_search_property_buy_commercial-property-in-_20260519_222951.png
+2026-05-19 22:29:51 | INFO     | pytest | Closing browser after complete test session
