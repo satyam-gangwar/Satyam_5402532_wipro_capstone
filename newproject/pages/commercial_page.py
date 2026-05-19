@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from utilities.waits import WaitUtils
 from pages.base_page import BasePage
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class CommercialPage(BasePage):
@@ -233,3 +234,25 @@ class CommercialPage(BasePage):
         self.logger.info("Validating location in results: %s", location)
 
         return location.lower() in self.driver.page_source.lower()
+
+
+
+    def select_property_type(self, property_type):
+
+        if property_type == "Shop":
+            xpath = "//*[contains(text(),'Shop') or contains(text(),'Retail')]"
+        elif property_type == "Office Space":
+            xpath = "//*[contains(text(),'Office')]"
+        else:
+            xpath = f"//*[contains(text(),'{property_type}')]"
+
+        property_option = self.wait.until(
+            EC.presence_of_element_located((By.XPATH, xpath))
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            property_option
+        )
+
+        self.logger.info(f"Selected property type: {property_type}")

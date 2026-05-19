@@ -1,0 +1,42 @@
+2026-05-19 16:49:35 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 16:49:39 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:49:43 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-19 16:49:43 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:49:44 | INFO     | HomePage | Hovered on login icon: ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-19 16:49:44 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-19 16:49:45 | INFO     | LoginPage | Entering mobile number using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-19 16:49:52 | INFO     | LoginPage | Clicked available locator: ('xpath', "//button[normalize-space()='Continue']")
+2026-05-19 16:49:56 | INFO     | LoginPage | Paused for 60 seconds so OTP can be entered manually.
+2026-05-19 16:50:57 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 16:50:59 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:51:04 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 16:51:04 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:51:04 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 16:51:04 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-19 16:51:04 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-19 16:52:01 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 16:52:03 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:52:07 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 16:52:07 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:52:07 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 16:52:07 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-19 16:52:07 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-19 16:53:17 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 16:53:18 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:53:23 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 16:53:23 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:53:23 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 16:53:23 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-19 16:53:23 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-19 16:54:17 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 16:54:19 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:54:24 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 16:54:24 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:54:24 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 16:54:49 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 16:54:51 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:54:55 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 16:54:55 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 16:54:55 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 16:54:55 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-19 16:54:55 | INFO     | HomePage | Commercial tab opened successfully

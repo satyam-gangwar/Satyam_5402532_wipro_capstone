@@ -28,3 +28,13 @@ class WaitUtils:
         WebDriverWait(driver, timeout).until(
             lambda d: d.execute_script("return document.readyState") == "complete"
         )
+
+    @staticmethod
+    def slow_execution(driver, seconds=2):
+
+        try:
+            WebDriverWait(driver, seconds).until(
+                lambda d: False
+            )
+        except:
+            pass

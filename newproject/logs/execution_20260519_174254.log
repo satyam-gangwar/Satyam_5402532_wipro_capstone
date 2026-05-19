@@ -1,0 +1,11 @@
+2026-05-19 17:42:55 | INFO     | CommercialPage | Searching commercial property: @@@@
+2026-05-19 17:42:56 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 17:42:57 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 17:43:34 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 17:43:45 | INFO     | CommercialPage | Searching commercial property: xyz123invalid
+2026-05-19 17:43:46 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 17:43:47 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 17:44:24 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 17:44:33 | INFO     | CommercialPage | Searching commercial property: %%%%%
+2026-05-19 17:44:34 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 17:44:35 | INFO     | CommercialPage | Waiting for commercial results to load

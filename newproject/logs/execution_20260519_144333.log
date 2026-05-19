@@ -1,0 +1,71 @@
+2026-05-19 14:43:33 | INFO     | CommercialPage | Searching commercial property: Mumbai
+2026-05-19 14:43:34 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 14:43:34 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 14:43:36 | INFO     | CommercialPage | Verified
+2026-05-19 14:43:38 | INFO     | CommercialPage | Budget Min Dropdown
+2026-05-19 14:43:42 | INFO     | CommercialPage | Min Budget Selected
+2026-05-19 14:43:44 | INFO     | CommercialPage | Budget Max Dropdown
+2026-05-19 14:43:51 | INFO     | CommercialPage | Max Budget Selected skipped
+2026-05-19 14:43:52 | INFO     | CommercialPage | Apartment Selected
+2026-05-19 14:43:54 | INFO     | CommercialPage | Villa Selected
+2026-05-19 14:44:01 | INFO     | CommercialPage | 2 BHK Selected skipped
+2026-05-19 14:44:07 | INFO     | CommercialPage | 3 BHK Selected skipped
+2026-05-19 14:44:07 | INFO     | CommercialPage | Ready To Move Selected
+2026-05-19 14:44:10 | INFO     | CommercialPage | Under Construction Selected
+2026-05-19 14:44:12 | INFO     | CommercialPage | Owner Selected
+2026-05-19 14:44:22 | INFO     | CommercialPage | Central Noida Selected skipped
+2026-05-19 14:44:29 | INFO     | CommercialPage | Sector 150 Selected skipped
+2026-05-19 14:44:29 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/mumbai?city=12&keyword=Mumbai&property_type=C&preference=S&res_com=R
+2026-05-19 14:44:29 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 14:44:29 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 14:44:29 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 14:44:29 | INFO     | CommercialPage | Validating location in results: Mumbai
+2026-05-19 14:44:35 | INFO     | CommercialPage | Searching commercial property: Delhi
+2026-05-19 14:44:36 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 14:44:36 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 14:44:38 | INFO     | CommercialPage | Verified
+2026-05-19 14:44:41 | INFO     | CommercialPage | Budget Min Dropdown
+2026-05-19 14:44:45 | INFO     | CommercialPage | Min Budget Selected
+2026-05-19 14:44:47 | INFO     | CommercialPage | Budget Max Dropdown
+2026-05-19 14:44:54 | INFO     | CommercialPage | Max Budget Selected skipped
+2026-05-19 14:44:54 | INFO     | CommercialPage | Apartment Selected
+2026-05-19 14:44:57 | INFO     | CommercialPage | Villa Selected
+2026-05-19 14:45:04 | INFO     | CommercialPage | 2 BHK Selected skipped
+2026-05-19 14:45:10 | INFO     | CommercialPage | 3 BHK Selected skipped
+2026-05-19 14:45:10 | INFO     | CommercialPage | Ready To Move Selected
+2026-05-19 14:45:12 | INFO     | CommercialPage | Under Construction Selected
+2026-05-19 14:45:14 | INFO     | CommercialPage | Owner Selected
+2026-05-19 14:45:24 | INFO     | CommercialPage | Central Noida Selected skipped
+2026-05-19 14:45:31 | INFO     | CommercialPage | Sector 150 Selected skipped
+2026-05-19 14:45:31 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/delhi?city=1075722&keyword=Delhi&property_type=C&preference=S&res_com=R
+2026-05-19 14:45:31 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 14:45:31 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 14:45:31 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 14:45:31 | INFO     | CommercialPage | Validating location in results: Delhi
+2026-05-19 14:45:38 | INFO     | CommercialPage | Searching commercial property: Gurgaon
+2026-05-19 14:45:39 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 14:45:39 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 14:45:40 | INFO     | CommercialPage | Verified
+2026-05-19 14:45:42 | INFO     | CommercialPage | Budget Min Dropdown
+2026-05-19 14:45:46 | INFO     | CommercialPage | Min Budget Selected
+2026-05-19 14:45:48 | INFO     | CommercialPage | Budget Max Dropdown
+2026-05-19 14:45:55 | INFO     | CommercialPage | Max Budget Selected skipped
+2026-05-19 14:45:55 | INFO     | CommercialPage | Apartment Selected
+2026-05-19 14:45:58 | INFO     | CommercialPage | Villa Selected
+2026-05-19 14:46:00 | INFO     | CommercialPage | 2 BHK Selected
+2026-05-19 14:46:08 | INFO     | CommercialPage | 3 BHK Selected skipped
+2026-05-19 14:46:08 | INFO     | CommercialPage | Ready To Move Selected
+2026-05-19 14:46:11 | INFO     | CommercialPage | Under Construction Selected
+2026-05-19 14:46:13 | INFO     | CommercialPage | Owner Selected
+2026-05-19 14:46:22 | INFO     | CommercialPage | Central Noida Selected skipped
+2026-05-19 14:46:23 | INFO     | CommercialPage | Sector 150 Selected
+2026-05-19 14:46:25 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/gurgaon?city=8&keyword=Gurgaon&property_type=C&preference=S&res_com=R
+2026-05-19 14:46:25 | INFO     | CommercialPage | Commercial filters completed
+2026-05-19 14:46:25 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 14:46:25 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 14:46:25 | INFO     | CommercialPage | Validating location in results: Gurgaon
+2026-05-19 14:47:04 | INFO     | CommercialPage | Selected property type: Office Space
+2026-05-19 14:47:04 | INFO     | CommercialPage | Searching commercial property: Delhi
+2026-05-19 14:47:05 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 14:47:05 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 14:47:07 | INFO     | CommercialPage | Commercial results loaded successfully

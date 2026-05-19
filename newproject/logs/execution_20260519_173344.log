@@ -1,0 +1,10 @@
+2026-05-19 17:33:47 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-19 17:33:49 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 17:33:50 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 17:33:53 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 17:33:53 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 17:34:09 | INFO     | CommercialPage | Selected property type: Office Space
+2026-05-19 17:34:11 | INFO     | CommercialPage | Searching commercial property: Delhi
+2026-05-19 17:34:12 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 17:34:15 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 17:34:16 | INFO     | CommercialPage | Commercial results loaded successfully

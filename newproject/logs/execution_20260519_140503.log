@@ -1,0 +1,19 @@
+2026-05-19 14:05:03 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 14:05:04 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 14:05:04 | INFO     | CommercialPage | Applying commercial filters
+2026-05-19 14:05:07 | INFO     | CommercialPage | Verified
+2026-05-19 14:05:09 | INFO     | CommercialPage | Budget Min Dropdown
+2026-05-19 14:05:13 | INFO     | CommercialPage | Min Budget Selected
+2026-05-19 14:05:15 | INFO     | CommercialPage | Budget Max Dropdown
+2026-05-19 14:05:22 | INFO     | CommercialPage | Max Budget Selected skipped
+2026-05-19 14:05:23 | INFO     | CommercialPage | Apartment Selected
+2026-05-19 14:05:25 | INFO     | CommercialPage | Villa Selected
+2026-05-19 14:05:27 | INFO     | CommercialPage | 2 BHK Selected
+2026-05-19 14:05:35 | INFO     | CommercialPage | 3 BHK Selected skipped
+2026-05-19 14:05:35 | INFO     | CommercialPage | Ready To Move Selected
+2026-05-19 14:05:37 | INFO     | CommercialPage | Under Construction Selected
+2026-05-19 14:05:40 | INFO     | CommercialPage | Owner Selected
+2026-05-19 14:05:42 | INFO     | CommercialPage | Central Noida Selected
+2026-05-19 14:05:50 | INFO     | CommercialPage | Sector 150 Selected skipped
+2026-05-19 14:05:50 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/noida?city=7&keyword=Noida&property_type=C&preference=S&res_com=R
+2026-05-19 14:05:50 | INFO     | CommercialPage | Commercial filters completed

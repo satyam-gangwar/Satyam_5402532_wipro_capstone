@@ -1,0 +1,5 @@
+2026-05-19 17:44:52 | INFO     | pytest | Starting browser: edge
+2026-05-19 17:45:50 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_empty_location_search_Shop_20260519_174549.png
+2026-05-19 17:46:25 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_empty_location_search_Showroom_20260519_174624.png
+2026-05-19 17:47:20 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_for_commercial.py_TestCommercial_test_empty_location_search_Office_Space_20260519_174719.png
+2026-05-19 17:47:20 | INFO     | pytest | Closing browser after complete test session

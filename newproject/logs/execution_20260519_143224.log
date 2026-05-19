@@ -1,0 +1,6 @@
+2026-05-19 14:32:24 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-19 14:32:24 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 14:32:26 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 14:32:27 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 14:33:05 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 14:33:05 | INFO     | CommercialPage | Validating location in results: Noida
