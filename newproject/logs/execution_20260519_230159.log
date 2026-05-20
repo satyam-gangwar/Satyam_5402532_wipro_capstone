@@ -1,0 +1,14 @@
+2026-05-19 23:01:59 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 23:02:06 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 23:02:11 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-19 23:02:11 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 23:02:11 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 23:02:11 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-19 23:02:11 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-19 23:02:23 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-19 23:02:26 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 23:02:31 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-19 23:02:31 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-19 23:02:31 | INFO     | HomePage | Opening Commercial tab
+2026-05-19 23:02:31 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-19 23:02:31 | INFO     | HomePage | Commercial tab opened successfully

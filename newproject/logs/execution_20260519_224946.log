@@ -1,0 +1,10 @@
+2026-05-19 22:49:46 | INFO     | CommercialPage | Selected property type: Flat
+2026-05-19 22:49:46 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 22:49:48 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 22:49:48 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 22:49:56 | INFO     | CommercialPage | Commercial results loaded successfully
+2026-05-19 22:50:47 | INFO     | CommercialPage | Selected property type: Flat
+2026-05-19 22:50:47 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 22:50:47 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 22:50:48 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 22:50:56 | INFO     | CommercialPage | Commercial results loaded successfully

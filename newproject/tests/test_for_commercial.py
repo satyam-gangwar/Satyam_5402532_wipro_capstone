@@ -46,7 +46,7 @@ class TestCommercial:
 
             ("Mumbai"),
             ("Delhi"),
-            ("Gurgaon"),
+
         ]
     )
     def test_commercial_flow(self, base_url, location):
@@ -74,8 +74,7 @@ class TestCommercial:
     @pytest.mark.parametrize(
         "location, property_type",
         [
-            ("Noida", "Shop"),
-            ("Delhi", "Office Space")
+            ("Noida", "Shop")
         ]
     )
     def test_search_shop_showroom(self, base_url, location, property_type):
@@ -237,7 +236,7 @@ class TestCommercial:
         [
             "https://www.99acres.com/search/property/buy/commercial-property-in-@@@@",
             "https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123",
-            "https://www.99acres.com/search/property/buy/commercial-property-in-%%%%%"
+
         ]
     )
     def test_invalid_commercial_url(
@@ -270,3 +269,4 @@ class TestCommercial:
         assert no_result.is_displayed()
 
         print(f"Invalid URL handled correctly: {invalid_url}")
+

@@ -1,0 +1,7 @@
+2026-05-20 00:12:57 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 00:12:59 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 00:13:03 | INFO     | HomePage | Cookie confirmation was not shown.
+2026-05-20 00:13:03 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 00:13:03 | INFO     | HomePage | Opening Commercial tab
+2026-05-20 00:13:03 | INFO     | HomePage | Commercial tab found using: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 00:13:03 | INFO     | HomePage | Commercial tab opened successfully

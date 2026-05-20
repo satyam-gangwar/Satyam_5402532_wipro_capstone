@@ -1,0 +1,4 @@
+2026-05-19 23:36:07 | INFO     | CommercialPage | Searching commercial property: Noida
+2026-05-19 23:36:07 | INFO     | CommercialPage | Commercial search triggered
+2026-05-19 23:36:08 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-19 23:36:10 | INFO     | CommercialPage | Commercial results loaded successfully
