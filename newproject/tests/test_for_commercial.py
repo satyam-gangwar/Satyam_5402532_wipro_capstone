@@ -1,11 +1,20 @@
+
+
+from __future__ import annotations
+
 import pytest
 import allure
+
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
 from pages.home_page import HomePage
 from pages.commercial_page import CommercialPage
+
 from utilities.waits import WaitUtils
+from utilities.logger import get_logger
+
+
+logger = get_logger("commercial_test")
 
 
 @allure.feature("Commercial Module")
@@ -22,53 +31,105 @@ class TestCommercial:
         home.open(base_url)
         home.wait_for_page_load()
 
+        logger.info(
+            "Homepage opened successfully"
+        )
+
         # OPEN COMMERCIAL TAB
         commercial = home.open_commercial_tab()
+
+        logger.info(
+            "Commercial tab opened successfully"
+        )
 
         # SEARCH
         commercial.search_commercial_property(location)
 
+        logger.info(
+            "Commercial property search started for %s",
+            location
+        )
+
         # FILTER
         commercial.apply_basic_filters()
 
+        logger.info(
+            "Commercial filters applied successfully"
+        )
+
         # VALIDATE
-        assert commercial.is_results_loaded()
-        assert commercial.results_contain_location(location)
+        assert commercial.is_results_loaded(), (
+            "Commercial results failed to load"
+        )
 
+        assert commercial.results_contain_location(location), (
+            f"Location '{location}' not found in results"
+        )
 
-
-
+        logger.info(
+            "Commercial flow completed successfully for %s",
+            location
+        )
 
     @pytest.mark.commercial
     @pytest.mark.parametrize(
         "location",
         [
-
-            ("Mumbai"),
-            ("Delhi"),
-
+            "Mumbai",
+            "Delhi",
         ]
     )
-    def test_commercial_flow(self, base_url, location):
+    def test_multiple_city_commercial_flow(
+        self,
+        base_url,
+        location
+    ):
+
         home = HomePage(self.driver)
 
         # OPEN SITE
         home.open(base_url)
         home.wait_for_page_load()
 
+        logger.info(
+            "Homepage opened successfully"
+        )
+
         # OPEN COMMERCIAL TAB
         commercial = home.open_commercial_tab()
+
+        logger.info(
+            "Commercial tab opened successfully"
+        )
 
         # SEARCH
         commercial.search_commercial_property(location)
 
+        logger.info(
+            "Commercial search triggered for %s",
+            location
+        )
+
         # FILTER
         commercial.apply_basic_filters()
 
-        # VALIDATE
-        assert commercial.is_results_loaded()
+        logger.info(
+            "Commercial filters applied"
+        )
 
-        assert commercial.results_contain_location(location)
+        # VALIDATE
+        assert commercial.is_results_loaded(), (
+            "Commercial results failed to load"
+        )
+
+        assert commercial.results_contain_location(location), (
+            f"Location '{location}' not found in results"
+        )
+
+        logger.info(
+            "Commercial search successful for %s",
+            location
+        )
 
     @pytest.mark.commercial
     @pytest.mark.parametrize(
@@ -77,59 +138,115 @@ class TestCommercial:
             ("Noida", "Shop")
         ]
     )
-    def test_search_shop_showroom(self, base_url, location, property_type):
+    def test_search_shop_showroom(
+        self,
+        base_url,
+        location,
+        property_type
+    ):
+
         home = HomePage(self.driver)
 
         home.open(base_url)
         home.wait_for_page_load()
-        WaitUtils.slow_execution(self.driver, 2)
+
+        WaitUtils.slow_execution(
+            self.driver,
+            2
+        )
+
+        logger.info(
+            "Homepage loaded successfully"
+        )
 
         commercial = home.open_commercial_tab()
-        WaitUtils.slow_execution(self.driver, 2)
 
-        commercial.select_property_type(property_type)
-        WaitUtils.slow_execution(self.driver, 2)
+        WaitUtils.slow_execution(
+            self.driver,
+            2
+        )
 
-        commercial.search_commercial_property(location)
-        WaitUtils.slow_execution(self.driver, 3)
+        logger.info(
+            "Commercial tab opened"
+        )
 
-        assert commercial.is_results_loaded()
+        commercial.select_property_type(
+            property_type
+        )
 
-        print(f"{property_type} search successful in {location}")
+        WaitUtils.slow_execution(
+            self.driver,
+            2
+        )
 
-        # Wait before closing browser
-        WaitUtils.slow_execution(self.driver, 5)
+        logger.info(
+            "Selected property type: %s",
+            property_type
+        )
 
+        commercial.search_commercial_property(
+            location
+        )
 
+        WaitUtils.slow_execution(
+            self.driver,
+            3
+        )
 
+        logger.info(
+            "Commercial property searched in %s",
+            location
+        )
 
+        assert commercial.is_results_loaded(), (
+            "Commercial results failed to load"
+        )
 
+        logger.info(
+            "%s search successful in %s",
+            property_type,
+            location
+        )
 
-
-
-
+        # WAIT BEFORE CLOSING
+        WaitUtils.slow_execution(
+            self.driver,
+            5
+        )
 
     @pytest.mark.parametrize(
-            "city",
-            [
-                "Noida"
-            ]
+        "city",
+        [
+            "Noida"
+        ]
     )
-    def test_view_number_button(self, driver, city):
-        # Open commercial property page
+    def test_view_number_button(
+        self,
+        driver,
+        city
+    ):
+
+        # OPEN PROPERTY PAGE
         driver.get(
             f"https://www.99acres.com/search/property/buy/commercial-property-in-{city.lower()}?keyword={city}"
         )
 
         driver.maximize_window()
 
-        # Wait for page load
+        logger.info(
+            "Opened commercial property page for %s",
+            city
+        )
+
+        # WAIT FOR PAGE LOAD
         WaitUtils.wait_for_page_load(driver)
 
-        # Slow execution
-        WaitUtils.slow_execution(driver, 2)
+        WaitUtils.slow_execution(
+            driver,
+            2
+        )
 
-        # Wait for page content
+        # WAIT FOR PAGE CONTENT
         WaitUtils.wait_for_presence(
             driver,
             (
@@ -138,14 +255,26 @@ class TestCommercial:
             )
         )
 
-        # Scroll down slowly
+        logger.info(
+            "Page content loaded for %s",
+            city
+        )
+
+        # SCROLL DOWN
         driver.execute_script(
             "window.scrollBy(0, 800);"
         )
 
-        WaitUtils.slow_execution(driver, 2)
+        WaitUtils.slow_execution(
+            driver,
+            2
+        )
 
-        # Contact / View Number button locator
+        logger.info(
+            "Scrolled down successfully"
+        )
+
+        # CONTACT BUTTON
         contact_locator = (
             By.XPATH,
             "//*[contains(.,'Get Phone') or "
@@ -153,28 +282,40 @@ class TestCommercial:
             "contains(.,'Phone')]"
         )
 
-        # Wait for button clickable
         contact_button = WaitUtils.wait_for_clickable(
             driver,
             contact_locator
         )
 
-        # Scroll to button
+        logger.info(
+            "Contact button located successfully"
+        )
+
+        # SCROLL TO BUTTON
         driver.execute_script(
             "arguments[0].scrollIntoView({block:'center'});",
             contact_button
         )
 
-        # Slow execution before click
-        WaitUtils.slow_execution(driver, 3)
+        WaitUtils.slow_execution(
+            driver,
+            3
+        )
 
-        # Normal Selenium click
+        # CLICK BUTTON
         contact_button.click()
 
-        # Slow execution after click
-        WaitUtils.slow_execution(driver, 5)
+        logger.info(
+            "View Number button clicked successfully for %s",
+            city
+        )
 
-        # Wait for login / OTP / mobile popup
+        WaitUtils.slow_execution(
+            driver,
+            5
+        )
+
+        # VERIFY LOGIN POPUP
         WaitUtils.wait_for_presence(
             driver,
             (
@@ -186,87 +327,84 @@ class TestCommercial:
             )
         )
 
-        print(f"View Number button clicked successfully for {city}")
-
-
+        logger.info(
+            "Login/OTP popup displayed successfully"
+        )
 
     @pytest.mark.parametrize(
         "invalid_location",
         [
             "@@@@",
             "xyz123invalid"
-
         ]
     )
     def test_invalid_location_search(
-            self,
-            base_url,
-            invalid_location
+        self,
+        driver,
+        base_url,
+        invalid_location
     ):
-        home = HomePage(self.driver)
 
-        # Open website
+        home = HomePage(driver)
+
         home.open(base_url)
         home.wait_for_page_load()
 
-        WaitUtils.slow_execution(self.driver, 1)
+        logger.info(
+            "Homepage opened successfully"
+        )
 
-        # Open commercial tab
         commercial = home.open_commercial_tab()
 
-        WaitUtils.slow_execution(self.driver, 1)
+        logger.info(
+            "Commercial tab opened"
+        )
 
-        # Search invalid location
-        commercial.search_commercial_property(invalid_location)
+        commercial.search_commercial_property(
+            invalid_location
+        )
 
-        WaitUtils.slow_execution(self.driver, 1)
+        logger.info(
+            "Invalid search triggered for %s",
+            invalid_location
+        )
 
-        # Verify invalid search handled
-        assert not commercial.is_results_loaded()
+        assert commercial.is_invalid_search_handled(), (
+            "Invalid search was not handled properly"
+        )
 
-        print(f"Invalid location search handled for {invalid_location}")
-
-
-
-
-
+        logger.info(
+            "Invalid location handled successfully: %s",
+            invalid_location
+        )
 
     @pytest.mark.parametrize(
         "invalid_url",
         [
             "https://www.99acres.com/search/property/buy/commercial-property-in-@@@@",
-            "https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123",
-
+            "https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123"
         ]
     )
     def test_invalid_commercial_url(
-            self,
-            driver,
-            invalid_url
+        self,
+        driver,
+        invalid_url
     ):
-        # Open invalid commercial URL
+
         driver.get(invalid_url)
 
-        driver.maximize_window()
-
-        # Wait for page load
-        WaitUtils.wait_for_page_load(driver)
-
-        WaitUtils.slow_execution(driver, 3)
-
-        # Verify no results / invalid page
-        no_result = WaitUtils.wait_for_presence(
-            driver,
-            (
-                By.XPATH,
-                "//*[contains(.,'No Results') or "
-                "contains(.,'not found') or "
-                "contains(.,'0 results') or "
-                "contains(.,'Try searching')]"
-            )
+        logger.info(
+            "Opened invalid URL: %s",
+            invalid_url
         )
 
-        assert no_result.is_displayed()
+        commercial = CommercialPage(driver)
 
-        print(f"Invalid URL handled correctly: {invalid_url}")
+        assert commercial.is_invalid_search_handled(), (
+            "Invalid URL was not handled properly"
+        )
 
+        logger.info(
+            "Invalid URL handled successfully: %s",
+            invalid_url
+        )

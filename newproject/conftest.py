@@ -1,7 +1,8 @@
 from __future__ import annotations
-
+import subprocess
 import allure
 import pytest
+import os
 from selenium.common.exceptions import WebDriverException
 
 from config.settings import settings
@@ -72,3 +73,27 @@ def pytest_runtest_makereport(item: pytest.Item, call: pytest.CallInfo):
                 allure.attach(driver.current_url, name="Current URL", attachment_type=allure.attachment_type.TEXT)
             except WebDriverException as exc:
                 logger.error("Current URL attachment was unavailable: %s", exc)
+
+# Allure test
+def pytest_sessionfinish(session, exitstatus):
+
+    print("\nGenerating Allure HTML Report...\n")
+
+    result = subprocess.run(
+        "allure generate reports/allure-results "
+        "-o reports/allure-reports --clean",
+        shell=True,
+        capture_output=True,
+        text=True
+    )
+
+    print(result.stdout)
+    print(result.stderr)
+
+    if result.returncode == 0:
+
+        print("\nAllure Report Generated Successfully\n")
+
+        os.system(
+            "start reports/allure-reports/index.html"
+        )

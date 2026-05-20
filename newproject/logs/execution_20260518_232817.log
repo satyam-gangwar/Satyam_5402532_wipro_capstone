@@ -1,6 +1,0 @@
-2026-05-18 23:28:17 | INFO     | pytest | Starting browser: edge
-2026-05-18 23:28:19 | INFO     | e2e | Opening 99acres homepage
-2026-05-18 23:28:28 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\commercial_01_home_page_20260518_232827.png
-2026-05-18 23:28:30 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\commercial_02_login_popup_20260518_232829.png
-2026-05-18 23:29:01 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_e2e_99acres.py_Test99AcresCommercialE2E_test_commercial_property_flow_20260518_232901.png
-2026-05-18 23:29:01 | INFO     | pytest | Closing browser after complete test session

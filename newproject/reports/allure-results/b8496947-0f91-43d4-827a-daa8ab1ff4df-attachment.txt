@@ -1,0 +1,19 @@
+2026-05-20 13:35:07 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 13:35:07 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 13:35:10 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 13:35:10 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-20 13:35:10 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-20 13:35:14 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-20 13:35:15 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 13:35:15 | INFO     | HomePage | Opening Commercial tab
+2026-05-20 13:35:15 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 13:35:16 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 13:35:16 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-20 13:35:16 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-20 13:35:16 | INFO     | CommercialPage | Searching commercial property for location: @@@@
+2026-05-20 13:35:16 | INFO     | CommercialPage | Commercial search input found
+2026-05-20 13:35:16 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-20 13:35:17 | INFO     | CommercialPage | Entered location: @@@@
+2026-05-20 13:35:17 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-20 13:35:17 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-20 13:35:17 | INFO     | CommercialPage | Invalid search handled with message: 404

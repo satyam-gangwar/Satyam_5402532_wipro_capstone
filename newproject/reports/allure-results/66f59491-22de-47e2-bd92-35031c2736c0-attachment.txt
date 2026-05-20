@@ -1,0 +1,59 @@
+2026-05-20 14:38:08 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 14:38:08 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 14:38:09 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 14:38:09 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-20 14:38:09 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-20 14:38:14 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-20 14:38:14 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 14:38:14 | INFO     | HomePage | Opening Commercial tab
+2026-05-20 14:38:14 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 14:38:14 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 14:38:14 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-20 14:38:14 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-20 14:38:14 | INFO     | CommercialPage | Searching commercial property for location: Delhi
+2026-05-20 14:38:14 | INFO     | CommercialPage | Commercial search input found
+2026-05-20 14:38:14 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-20 14:38:14 | INFO     | CommercialPage | Entered location: Delhi
+2026-05-20 14:38:15 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-20 14:38:15 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-20 14:38:15 | INFO     | CommercialPage | Applying commercial filters
+2026-05-20 14:38:15 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-20 14:38:17 | INFO     | CommercialPage | Verified filter selected
+2026-05-20 14:38:19 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-20 14:38:19 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-20 14:38:22 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-20 14:38:23 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-20 14:38:25 | INFO     | CommercialPage | Trying to click: Budget maximum dropdown opened
+2026-05-20 14:38:28 | INFO     | CommercialPage | Budget maximum dropdown opened
+2026-05-20 14:38:30 | INFO     | CommercialPage | Trying to click: Maximum budget 50 Lac selected
+2026-05-20 14:38:36 | INFO     | CommercialPage | Maximum budget 50 Lac selected skipped. Error: Message: 
+
+2026-05-20 14:38:36 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-20 14:38:36 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-20 14:38:38 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-20 14:38:38 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-20 14:38:40 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-20 14:38:46 | INFO     | CommercialPage | 2 BHK selected skipped. Error: Message: 
+
+2026-05-20 14:38:46 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-20 14:38:51 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-20 14:38:51 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-20 14:38:51 | INFO     | CommercialPage | Ready to move selected
+2026-05-20 14:38:53 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-20 14:38:54 | INFO     | CommercialPage | Under Construction selected
+2026-05-20 14:38:56 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-20 14:38:56 | INFO     | CommercialPage | Owner selected
+2026-05-20 14:38:58 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-20 14:39:05 | INFO     | CommercialPage | Central Noida selected skipped. Error: Message: 
+
+2026-05-20 14:39:05 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-20 14:39:12 | INFO     | CommercialPage | Sector 150 selected skipped. Error: Message: 
+
+2026-05-20 14:39:12 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/delhi?city=1075722&keyword=Delhi&property_type=C&preference=S&res_com=R
+2026-05-20 14:39:12 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-20 14:39:12 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-20 14:39:12 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-20 14:39:12 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-20 14:39:12 | INFO     | CommercialPage | Validating location in results: Delhi
+2026-05-20 14:39:12 | INFO     | CommercialPage | Location found in results: Delhi

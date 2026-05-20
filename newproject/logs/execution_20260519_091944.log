@@ -1,4 +1,0 @@
-2026-05-19 09:19:45 | INFO     | pytest | Starting browser: edge
-2026-05-19 09:20:19 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_commercial.py_TestCommercial_test_commercial_flow_20260519_092018.png
-2026-05-19 09:22:08 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_e2e_99acres.py_Test99AcresCommercialE2E_test_commercial_property_flow_20260519_092208.png
-2026-05-19 09:26:20 | INFO     | pytest | Closing browser after complete test session

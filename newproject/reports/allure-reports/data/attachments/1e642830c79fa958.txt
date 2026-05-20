@@ -1,0 +1,31 @@
+2026-05-20 13:15:53 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 13:15:53 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 13:15:54 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 13:15:54 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-20 13:15:54 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-20 13:15:59 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-20 13:15:59 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 13:15:59 | INFO     | HomePage | Opening Commercial tab
+2026-05-20 13:15:59 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 13:15:59 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 13:15:59 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-20 13:15:59 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-20 13:15:59 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-20 13:15:59 | INFO     | CommercialPage | Commercial search input found
+2026-05-20 13:15:59 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-20 13:16:00 | INFO     | CommercialPage | Entered location: Noida
+2026-05-20 13:16:00 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-20 13:16:00 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-20 13:16:00 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-20 13:16:00 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-20 13:16:02 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-20 13:16:02 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-20 13:16:02 | INFO     | PropertyPage | Trying to open fixed property: Ivory County
+2026-05-20 13:16:02 | INFO     | PropertyPage | Waiting for property element to become clickable
+2026-05-20 13:16:02 | INFO     | PropertyPage | Property element found
+2026-05-20 13:16:02 | INFO     | PropertyPage | Scrolled to property element
+2026-05-20 13:16:04 | INFO     | PropertyPage | Clicked on Ivory County property
+2026-05-20 13:16:04 | INFO     | PropertyPage | Detected page navigation or child window opening
+2026-05-20 13:16:04 | INFO     | PropertyPage | Property page body loaded successfully
+2026-05-20 13:16:04 | INFO     | PropertyPage | Verifying property page opened
+2026-05-20 13:16:04 | INFO     | PropertyPage | Property page opened successfully

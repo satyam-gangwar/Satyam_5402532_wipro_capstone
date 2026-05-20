@@ -1,28 +1,50 @@
 
+import csv
+import time
 import pytest
+
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from pages.home_page import HomePage
 from pages.property import PropertyPage
-import time
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from utilities.logger import get_logger
+
+logger = get_logger("property")
+
+
+def load_property_data():
+
+    data = []
+
+    with open(
+        "test_data/property_data.csv",
+        newline=""
+    ) as csvfile:
+
+        reader = csv.DictReader(csvfile)
+
+        for row in reader:
+            data.append(row)
+
+    return data
 
 
 class TestPropertyNavigation:
 
     @pytest.mark.parametrize(
-        "location",
-        [
-            "Noida"
-        ]
+        "property_case",
+        load_property_data()
     )
     def test_click_property_and_open_child_page(
         self,
         driver,
         base_url,
-        location
+        property_case
     ):
+
+        location = property_case["location2"]
 
         home = HomePage(driver)
 
@@ -41,7 +63,7 @@ class TestPropertyNavigation:
 
         assert property_page.verify_property_page_opened()
 
-        print("Fixed property child page opened successfully")
+        logger.info("Fixed property child page opened successfully")
 
         start_time = time.time()
 
@@ -50,16 +72,17 @@ class TestPropertyNavigation:
         )
 
     @pytest.mark.parametrize(
-        "project_name",
-        [
-            "Ivory County"
-        ]
+        "property_case",
+        load_property_data()
     )
     def test_ivory_county_title_visible(
-            self,
-            driver,
-            project_name
+        self,
+        driver,
+        property_case
     ):
+
+        project_name = property_case["project_name"]
+
         driver.get(
             "https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436"
         )
@@ -76,24 +99,21 @@ class TestPropertyNavigation:
 
         assert project_name in driver.page_source
 
-        print(f"Verified text visible: {project_name}")
-
-
-
-
+        logger.info(f"Verified text visible: {project_name}")
 
     @pytest.mark.parametrize(
-        "location1, location2",
-        [
-            ("Sector 115", "Noida")
-        ]
+        "property_case",
+        load_property_data()
     )
     def test_ivory_county_location_visible(
-            self,
-            driver,
-            location1,
-            location2
+        self,
+        driver,
+        property_case
     ):
+
+        location1 = property_case["location1"]
+        location2 = property_case["location2"]
+
         driver.get(
             "https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436"
         )
@@ -113,22 +133,34 @@ class TestPropertyNavigation:
         assert location1 in driver.page_source
         assert location2 in driver.page_source
 
-        print(f"Verified locations: {location1}, {location2}")
+        logger.info(f"Verified locations: {location1}, {location2}")
 
-
-
-
-
-    @pytest.mark.parametrize("name", [
-        "Satyam Gangwar"
-    ])
-    def test_download_brochure_button(self, driver, name):
+    @pytest.mark.parametrize(
+        "property_case",
+        load_property_data()
+    )
+    def test_download_brochure_button(
+            self,
+            driver,
+            property_case
+    ):
         property_page = PropertyPage(driver)
 
         property_page.open_ivory_county_page()
 
         property_page.click_download_brochure_button()
 
-        property_page.fill_brochure_form(name)
+        property_page.fill_brochure_form(
+            property_case["name"]
+        )
 
-        print(f"Brochure form name filled successfully: {name}")
+        start_time = time.time()
+
+        WebDriverWait(driver, 12).until(
+            lambda d: time.time() - start_time > 10
+        )
+
+        logger.info(
+            f"Name entered successfully: "
+            f"{property_case['name']}"
+        )

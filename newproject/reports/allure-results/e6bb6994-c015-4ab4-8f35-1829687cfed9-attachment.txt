@@ -1,0 +1,6 @@
+2026-05-20 15:49:03 | INFO     | commercial_test | Opened commercial property page for Noida
+2026-05-20 15:49:05 | INFO     | commercial_test | Page content loaded for Noida
+2026-05-20 15:49:07 | INFO     | commercial_test | Scrolled down successfully
+2026-05-20 15:49:08 | INFO     | commercial_test | Contact button located successfully
+2026-05-20 15:49:11 | INFO     | commercial_test | View Number button clicked successfully for Noida
+2026-05-20 15:49:16 | INFO     | commercial_test | Login/OTP popup displayed successfully

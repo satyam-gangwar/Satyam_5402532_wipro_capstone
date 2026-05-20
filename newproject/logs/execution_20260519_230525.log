@@ -1,3 +1,0 @@
-2026-05-19 23:05:25 | INFO     | pytest | Starting browser: edge
-2026-05-19 23:06:21 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestPropertyNavigation_test_click_property_and_open_child_page_Noida-Prateek_Stylome_20260519_230621.png
-2026-05-19 23:06:21 | INFO     | pytest | Closing browser after complete test session

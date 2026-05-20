@@ -1,3 +1,0 @@
-2026-05-20 10:23:40 | INFO     | pytest | Starting browser: edge
-2026-05-20 10:23:47 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestPropertyNavigation_test_download_brochure_button_20260520_102347.png
-2026-05-20 10:23:47 | INFO     | pytest | Closing browser after complete test session

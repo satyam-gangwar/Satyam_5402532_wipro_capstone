@@ -1,3 +1,0 @@
-2026-05-20 01:09:39 | INFO     | pytest | Starting browser: edge
-2026-05-20 01:09:41 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestPropertyNavigation_test_ivory_county_title_visible_20260520_010941.png
-2026-05-20 01:09:41 | INFO     | pytest | Closing browser after complete test session

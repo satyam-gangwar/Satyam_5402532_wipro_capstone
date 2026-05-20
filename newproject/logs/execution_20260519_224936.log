@@ -1,4 +1,0 @@
-2026-05-19 22:49:37 | INFO     | pytest | Starting browser: edge
-2026-05-19 22:50:38 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestProperty_test_property_child_page_navigation_Noida-Flat-Prateek_Stylome-Prateek_Stylome_20260519_225037.png
-2026-05-19 22:51:37 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestProperty_test_property_child_page_navigation_Noida-Flat-4_BHK_Flat_in_Sector_45_Noida-Sector_45_20260519_225136.png
-2026-05-19 22:51:37 | INFO     | pytest | Closing browser after complete test session

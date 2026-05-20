@@ -1,4 +1,0 @@
-2026-05-19 09:59:17 | INFO     | HomePage | Opening URL: https://www.99acres.com/
-2026-05-19 09:59:20 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
-2026-05-19 09:59:25 | INFO     | HomePage | Cookie confirmation was not shown.
-2026-05-19 09:59:26 | INFO     | HomePage | Clicked available locator: ('id', 'searchform_search_btn')

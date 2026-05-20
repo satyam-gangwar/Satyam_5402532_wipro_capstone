@@ -1,5 +1,0 @@
-2026-05-19 11:55:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
-2026-05-19 11:55:04 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
-2026-05-19 11:55:08 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
-2026-05-19 11:55:08 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
-2026-05-19 11:55:08 | INFO     | HomePage | Opening Commercial tab
