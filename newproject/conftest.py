@@ -79,21 +79,15 @@ def pytest_sessionfinish(session, exitstatus):
 
     print("\nGenerating Allure HTML Report...\n")
 
-    result = subprocess.run(
+    # DELETE OLD REPORT + GENERATE NEW REPORT
+    subprocess.run(
         "allure generate reports/allure-results "
         "-o reports/allure-reports --clean",
-        shell=True,
-        capture_output=True,
-        text=True
+        shell=True
     )
 
-    print(result.stdout)
-    print(result.stderr)
-
-    if result.returncode == 0:
-
-        print("\nAllure Report Generated Successfully\n")
-
-        os.system(
-            "start reports/allure-reports/index.html"
-        )
+    # OPEN NEW REPORT
+    subprocess.Popen(
+        "allure open reports/allure-reports",
+        shell=True
+    )

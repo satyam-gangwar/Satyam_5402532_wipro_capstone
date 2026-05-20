@@ -120,7 +120,7 @@ class HomePage(BasePage):
 
         icon = self.find_first_visible(
             self.LOGIN_ICON,
-            timeout=30
+            timeout=20
         )
 
         ActionChains(self.driver).move_to_element(icon).perform()

@@ -1,1 +1,0 @@
-2026-05-20 15:15:35 | INFO     | CommercialPage | Invalid search handled with message: invalid

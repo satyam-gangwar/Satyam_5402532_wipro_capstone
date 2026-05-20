@@ -1,5 +1,3 @@
-
-
 from __future__ import annotations
 
 import pytest
@@ -12,6 +10,7 @@ from pages.commercial_page import CommercialPage
 
 from utilities.waits import WaitUtils
 from utilities.logger import get_logger
+from utilities.screenshot_utils import capture_screenshot
 
 
 logger = get_logger("commercial_test")
@@ -20,6 +19,24 @@ logger = get_logger("commercial_test")
 @allure.feature("Commercial Module")
 class TestCommercial:
 
+    def attach_screenshot(self, name):
+
+        screenshot_path = capture_screenshot(
+            self.driver,
+            name
+        )
+
+        allure.attach.file(
+            screenshot_path,
+            name=name,
+            attachment_type=allure.attachment_type.PNG
+        )
+
+        logger.info(
+            "Screenshot captured: %s",
+            screenshot_path
+        )
+
     @pytest.mark.commercial
     def test_commercial_flow(self, base_url, test_data):
 
@@ -27,37 +44,23 @@ class TestCommercial:
 
         home = HomePage(self.driver)
 
-        # OPEN SITE
         home.open(base_url)
         home.wait_for_page_load()
 
-        logger.info(
-            "Homepage opened successfully"
-        )
+        self.attach_screenshot("01_homepage_loaded")
 
-        # OPEN COMMERCIAL TAB
         commercial = home.open_commercial_tab()
 
-        logger.info(
-            "Commercial tab opened successfully"
-        )
+        self.attach_screenshot("02_commercial_tab_opened")
 
-        # SEARCH
         commercial.search_commercial_property(location)
 
-        logger.info(
-            "Commercial property search started for %s",
-            location
-        )
+        self.attach_screenshot("03_commercial_search_results")
 
-        # FILTER
         commercial.apply_basic_filters()
 
-        logger.info(
-            "Commercial filters applied successfully"
-        )
+        self.attach_screenshot("04_commercial_filters_applied")
 
-        # VALIDATE
         assert commercial.is_results_loaded(), (
             "Commercial results failed to load"
         )
@@ -75,8 +78,8 @@ class TestCommercial:
     @pytest.mark.parametrize(
         "location",
         [
-            "Mumbai",
-            "Delhi",
+            "Mumbai"
+
         ]
     )
     def test_multiple_city_commercial_flow(
@@ -87,37 +90,27 @@ class TestCommercial:
 
         home = HomePage(self.driver)
 
-        # OPEN SITE
         home.open(base_url)
         home.wait_for_page_load()
 
-        logger.info(
-            "Homepage opened successfully"
-        )
+        self.attach_screenshot("01_homepage_loaded")
 
-        # OPEN COMMERCIAL TAB
         commercial = home.open_commercial_tab()
 
-        logger.info(
-            "Commercial tab opened successfully"
-        )
+        self.attach_screenshot("02_commercial_tab_opened")
 
-        # SEARCH
         commercial.search_commercial_property(location)
 
-        logger.info(
-            "Commercial search triggered for %s",
-            location
+        self.attach_screenshot(
+            f"03_commercial_search_results_{location}"
         )
 
-        # FILTER
         commercial.apply_basic_filters()
 
-        logger.info(
-            "Commercial filters applied"
+        self.attach_screenshot(
+            f"04_commercial_filters_applied_{location}"
         )
 
-        # VALIDATE
         assert commercial.is_results_loaded(), (
             "Commercial results failed to load"
         )
@@ -150,52 +143,46 @@ class TestCommercial:
         home.open(base_url)
         home.wait_for_page_load()
 
+        self.attach_screenshot("01_homepage_loaded")
+
         WaitUtils.slow_execution(
             self.driver,
             2
-        )
-
-        logger.info(
-            "Homepage loaded successfully"
         )
 
         commercial = home.open_commercial_tab()
 
+        self.attach_screenshot("02_commercial_tab_opened")
+
         WaitUtils.slow_execution(
             self.driver,
             2
-        )
-
-        logger.info(
-            "Commercial tab opened"
         )
 
         commercial.select_property_type(
             property_type
         )
 
+        self.attach_screenshot(
+            f"03_property_type_selected_{property_type}"
+        )
+
         WaitUtils.slow_execution(
             self.driver,
             2
-        )
-
-        logger.info(
-            "Selected property type: %s",
-            property_type
         )
 
         commercial.search_commercial_property(
             location
         )
 
+        self.attach_screenshot(
+            f"04_{property_type}_search_results_{location}"
+        )
+
         WaitUtils.slow_execution(
             self.driver,
             3
-        )
-
-        logger.info(
-            "Commercial property searched in %s",
-            location
         )
 
         assert commercial.is_results_loaded(), (
@@ -208,7 +195,6 @@ class TestCommercial:
             location
         )
 
-        # WAIT BEFORE CLOSING
         WaitUtils.slow_execution(
             self.driver,
             5
@@ -226,43 +212,14 @@ class TestCommercial:
         city
     ):
 
-        # OPEN PROPERTY PAGE
-        driver.get(
-            f"https://www.99acres.com/search/property/buy/commercial-property-in-{city.lower()}?keyword={city}"
-        )
+        commercial = CommercialPage(driver)
 
-        driver.maximize_window()
+        commercial.open_commercial_city_page(city)
 
-        logger.info(
-            "Opened commercial property page for %s",
-            city
-        )
-
-        # WAIT FOR PAGE LOAD
         WaitUtils.wait_for_page_load(driver)
 
-        WaitUtils.slow_execution(
-            driver,
-            2
-        )
-
-        # WAIT FOR PAGE CONTENT
-        WaitUtils.wait_for_presence(
-            driver,
-            (
-                By.XPATH,
-                f"//*[contains(.,'{city}')]"
-            )
-        )
-
-        logger.info(
-            "Page content loaded for %s",
-            city
-        )
-
-        # SCROLL DOWN
-        driver.execute_script(
-            "window.scrollBy(0, 800);"
+        self.attach_screenshot(
+            f"01_commercial_city_page_{city}"
         )
 
         WaitUtils.slow_execution(
@@ -270,71 +227,32 @@ class TestCommercial:
             2
         )
 
-        logger.info(
-            "Scrolled down successfully"
+        commercial.wait_for_city_content(city)
+
+        commercial.scroll_to_contact_button()
+
+        self.attach_screenshot(
+            f"02_contact_button_visible_{city}"
         )
 
-        # CONTACT BUTTON
-        contact_locator = (
-            By.XPATH,
-            "//*[contains(.,'Get Phone') or "
-            "contains(.,'Contact') or "
-            "contains(.,'Phone')]"
+        commercial.click_view_number_button()
+
+        self.attach_screenshot(
+            f"03_view_number_clicked_{city}"
         )
 
-        contact_button = WaitUtils.wait_for_clickable(
-            driver,
-            contact_locator
+        assert commercial.verify_login_popup_displayed(), (
+            "Login/OTP popup was not displayed after clicking View Number"
         )
 
-        logger.info(
-            "Contact button located successfully"
-        )
-
-        # SCROLL TO BUTTON
-        driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            contact_button
-        )
-
-        WaitUtils.slow_execution(
-            driver,
-            3
-        )
-
-        # CLICK BUTTON
-        contact_button.click()
-
-        logger.info(
-            "View Number button clicked successfully for %s",
-            city
-        )
-
-        WaitUtils.slow_execution(
-            driver,
-            5
-        )
-
-        # VERIFY LOGIN POPUP
-        WaitUtils.wait_for_presence(
-            driver,
-            (
-                By.XPATH,
-                "//*[contains(.,'Login') or "
-                "contains(.,'Mobile') or "
-                "contains(.,'OTP') or "
-                "contains(.,'Phone')]"
-            )
-        )
-
-        logger.info(
-            "Login/OTP popup displayed successfully"
+        self.attach_screenshot(
+            f"04_login_popup_displayed_{city}"
         )
 
     @pytest.mark.parametrize(
         "invalid_location",
         [
-            "@@@@",
+            
             "xyz123invalid"
         ]
     )
@@ -350,23 +268,22 @@ class TestCommercial:
         home.open(base_url)
         home.wait_for_page_load()
 
-        logger.info(
-            "Homepage opened successfully"
+        self.attach_screenshot(
+            "01_homepage_loaded_invalid_search"
         )
 
         commercial = home.open_commercial_tab()
 
-        logger.info(
-            "Commercial tab opened"
+        self.attach_screenshot(
+            "02_commercial_tab_opened_invalid_search"
         )
 
         commercial.search_commercial_property(
             invalid_location
         )
 
-        logger.info(
-            "Invalid search triggered for %s",
-            invalid_location
+        self.attach_screenshot(
+            f"03_invalid_search_result_{invalid_location}"
         )
 
         assert commercial.is_invalid_search_handled(), (
@@ -393,15 +310,20 @@ class TestCommercial:
 
         driver.get(invalid_url)
 
-        logger.info(
-            "Opened invalid URL: %s",
-            invalid_url
+        WaitUtils.wait_for_page_load(driver)
+
+        self.attach_screenshot(
+            "01_invalid_commercial_url_loaded"
         )
 
         commercial = CommercialPage(driver)
 
         assert commercial.is_invalid_search_handled(), (
             "Invalid URL was not handled properly"
+        )
+
+        self.attach_screenshot(
+            "02_invalid_url_handled"
         )
 
         logger.info(

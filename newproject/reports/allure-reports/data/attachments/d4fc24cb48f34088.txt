@@ -1,0 +1,19 @@
+2026-05-20 16:21:28 | INFO     | pytest | Starting browser: edge
+2026-05-20 16:21:30 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-20 16:21:30 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-20 16:21:33 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-20 16:21:33 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-20 16:21:34 | INFO     | PropertyPage | Disclaimer popup closed
+2026-05-20 16:21:34 | INFO     | PropertyPage | Trying to click Download Brochure button
+2026-05-20 16:21:36 | INFO     | PropertyPage | Download Brochure button found
+2026-05-20 16:21:36 | INFO     | PropertyPage | Scrolled to Download Brochure button
+2026-05-20 16:21:36 | INFO     | PropertyPage | Clicked on Download Brochure button
+2026-05-20 16:21:36 | INFO     | PropertyPage | Trying to fill brochure form
+2026-05-20 16:21:38 | INFO     | PropertyPage | Name field located successfully
+2026-05-20 16:21:38 | INFO     | PropertyPage | Scrolled to name input field
+2026-05-20 16:21:38 | INFO     | PropertyPage | Clicked name input field
+2026-05-20 16:21:38 | INFO     | PropertyPage | Cleared existing name field value
+2026-05-20 16:21:38 | INFO     | PropertyPage | Entered name into brochure form: Satyam Gangwar
+2026-05-20 16:21:38 | INFO     | PropertyPage | Verified entered name successfully
+2026-05-20 16:21:48 | INFO     | property | Name entered successfully: Satyam Gangwar
+2026-05-20 16:21:48 | INFO     | pytest | Closing browser after complete test session

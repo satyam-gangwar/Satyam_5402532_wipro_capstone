@@ -1,4 +1,0 @@
-2026-05-20 15:49:54 | INFO     | commercial_test | Opened invalid URL: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
-2026-05-20 15:49:54 | INFO     | CommercialPage | Invalid search handled with message: invalid
-2026-05-20 15:49:54 | INFO     | commercial_test | Invalid URL handled successfully: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
-2026-05-20 15:49:54 | INFO     | pytest | Closing browser after complete test session
