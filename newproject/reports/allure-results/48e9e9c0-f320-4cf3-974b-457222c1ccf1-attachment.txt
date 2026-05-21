@@ -1,0 +1,32 @@
+2026-05-21 23:34:30 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-21 23:34:30 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-21 23:34:32 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-21 23:34:32 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-21 23:34:32 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-21 23:34:36 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-21 23:34:36 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-21 23:34:37 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260521_233436.png
+2026-05-21 23:34:37 | INFO     | HomePage | Opening Commercial tab
+2026-05-21 23:34:37 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 23:34:37 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 23:34:37 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-21 23:34:37 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-21 23:34:37 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260521_233437.png
+2026-05-21 23:34:37 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-21 23:34:37 | INFO     | CommercialPage | Commercial search input found
+2026-05-21 23:34:37 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-21 23:34:37 | INFO     | CommercialPage | Entered location: Noida
+2026-05-21 23:34:38 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-21 23:34:38 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-21 23:34:39 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260521_233438.png
+2026-05-21 23:34:39 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-21 23:34:39 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-21 23:34:40 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-21 23:34:40 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-21 23:34:40 | INFO     | PropertyPage | Trying to open fixed property: Ivory County
+2026-05-21 23:34:40 | INFO     | PropertyPage | Finding property link attempt: 1
+2026-05-21 23:34:40 | INFO     | PropertyPage | Property URL found: https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436
+2026-05-21 23:34:41 | INFO     | PropertyPage | Property child page opened successfully
+2026-05-21 23:34:41 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_property_child_page_opened_20260521_233441.png
+2026-05-21 23:34:41 | INFO     | PropertyPage | Property page verification result: True
+2026-05-21 23:34:41 | INFO     | property | Fixed property child page opened successfully

@@ -61,10 +61,18 @@ class HomeLocators:
         "'session has been expired')]"
     )
 
+
+    BUY_TAB = (
+        By.XPATH,
+        "//a[contains(text(),'Buy')]"
+    )
+
     COMMERCIAL_TAB = (
         By.XPATH,
         "//div[contains(text(),'Commercial')]"
     )
+
+
 
     COMMERCIAL_TAB_SPAN = (
         By.XPATH,
@@ -79,4 +87,42 @@ class HomeLocators:
     COMMERCIAL_TAB_GENERIC = (
         By.XPATH,
         "//*[contains(text(),'Commercial')]"
+    )
+
+    BUY_TAB_LOCATORS = (
+        (
+            By.XPATH,
+            "//*[normalize-space()='Buy']"
+        ),
+        (
+            By.XPATH,
+            "//a[contains(normalize-space(),'Buy')]"
+        ),
+        (
+            By.XPATH,
+            "//div[contains(normalize-space(),'Buy')]"
+        ),
+        (
+            By.XPATH,
+            "//span[contains(normalize-space(),'Buy')]"
+        ),
+    )
+
+    COMMERCIAL_TAB_LOCATORS = (
+        (
+            By.XPATH,
+            "//*[normalize-space()='Commercial']"
+        ),
+        (
+            By.XPATH,
+            "//a[contains(normalize-space(),'Commercial')]"
+        ),
+        (
+            By.XPATH,
+            "//div[contains(normalize-space(),'Commercial')]"
+        ),
+        (
+            By.XPATH,
+            "//span[contains(normalize-space(),'Commercial')]"
+        ),
     )

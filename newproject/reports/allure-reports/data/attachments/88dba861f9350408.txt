@@ -1,0 +1,8 @@
+2026-05-21 23:47:45 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-21 23:47:45 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-21 23:47:46 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-21 23:47:46 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-21 23:47:53 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-21 23:47:53 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_location_page_loaded_20260521_234753.png
+2026-05-21 23:47:54 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_location_visible_20260521_234753.png
+2026-05-21 23:47:54 | INFO     | property | Verified locations: Sector 115, Noida

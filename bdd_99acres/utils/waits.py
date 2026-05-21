@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-
+import time
 from utils.config_reader import ConfigReader
 from utils.logger import LogGen
 
@@ -149,3 +149,19 @@ class WaitUtils:
             )
             raise
 
+    @staticmethod
+    def slow_execution(seconds=2):
+
+        time.sleep(seconds)
+
+    @staticmethod
+    def wait_for_page_load(
+            driver,
+            timeout=20
+    ):
+
+        WebDriverWait(driver, timeout).until(
+            lambda d: d.execute_script(
+                "return document.readyState"
+            ) == "complete"
+        )

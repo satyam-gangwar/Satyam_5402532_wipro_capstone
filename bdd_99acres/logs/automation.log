@@ -1519,3 +1519,873 @@
 2026-05-21 22:54:54,656 - INFO - Screenshot Saved : reports/screenshots/Open_invalid_commercial_URL_--_@1.2__20260521_225454.png
 2026-05-21 22:54:57,032 - INFO - Browser Closed Successfully
 2026-05-21 22:54:57,033 - INFO - ========================================
+2026-05-21 23:03:49,313 - INFO - Timeout fetched : 10
+2026-05-21 23:03:49,339 - INFO - Loading test data before execution
+2026-05-21 23:03:49,340 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 23:03:49,345 - INFO - ========================================
+2026-05-21 23:03:49,345 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 23:03:49,345 - INFO - Browser fetched : edge
+2026-05-21 23:03:49,345 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:03:49,345 - INFO - Implicit wait fetched : 5
+2026-05-21 23:03:49,345 - INFO - Headless mode : False
+2026-05-21 23:03:49,346 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:03:49,346 - INFO - Launching Edge Browser
+2026-05-21 23:03:54,385 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:03:59,929 - INFO - Popup closed successfully
+2026-05-21 23:04:00,264 - INFO - 99acres application launched
+2026-05-21 23:04:01,979 - INFO - Screenshot saved at: reports/screenshots/commercial_page_opened_20260521_230401.png
+2026-05-21 23:04:01,979 - INFO - Commercial page opened directly
+2026-05-21 23:04:06,822 - INFO - Commercial property searched for Mumbai
+2026-05-21 23:04:07,303 - INFO - Screenshot saved at: reports/screenshots/commercial_search_results_Mumbai_20260521_230406.png
+2026-05-21 23:04:07,304 - INFO - Commercial property searched for location: Mumbai
+2026-05-21 23:04:07,308 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:07,370 - INFO - Element visible successfully : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:07,370 - INFO - Commercial results loaded successfully
+2026-05-21 23:04:07,729 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260521_230407.png
+2026-05-21 23:04:07,729 - INFO - Commercial results loaded successfully
+2026-05-21 23:04:07,893 - INFO - Commercial results contain location: Mumbai
+2026-05-21 23:04:07,894 - INFO - Scenario Status : Status.passed
+2026-05-21 23:04:07,894 - INFO - SCENARIO PASSED : Search commercial property by location
+2026-05-21 23:04:14,146 - INFO - Browser Closed Successfully
+2026-05-21 23:04:14,146 - INFO - ========================================
+2026-05-21 23:04:14,150 - INFO - ========================================
+2026-05-21 23:04:14,151 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-21 23:04:14,151 - INFO - Browser fetched : edge
+2026-05-21 23:04:14,151 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:04:14,151 - INFO - Implicit wait fetched : 5
+2026-05-21 23:04:14,151 - INFO - Headless mode : False
+2026-05-21 23:04:14,152 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:04:14,152 - INFO - Launching Edge Browser
+2026-05-21 23:04:17,138 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:04:24,312 - INFO - Popup closed successfully
+2026-05-21 23:04:24,656 - INFO - 99acres application launched
+2026-05-21 23:04:26,246 - INFO - Screenshot saved at: reports/screenshots/commercial_page_opened_20260521_230426.png
+2026-05-21 23:04:26,246 - INFO - Commercial page opened directly
+2026-05-21 23:04:26,247 - INFO - Property type selected logically: Shop
+2026-05-21 23:04:26,353 - INFO - Screenshot saved at: reports/screenshots/property_type_selected_Shop_20260521_230426.png
+2026-05-21 23:04:26,353 - INFO - Commercial property type selected: Shop
+2026-05-21 23:04:29,995 - INFO - Commercial property searched for Noida
+2026-05-21 23:04:30,301 - INFO - Screenshot saved at: reports/screenshots/commercial_search_results_Noida_20260521_230429.png
+2026-05-21 23:04:30,301 - INFO - Commercial property searched for location: Noida
+2026-05-21 23:04:30,304 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:40,917 - ERROR - Timeout waiting for visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:40,917 - INFO - Result locator not visible: ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:40,917 - INFO - Waiting for element visibility : ('xpath', '//body')
+2026-05-21 23:04:40,939 - INFO - Element visible successfully : ('xpath', '//body')
+2026-05-21 23:04:40,939 - INFO - Commercial results loaded successfully
+2026-05-21 23:04:41,180 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260521_230440.png
+2026-05-21 23:04:41,180 - INFO - Commercial results loaded successfully
+2026-05-21 23:04:41,181 - INFO - Scenario Status : Status.passed
+2026-05-21 23:04:41,181 - INFO - SCENARIO PASSED : Search shop commercial property -- @1.1 
+2026-05-21 23:04:43,681 - INFO - Browser Closed Successfully
+2026-05-21 23:04:43,681 - INFO - ========================================
+2026-05-21 23:04:43,684 - INFO - ========================================
+2026-05-21 23:04:43,684 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-21 23:04:43,684 - INFO - Browser fetched : edge
+2026-05-21 23:04:43,684 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:04:43,684 - INFO - Implicit wait fetched : 5
+2026-05-21 23:04:43,684 - INFO - Headless mode : False
+2026-05-21 23:04:43,688 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:04:43,688 - INFO - Launching Edge Browser
+2026-05-21 23:04:46,710 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:04:52,565 - INFO - Popup closed successfully
+2026-05-21 23:04:52,892 - INFO - 99acres application launched
+2026-05-21 23:04:54,123 - INFO - Screenshot saved at: reports/screenshots/commercial_page_opened_20260521_230454.png
+2026-05-21 23:04:54,123 - INFO - Commercial page opened directly
+2026-05-21 23:04:54,124 - INFO - Property type selected logically: Shop
+2026-05-21 23:04:54,225 - INFO - Screenshot saved at: reports/screenshots/property_type_selected_Shop_20260521_230454.png
+2026-05-21 23:04:54,225 - INFO - Commercial property type selected: Shop
+2026-05-21 23:04:56,281 - INFO - Commercial property searched for Delhi
+2026-05-21 23:04:56,547 - INFO - Screenshot saved at: reports/screenshots/commercial_search_results_Delhi_20260521_230456.png
+2026-05-21 23:04:56,547 - INFO - Commercial property searched for location: Delhi
+2026-05-21 23:04:56,549 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:56,601 - INFO - Element visible successfully : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'listings') or contains(@class,'results')]")
+2026-05-21 23:04:56,601 - INFO - Commercial results loaded successfully
+2026-05-21 23:04:56,865 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260521_230456.png
+2026-05-21 23:04:56,865 - INFO - Commercial results loaded successfully
+2026-05-21 23:04:56,866 - INFO - Scenario Status : Status.passed
+2026-05-21 23:04:56,866 - INFO - SCENARIO PASSED : Search shop commercial property -- @1.2 
+2026-05-21 23:04:59,443 - INFO - Browser Closed Successfully
+2026-05-21 23:04:59,443 - INFO - ========================================
+2026-05-21 23:04:59,447 - INFO - ========================================
+2026-05-21 23:04:59,447 - INFO - STARTING SCENARIO : Verify View Number button opens login popup
+2026-05-21 23:04:59,447 - INFO - Browser fetched : edge
+2026-05-21 23:04:59,447 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:04:59,447 - INFO - Implicit wait fetched : 5
+2026-05-21 23:04:59,447 - INFO - Headless mode : False
+2026-05-21 23:04:59,448 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:04:59,448 - INFO - Launching Edge Browser
+2026-05-21 23:05:04,684 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:05:10,880 - INFO - Popup closed successfully
+2026-05-21 23:05:11,204 - INFO - 99acres application launched
+2026-05-21 23:05:18,748 - INFO - Opened commercial property page for Noida
+2026-05-21 23:05:18,756 - INFO - Waiting for element presence : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:05:18,792 - INFO - Element present successfully : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:05:18,792 - INFO - Page content loaded for Noida
+2026-05-21 23:05:19,168 - INFO - Screenshot saved at: reports/screenshots/commercial_city_page_Noida_20260521_230518.png
+2026-05-21 23:05:19,168 - INFO - Commercial city page opened for: Noida
+2026-05-21 23:05:19,267 - INFO - Scenario Status : Status.error
+2026-05-21 23:05:19,268 - ERROR - SCENARIO FAILED : Verify View Number button opens login popup
+2026-05-21 23:05:19,926 - INFO - Screenshot saved at: reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_230519.png
+2026-05-21 23:05:19,926 - INFO - Screenshot Saved : reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_230519.png
+2026-05-21 23:05:25,857 - INFO - Browser Closed Successfully
+2026-05-21 23:05:25,858 - INFO - ========================================
+2026-05-21 23:05:25,864 - INFO - ========================================
+2026-05-21 23:05:25,864 - INFO - STARTING SCENARIO : Search invalid commercial location
+2026-05-21 23:05:25,864 - INFO - Browser fetched : edge
+2026-05-21 23:05:25,864 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:05:25,864 - INFO - Implicit wait fetched : 5
+2026-05-21 23:05:25,864 - INFO - Headless mode : False
+2026-05-21 23:05:25,865 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:05:25,865 - INFO - Launching Edge Browser
+2026-05-21 23:05:29,104 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:05:37,714 - INFO - Popup closed successfully
+2026-05-21 23:05:38,037 - INFO - 99acres application launched
+2026-05-21 23:05:39,310 - INFO - Screenshot saved at: reports/screenshots/commercial_page_opened_20260521_230539.png
+2026-05-21 23:05:39,310 - INFO - Commercial page opened directly
+2026-05-21 23:05:40,022 - INFO - Commercial property searched for xyz123invalid
+2026-05-21 23:05:40,145 - INFO - Screenshot saved at: reports/screenshots/commercial_search_results_xyz123invalid_20260521_230540.png
+2026-05-21 23:05:40,146 - INFO - Commercial property searched for location: xyz123invalid
+2026-05-21 23:05:40,296 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_230540.png
+2026-05-21 23:05:40,296 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:05:40,297 - INFO - Scenario Status : Status.passed
+2026-05-21 23:05:40,297 - INFO - SCENARIO PASSED : Search invalid commercial location
+2026-05-21 23:05:42,802 - INFO - Browser Closed Successfully
+2026-05-21 23:05:42,803 - INFO - ========================================
+2026-05-21 23:05:42,822 - INFO - ========================================
+2026-05-21 23:05:42,823 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.1 
+2026-05-21 23:05:42,824 - INFO - Browser fetched : edge
+2026-05-21 23:05:42,825 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:05:42,825 - INFO - Implicit wait fetched : 5
+2026-05-21 23:05:42,826 - INFO - Headless mode : False
+2026-05-21 23:05:42,837 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:05:42,838 - INFO - Launching Edge Browser
+2026-05-21 23:05:46,494 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:05:53,006 - INFO - Popup closed successfully
+2026-05-21 23:05:53,355 - INFO - 99acres application launched
+2026-05-21 23:05:54,720 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_230554.png
+2026-05-21 23:05:54,720 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-@@@@
+2026-05-21 23:05:54,862 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_230554.png
+2026-05-21 23:05:54,863 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:05:54,863 - INFO - Scenario Status : Status.passed
+2026-05-21 23:05:54,863 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.1 
+2026-05-21 23:05:57,193 - INFO - Browser Closed Successfully
+2026-05-21 23:05:57,194 - INFO - ========================================
+2026-05-21 23:05:57,217 - INFO - ========================================
+2026-05-21 23:05:57,218 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.2 
+2026-05-21 23:05:57,218 - INFO - Browser fetched : edge
+2026-05-21 23:05:57,219 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:05:57,219 - INFO - Implicit wait fetched : 5
+2026-05-21 23:05:57,220 - INFO - Headless mode : False
+2026-05-21 23:05:57,227 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:05:57,228 - INFO - Launching Edge Browser
+2026-05-21 23:06:10,502 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:06:16,502 - INFO - Popup closed successfully
+2026-05-21 23:06:16,820 - INFO - 99acres application launched
+2026-05-21 23:06:18,439 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_230618.png
+2026-05-21 23:06:18,439 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
+2026-05-21 23:06:18,561 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_230618.png
+2026-05-21 23:06:18,561 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:06:18,562 - INFO - Scenario Status : Status.passed
+2026-05-21 23:06:18,562 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.2 
+2026-05-21 23:06:20,947 - INFO - Browser Closed Successfully
+2026-05-21 23:06:20,947 - INFO - ========================================
+2026-05-21 23:12:30,858 - INFO - Timeout fetched : 10
+2026-05-21 23:12:30,897 - INFO - Loading test data before execution
+2026-05-21 23:12:30,899 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 23:12:30,904 - INFO - ========================================
+2026-05-21 23:12:30,905 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 23:12:30,905 - INFO - Browser fetched : edge
+2026-05-21 23:12:30,905 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:12:30,905 - INFO - Implicit wait fetched : 5
+2026-05-21 23:12:30,905 - INFO - Headless mode : False
+2026-05-21 23:12:30,906 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:12:30,906 - INFO - Launching Edge Browser
+2026-05-21 23:12:34,605 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:12:43,607 - INFO - Popup closed successfully
+2026-05-21 23:12:43,938 - INFO - 99acres application launched
+2026-05-21 23:12:43,941 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:12:59,322 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:12:59,335 - INFO - Scenario Status : Status.error
+2026-05-21 23:12:59,336 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-21 23:12:59,583 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260521_231259.png
+2026-05-21 23:12:59,584 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260521_231259.png
+2026-05-21 23:13:02,035 - INFO - Browser Closed Successfully
+2026-05-21 23:13:02,036 - INFO - ========================================
+2026-05-21 23:13:02,048 - INFO - ========================================
+2026-05-21 23:13:02,049 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-21 23:13:02,049 - INFO - Browser fetched : edge
+2026-05-21 23:13:02,049 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:13:02,049 - INFO - Implicit wait fetched : 5
+2026-05-21 23:13:02,049 - INFO - Headless mode : False
+2026-05-21 23:13:02,050 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:13:02,050 - INFO - Launching Edge Browser
+2026-05-21 23:13:08,996 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:13:15,003 - INFO - Popup closed successfully
+2026-05-21 23:13:15,335 - INFO - 99acres application launched
+2026-05-21 23:13:15,336 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:13:30,715 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:13:30,720 - INFO - Scenario Status : Status.error
+2026-05-21 23:13:30,720 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.1 
+2026-05-21 23:13:30,956 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_231330.png
+2026-05-21 23:13:30,956 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_231330.png
+2026-05-21 23:13:33,674 - INFO - Browser Closed Successfully
+2026-05-21 23:13:33,674 - INFO - ========================================
+2026-05-21 23:13:33,679 - INFO - ========================================
+2026-05-21 23:13:33,679 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-21 23:13:33,679 - INFO - Browser fetched : edge
+2026-05-21 23:13:33,680 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:13:33,680 - INFO - Implicit wait fetched : 5
+2026-05-21 23:13:33,680 - INFO - Headless mode : False
+2026-05-21 23:13:33,681 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:13:33,681 - INFO - Launching Edge Browser
+2026-05-21 23:13:35,041 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:13:45,002 - INFO - Popup closed successfully
+2026-05-21 23:13:45,329 - INFO - 99acres application launched
+2026-05-21 23:13:45,330 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:14:00,691 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:14:00,694 - INFO - Scenario Status : Status.error
+2026-05-21 23:14:00,694 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.2 
+2026-05-21 23:14:00,930 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_231400.png
+2026-05-21 23:14:00,930 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_231400.png
+2026-05-21 23:14:03,267 - INFO - Browser Closed Successfully
+2026-05-21 23:14:03,268 - INFO - ========================================
+2026-05-21 23:14:03,272 - INFO - ========================================
+2026-05-21 23:14:03,272 - INFO - STARTING SCENARIO : Verify View Number button opens login popup
+2026-05-21 23:14:03,272 - INFO - Browser fetched : edge
+2026-05-21 23:14:03,273 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:14:03,273 - INFO - Implicit wait fetched : 5
+2026-05-21 23:14:03,273 - INFO - Headless mode : False
+2026-05-21 23:14:03,274 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:14:03,274 - INFO - Launching Edge Browser
+2026-05-21 23:14:05,926 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:14:13,200 - INFO - Popup closed successfully
+2026-05-21 23:14:13,540 - INFO - 99acres application launched
+2026-05-21 23:14:17,646 - INFO - Opened commercial property page for Noida
+2026-05-21 23:14:17,660 - INFO - Waiting for element presence : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:14:17,697 - INFO - Element present successfully : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:14:17,697 - INFO - Page content loaded for Noida
+2026-05-21 23:14:18,250 - INFO - Screenshot saved at: reports/screenshots/commercial_city_page_Noida_20260521_231417.png
+2026-05-21 23:14:18,250 - INFO - Commercial city page opened for: Noida
+2026-05-21 23:14:18,303 - INFO - Scenario Status : Status.error
+2026-05-21 23:14:18,303 - ERROR - SCENARIO FAILED : Verify View Number button opens login popup
+2026-05-21 23:14:19,141 - INFO - Screenshot saved at: reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_231418.png
+2026-05-21 23:14:19,142 - INFO - Screenshot Saved : reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_231418.png
+2026-05-21 23:14:22,226 - INFO - Browser Closed Successfully
+2026-05-21 23:14:22,227 - INFO - ========================================
+2026-05-21 23:14:22,279 - INFO - ========================================
+2026-05-21 23:14:22,280 - INFO - STARTING SCENARIO : Search invalid commercial location
+2026-05-21 23:14:22,280 - INFO - Browser fetched : edge
+2026-05-21 23:14:22,281 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:14:22,282 - INFO - Implicit wait fetched : 5
+2026-05-21 23:14:22,283 - INFO - Headless mode : False
+2026-05-21 23:14:22,293 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:14:22,294 - INFO - Launching Edge Browser
+2026-05-21 23:14:27,066 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:14:32,926 - INFO - Popup closed successfully
+2026-05-21 23:14:33,254 - INFO - 99acres application launched
+2026-05-21 23:14:33,256 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:14:48,642 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy' or contains(text(),'Buy')]")
+2026-05-21 23:14:48,645 - INFO - Scenario Status : Status.error
+2026-05-21 23:14:48,645 - ERROR - SCENARIO FAILED : Search invalid commercial location
+2026-05-21 23:14:48,890 - INFO - Screenshot saved at: reports/screenshots/Search_invalid_commercial_location_20260521_231448.png
+2026-05-21 23:14:48,890 - INFO - Screenshot Saved : reports/screenshots/Search_invalid_commercial_location_20260521_231448.png
+2026-05-21 23:14:51,207 - INFO - Browser Closed Successfully
+2026-05-21 23:14:51,208 - INFO - ========================================
+2026-05-21 23:14:51,212 - INFO - ========================================
+2026-05-21 23:14:51,212 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.1 
+2026-05-21 23:14:51,212 - INFO - Browser fetched : edge
+2026-05-21 23:14:51,212 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:14:51,212 - INFO - Implicit wait fetched : 5
+2026-05-21 23:14:51,212 - INFO - Headless mode : False
+2026-05-21 23:14:51,213 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:14:51,214 - INFO - Launching Edge Browser
+2026-05-21 23:14:54,376 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:15:00,060 - INFO - Popup closed successfully
+2026-05-21 23:15:00,398 - INFO - 99acres application launched
+2026-05-21 23:15:01,499 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_231501.png
+2026-05-21 23:15:01,499 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-@@@@
+2026-05-21 23:15:01,631 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_231501.png
+2026-05-21 23:15:01,632 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:15:01,632 - INFO - Scenario Status : Status.passed
+2026-05-21 23:15:01,632 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.1 
+2026-05-21 23:15:04,012 - INFO - Browser Closed Successfully
+2026-05-21 23:15:04,012 - INFO - ========================================
+2026-05-21 23:15:04,015 - INFO - ========================================
+2026-05-21 23:15:04,015 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.2 
+2026-05-21 23:15:04,015 - INFO - Browser fetched : edge
+2026-05-21 23:15:04,015 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:15:04,015 - INFO - Implicit wait fetched : 5
+2026-05-21 23:15:04,015 - INFO - Headless mode : False
+2026-05-21 23:15:04,016 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:15:04,016 - INFO - Launching Edge Browser
+2026-05-21 23:15:09,646 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:15:15,611 - INFO - Popup closed successfully
+2026-05-21 23:15:15,934 - INFO - 99acres application launched
+2026-05-21 23:15:17,054 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_231516.png
+2026-05-21 23:15:17,055 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
+2026-05-21 23:15:17,164 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_231517.png
+2026-05-21 23:15:17,164 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:15:17,165 - INFO - Scenario Status : Status.passed
+2026-05-21 23:15:17,165 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.2 
+2026-05-21 23:15:19,527 - INFO - Browser Closed Successfully
+2026-05-21 23:15:19,527 - INFO - ========================================
+2026-05-21 23:21:18,060 - INFO - Timeout fetched : 10
+2026-05-21 23:21:18,108 - INFO - Loading test data before execution
+2026-05-21 23:21:18,110 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 23:21:18,118 - INFO - ========================================
+2026-05-21 23:21:18,118 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 23:21:18,118 - INFO - Browser fetched : edge
+2026-05-21 23:21:18,118 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:21:18,118 - INFO - Implicit wait fetched : 5
+2026-05-21 23:21:18,118 - INFO - Headless mode : False
+2026-05-21 23:21:18,119 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:21:18,119 - INFO - Launching Edge Browser
+2026-05-21 23:21:21,644 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:21:27,373 - INFO - Popup closed successfully
+2026-05-21 23:21:27,734 - INFO - 99acres application launched
+2026-05-21 23:21:27,740 - INFO - Opening Commercial tab
+2026-05-21 23:21:27,740 - INFO - Opening Buy tab
+2026-05-21 23:21:27,740 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:21:35,791 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:21:35,791 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:21:35,791 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:21:35,825 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:21:35,845 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:21:35,845 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:21:35,915 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:21:35,934 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:21:35,935 - INFO - Commercial tab opened successfully
+2026-05-21 23:21:35,936 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:21:56,312 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:21:56,324 - INFO - Scenario Status : Status.error
+2026-05-21 23:21:56,325 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-21 23:21:56,564 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260521_232156.png
+2026-05-21 23:21:56,564 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260521_232156.png
+2026-05-21 23:21:58,909 - INFO - Browser Closed Successfully
+2026-05-21 23:21:58,910 - INFO - ========================================
+2026-05-21 23:21:58,915 - INFO - ========================================
+2026-05-21 23:21:58,915 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-21 23:21:58,915 - INFO - Browser fetched : edge
+2026-05-21 23:21:58,915 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:21:58,916 - INFO - Implicit wait fetched : 5
+2026-05-21 23:21:58,916 - INFO - Headless mode : False
+2026-05-21 23:21:58,917 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:21:58,917 - INFO - Launching Edge Browser
+2026-05-21 23:22:02,279 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:22:08,048 - INFO - Popup closed successfully
+2026-05-21 23:22:08,416 - INFO - 99acres application launched
+2026-05-21 23:22:08,418 - INFO - Opening Commercial tab
+2026-05-21 23:22:08,418 - INFO - Opening Buy tab
+2026-05-21 23:22:08,418 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:22:16,448 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:22:16,448 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:22:16,449 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:22:16,482 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:22:16,506 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:22:16,506 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:22:16,543 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:22:16,563 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:22:16,564 - INFO - Commercial tab opened successfully
+2026-05-21 23:22:16,565 - INFO - Property type selected logically: Shop
+2026-05-21 23:22:16,901 - INFO - Screenshot saved at: reports/screenshots/property_type_selected_Shop_20260521_232216.png
+2026-05-21 23:22:16,901 - INFO - Commercial property type selected: Shop
+2026-05-21 23:22:16,903 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:22:37,162 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:22:37,165 - INFO - Scenario Status : Status.error
+2026-05-21 23:22:37,166 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.1 
+2026-05-21 23:22:37,414 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_232237.png
+2026-05-21 23:22:37,415 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_232237.png
+2026-05-21 23:22:39,730 - INFO - Browser Closed Successfully
+2026-05-21 23:22:39,730 - INFO - ========================================
+2026-05-21 23:22:39,735 - INFO - ========================================
+2026-05-21 23:22:39,735 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-21 23:22:39,735 - INFO - Browser fetched : edge
+2026-05-21 23:22:39,735 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:22:39,735 - INFO - Implicit wait fetched : 5
+2026-05-21 23:22:39,735 - INFO - Headless mode : False
+2026-05-21 23:22:39,736 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:22:39,736 - INFO - Launching Edge Browser
+2026-05-21 23:22:45,029 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:22:51,408 - INFO - Popup closed successfully
+2026-05-21 23:22:51,734 - INFO - 99acres application launched
+2026-05-21 23:22:51,735 - INFO - Opening Commercial tab
+2026-05-21 23:22:51,735 - INFO - Opening Buy tab
+2026-05-21 23:22:51,735 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:23:00,215 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:23:00,215 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:23:00,215 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:23:00,244 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:23:00,262 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:23:00,263 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:23:00,301 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:23:00,353 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:23:00,354 - INFO - Commercial tab opened successfully
+2026-05-21 23:23:00,356 - INFO - Property type selected logically: Shop
+2026-05-21 23:23:00,657 - INFO - Screenshot saved at: reports/screenshots/property_type_selected_Shop_20260521_232300.png
+2026-05-21 23:23:00,657 - INFO - Commercial property type selected: Shop
+2026-05-21 23:23:00,658 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:23:20,920 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:23:20,924 - INFO - Scenario Status : Status.error
+2026-05-21 23:23:20,924 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.2 
+2026-05-21 23:23:21,152 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_232320.png
+2026-05-21 23:23:21,152 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_232320.png
+2026-05-21 23:23:23,469 - INFO - Browser Closed Successfully
+2026-05-21 23:23:23,469 - INFO - ========================================
+2026-05-21 23:23:23,474 - INFO - ========================================
+2026-05-21 23:23:23,474 - INFO - STARTING SCENARIO : Verify View Number button opens login popup
+2026-05-21 23:23:23,474 - INFO - Browser fetched : edge
+2026-05-21 23:23:23,475 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:23:23,475 - INFO - Implicit wait fetched : 5
+2026-05-21 23:23:23,475 - INFO - Headless mode : False
+2026-05-21 23:23:23,475 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:23:23,476 - INFO - Launching Edge Browser
+2026-05-21 23:23:24,836 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:23:31,304 - INFO - Popup closed successfully
+2026-05-21 23:23:31,683 - INFO - 99acres application launched
+2026-05-21 23:23:36,072 - INFO - Opened commercial property page for Noida
+2026-05-21 23:23:36,085 - INFO - Waiting for element presence : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:23:36,124 - INFO - Element present successfully : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:23:36,124 - INFO - Page content loaded for Noida
+2026-05-21 23:23:36,501 - INFO - Screenshot saved at: reports/screenshots/commercial_city_page_Noida_20260521_232336.png
+2026-05-21 23:23:36,501 - INFO - Commercial city page opened for: Noida
+2026-05-21 23:23:36,524 - INFO - Scenario Status : Status.error
+2026-05-21 23:23:36,524 - ERROR - SCENARIO FAILED : Verify View Number button opens login popup
+2026-05-21 23:23:37,106 - INFO - Screenshot saved at: reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_232336.png
+2026-05-21 23:23:37,106 - INFO - Screenshot Saved : reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_232336.png
+2026-05-21 23:23:39,468 - INFO - Browser Closed Successfully
+2026-05-21 23:23:39,471 - INFO - ========================================
+2026-05-21 23:23:39,545 - INFO - ========================================
+2026-05-21 23:23:39,546 - INFO - STARTING SCENARIO : Search invalid commercial location
+2026-05-21 23:23:39,547 - INFO - Browser fetched : edge
+2026-05-21 23:23:39,548 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:23:39,548 - INFO - Implicit wait fetched : 5
+2026-05-21 23:23:39,549 - INFO - Headless mode : False
+2026-05-21 23:23:39,559 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:23:39,560 - INFO - Launching Edge Browser
+2026-05-21 23:23:43,991 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:23:49,667 - INFO - Popup closed successfully
+2026-05-21 23:23:50,000 - INFO - 99acres application launched
+2026-05-21 23:23:50,001 - INFO - Opening Commercial tab
+2026-05-21 23:23:50,001 - INFO - Opening Buy tab
+2026-05-21 23:23:50,001 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:23:58,523 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:23:58,523 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:23:58,523 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:23:58,551 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:23:58,571 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:23:58,571 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:23:58,607 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:23:58,627 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:23:58,628 - INFO - Commercial tab opened successfully
+2026-05-21 23:23:58,630 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:24:19,003 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 23:24:19,006 - INFO - Scenario Status : Status.error
+2026-05-21 23:24:19,007 - ERROR - SCENARIO FAILED : Search invalid commercial location
+2026-05-21 23:24:19,235 - INFO - Screenshot saved at: reports/screenshots/Search_invalid_commercial_location_20260521_232419.png
+2026-05-21 23:24:19,235 - INFO - Screenshot Saved : reports/screenshots/Search_invalid_commercial_location_20260521_232419.png
+2026-05-21 23:24:21,559 - INFO - Browser Closed Successfully
+2026-05-21 23:24:21,559 - INFO - ========================================
+2026-05-21 23:24:21,564 - INFO - ========================================
+2026-05-21 23:24:21,564 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.1 
+2026-05-21 23:24:21,564 - INFO - Browser fetched : edge
+2026-05-21 23:24:21,564 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:24:21,564 - INFO - Implicit wait fetched : 5
+2026-05-21 23:24:21,564 - INFO - Headless mode : False
+2026-05-21 23:24:21,565 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:24:21,565 - INFO - Launching Edge Browser
+2026-05-21 23:24:23,954 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:24:31,899 - INFO - Popup closed successfully
+2026-05-21 23:24:32,234 - INFO - 99acres application launched
+2026-05-21 23:24:33,435 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_232433.png
+2026-05-21 23:24:33,435 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-@@@@
+2026-05-21 23:24:33,563 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_232433.png
+2026-05-21 23:24:33,563 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:24:33,564 - INFO - Scenario Status : Status.passed
+2026-05-21 23:24:33,564 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.1 
+2026-05-21 23:24:35,905 - INFO - Browser Closed Successfully
+2026-05-21 23:24:35,905 - INFO - ========================================
+2026-05-21 23:24:35,908 - INFO - ========================================
+2026-05-21 23:24:35,908 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.2 
+2026-05-21 23:24:35,908 - INFO - Browser fetched : edge
+2026-05-21 23:24:35,908 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:24:35,908 - INFO - Implicit wait fetched : 5
+2026-05-21 23:24:35,908 - INFO - Headless mode : False
+2026-05-21 23:24:35,909 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:24:35,909 - INFO - Launching Edge Browser
+2026-05-21 23:24:38,945 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:24:47,268 - INFO - Popup closed successfully
+2026-05-21 23:24:47,620 - INFO - 99acres application launched
+2026-05-21 23:24:48,923 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_232448.png
+2026-05-21 23:24:48,923 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
+2026-05-21 23:24:49,052 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_232448.png
+2026-05-21 23:24:49,053 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:24:49,053 - INFO - Scenario Status : Status.passed
+2026-05-21 23:24:49,053 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.2 
+2026-05-21 23:24:51,401 - INFO - Browser Closed Successfully
+2026-05-21 23:24:51,401 - INFO - ========================================
+2026-05-21 23:36:44,145 - INFO - Timeout fetched : 10
+2026-05-21 23:36:44,172 - INFO - Loading test data before execution
+2026-05-21 23:36:44,176 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 23:36:44,183 - INFO - ========================================
+2026-05-21 23:36:44,183 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 23:36:44,183 - INFO - Browser fetched : edge
+2026-05-21 23:36:44,183 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:36:44,183 - INFO - Implicit wait fetched : 5
+2026-05-21 23:36:44,183 - INFO - Headless mode : False
+2026-05-21 23:36:44,185 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:36:44,185 - INFO - Launching Edge Browser
+2026-05-21 23:36:47,639 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:36:54,920 - INFO - Popup not present
+2026-05-21 23:36:55,551 - INFO - 99acres application launched
+2026-05-21 23:36:55,554 - INFO - Opening Commercial tab
+2026-05-21 23:36:55,554 - INFO - Opening Buy tab
+2026-05-21 23:36:55,554 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:37:03,635 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:37:03,635 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:37:03,635 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:37:03,665 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:37:03,685 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:37:03,685 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:37:03,721 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:37:03,775 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:37:03,775 - INFO - Commercial tab opened successfully
+2026-05-21 23:37:03,777 - INFO - Searching commercial property for: Mumbai
+2026-05-21 23:37:03,777 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search')]")
+2026-05-21 23:37:28,806 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search')]")
+2026-05-21 23:37:28,815 - INFO - Scenario Status : Status.error
+2026-05-21 23:37:28,815 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-21 23:37:29,052 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260521_233728.png
+2026-05-21 23:37:29,052 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260521_233728.png
+2026-05-21 23:37:31,352 - INFO - Browser Closed Successfully
+2026-05-21 23:37:31,352 - INFO - ========================================
+2026-05-21 23:37:31,357 - INFO - ========================================
+2026-05-21 23:37:31,357 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-21 23:37:31,357 - INFO - Browser fetched : edge
+2026-05-21 23:37:31,357 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:37:31,358 - INFO - Implicit wait fetched : 5
+2026-05-21 23:37:31,358 - INFO - Headless mode : False
+2026-05-21 23:37:31,359 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:37:31,359 - INFO - Launching Edge Browser
+2026-05-21 23:37:33,891 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:37:41,244 - INFO - Popup closed successfully
+2026-05-21 23:37:41,572 - INFO - 99acres application launched
+2026-05-21 23:37:41,573 - INFO - Opening Commercial tab
+2026-05-21 23:37:41,573 - INFO - Opening Buy tab
+2026-05-21 23:37:41,574 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:37:49,599 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:37:49,600 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:37:49,600 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:37:49,631 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:37:49,654 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:37:49,654 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:37:49,690 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:37:49,734 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:37:49,734 - INFO - Commercial tab opened successfully
+2026-05-21 23:37:49,735 - INFO - Selecting property type: Shop
+2026-05-21 23:37:49,735 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop')]")
+2026-05-21 23:38:04,978 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop')]")
+2026-05-21 23:38:04,983 - INFO - Scenario Status : Status.error
+2026-05-21 23:38:04,983 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.1 
+2026-05-21 23:38:05,225 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_233804.png
+2026-05-21 23:38:05,226 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_233804.png
+2026-05-21 23:38:07,529 - INFO - Browser Closed Successfully
+2026-05-21 23:38:07,529 - INFO - ========================================
+2026-05-21 23:38:07,534 - INFO - ========================================
+2026-05-21 23:38:07,534 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-21 23:38:07,534 - INFO - Browser fetched : edge
+2026-05-21 23:38:07,534 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:38:07,534 - INFO - Implicit wait fetched : 5
+2026-05-21 23:38:07,534 - INFO - Headless mode : False
+2026-05-21 23:38:07,535 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:38:07,535 - INFO - Launching Edge Browser
+2026-05-21 23:38:10,407 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:38:16,510 - INFO - Popup closed successfully
+2026-05-21 23:38:16,824 - INFO - 99acres application launched
+2026-05-21 23:38:16,825 - INFO - Opening Commercial tab
+2026-05-21 23:38:16,825 - INFO - Opening Buy tab
+2026-05-21 23:38:16,825 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:38:25,323 - ERROR - Timeout waiting for clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:38:25,324 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:38:25,324 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:38:25,353 - INFO - Element clickable successfully : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:38:25,371 - INFO - Buy tab clicked using locator: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:38:25,371 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:38:25,408 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:38:25,426 - INFO - Commercial tab clicked using locator: ('xpath', "//*[normalize-space()='Commercial']")
+2026-05-21 23:38:25,426 - INFO - Commercial tab opened successfully
+2026-05-21 23:38:25,427 - INFO - Selecting property type: Shop
+2026-05-21 23:38:25,428 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop')]")
+2026-05-21 23:38:40,613 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop')]")
+2026-05-21 23:38:40,617 - INFO - Scenario Status : Status.error
+2026-05-21 23:38:40,617 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.2 
+2026-05-21 23:38:40,855 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_233840.png
+2026-05-21 23:38:40,855 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_233840.png
+2026-05-21 23:38:43,226 - INFO - Browser Closed Successfully
+2026-05-21 23:38:43,226 - INFO - ========================================
+2026-05-21 23:38:43,231 - INFO - ========================================
+2026-05-21 23:38:43,231 - INFO - STARTING SCENARIO : Verify View Number button opens login popup
+2026-05-21 23:38:43,231 - INFO - Browser fetched : edge
+2026-05-21 23:38:43,231 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:38:43,231 - INFO - Implicit wait fetched : 5
+2026-05-21 23:38:43,231 - INFO - Headless mode : False
+2026-05-21 23:38:43,232 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:38:43,232 - INFO - Launching Edge Browser
+2026-05-21 23:38:45,633 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:38:51,466 - INFO - Popup closed successfully
+2026-05-21 23:38:51,807 - INFO - 99acres application launched
+2026-05-21 23:38:56,238 - INFO - Opened commercial property page for Noida
+2026-05-21 23:38:56,247 - INFO - Waiting for element presence : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:38:56,281 - INFO - Element present successfully : ('xpath', "//*[contains(.,'Noida')]")
+2026-05-21 23:38:56,281 - INFO - Page content loaded for Noida
+2026-05-21 23:38:56,528 - INFO - Screenshot saved at: reports/screenshots/commercial_city_page_Noida_20260521_233856.png
+2026-05-21 23:38:56,529 - INFO - Commercial city page opened for: Noida
+2026-05-21 23:38:56,568 - INFO - Scenario Status : Status.error
+2026-05-21 23:38:56,568 - ERROR - SCENARIO FAILED : Verify View Number button opens login popup
+2026-05-21 23:38:57,320 - INFO - Screenshot saved at: reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_233856.png
+2026-05-21 23:38:57,321 - INFO - Screenshot Saved : reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_233856.png
+2026-05-21 23:38:59,916 - INFO - Browser Closed Successfully
+2026-05-21 23:38:59,917 - INFO - ========================================
+2026-05-21 23:38:59,949 - INFO - ========================================
+2026-05-21 23:38:59,949 - INFO - STARTING SCENARIO : Search invalid commercial location
+2026-05-21 23:38:59,950 - INFO - Browser fetched : edge
+2026-05-21 23:38:59,950 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:38:59,951 - INFO - Implicit wait fetched : 5
+2026-05-21 23:38:59,952 - INFO - Headless mode : False
+2026-05-21 23:38:59,958 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:38:59,959 - INFO - Launching Edge Browser
+2026-05-21 23:39:03,588 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:39:08,774 - INFO - Popup not present
+2026-05-21 23:39:09,108 - INFO - 99acres application launched
+2026-05-21 23:39:09,120 - INFO - Opening Commercial tab
+2026-05-21 23:39:09,121 - INFO - Opening Buy tab
+2026-05-21 23:39:09,121 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:39:17,914 - INFO - Buy tab locator failed: ('xpath', "//*[normalize-space()='Buy']")
+2026-05-21 23:39:17,914 - INFO - Waiting for element clickable : ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:39:18,007 - INFO - Buy tab locator failed: ('xpath', "//a[contains(normalize-space(),'Buy')]")
+2026-05-21 23:39:18,007 - INFO - Waiting for element clickable : ('xpath', "//div[contains(normalize-space(),'Buy')]")
+2026-05-21 23:39:18,009 - INFO - Buy tab locator failed: ('xpath', "//div[contains(normalize-space(),'Buy')]")
+2026-05-21 23:39:18,009 - INFO - Waiting for element clickable : ('xpath', "//span[contains(normalize-space(),'Buy')]")
+2026-05-21 23:39:18,010 - INFO - Buy tab locator failed: ('xpath', "//span[contains(normalize-space(),'Buy')]")
+2026-05-21 23:39:18,020 - INFO - Scenario Status : Status.failed
+2026-05-21 23:39:18,020 - ERROR - SCENARIO FAILED : Search invalid commercial location
+2026-05-21 23:39:18,029 - INFO - ========================================
+2026-05-21 23:39:18,029 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.1 
+2026-05-21 23:39:18,030 - INFO - Browser fetched : edge
+2026-05-21 23:39:18,030 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:39:18,030 - INFO - Implicit wait fetched : 5
+2026-05-21 23:39:18,030 - INFO - Headless mode : False
+2026-05-21 23:39:18,031 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:39:18,031 - INFO - Launching Edge Browser
+2026-05-21 23:39:20,724 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:39:26,533 - INFO - Popup closed successfully
+2026-05-21 23:39:26,857 - INFO - 99acres application launched
+2026-05-21 23:39:27,939 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_233927.png
+2026-05-21 23:39:27,939 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-@@@@
+2026-05-21 23:39:28,055 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_233927.png
+2026-05-21 23:39:28,055 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:39:28,056 - INFO - Scenario Status : Status.passed
+2026-05-21 23:39:28,056 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.1 
+2026-05-21 23:39:30,385 - INFO - Browser Closed Successfully
+2026-05-21 23:39:30,386 - INFO - ========================================
+2026-05-21 23:39:30,389 - INFO - ========================================
+2026-05-21 23:39:30,389 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.2 
+2026-05-21 23:39:30,389 - INFO - Browser fetched : edge
+2026-05-21 23:39:30,389 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:39:30,389 - INFO - Implicit wait fetched : 5
+2026-05-21 23:39:30,389 - INFO - Headless mode : False
+2026-05-21 23:39:30,390 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:39:30,390 - INFO - Launching Edge Browser
+2026-05-21 23:39:33,830 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:39:39,621 - INFO - Popup closed successfully
+2026-05-21 23:39:39,945 - INFO - 99acres application launched
+2026-05-21 23:39:40,995 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_url_loaded_20260521_233940.png
+2026-05-21 23:39:40,995 - INFO - Invalid commercial URL opened: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
+2026-05-21 23:39:41,109 - INFO - Screenshot saved at: reports/screenshots/invalid_commercial_search_handled_20260521_233941.png
+2026-05-21 23:39:41,109 - INFO - Invalid commercial search handled successfully
+2026-05-21 23:39:41,110 - INFO - Scenario Status : Status.passed
+2026-05-21 23:39:41,110 - INFO - SCENARIO PASSED : Open invalid commercial URL -- @1.2 
+2026-05-21 23:39:43,434 - INFO - Browser Closed Successfully
+2026-05-21 23:39:43,434 - INFO - ========================================
+2026-05-21 23:57:41,409 - INFO - Timeout fetched : 10
+2026-05-21 23:57:41,459 - INFO - Loading test data before execution
+2026-05-21 23:57:41,461 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 23:57:41,469 - INFO - ========================================
+2026-05-21 23:57:41,469 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 23:57:41,469 - INFO - Browser fetched : edge
+2026-05-21 23:57:41,469 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 23:57:41,469 - INFO - Implicit wait fetched : 5
+2026-05-21 23:57:41,469 - INFO - Headless mode : False
+2026-05-21 23:57:41,470 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 23:57:41,470 - INFO - Launching Edge Browser
+2026-05-21 23:57:44,959 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:57:51,038 - INFO - Popup closed successfully
+2026-05-21 23:57:51,482 - INFO - 99acres application launched
+2026-05-21 23:57:51,486 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-21 23:57:51,538 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-21 23:57:51,565 - INFO - Buy tab opened successfully
+2026-05-21 23:57:51,566 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 23:57:51,603 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 23:57:51,628 - INFO - Commercial tab opened successfully
+2026-05-21 23:57:51,629 - INFO - Commercial tab opened successfully
+2026-05-21 23:57:51,640 - INFO - Scenario Status : Status.error
+2026-05-21 23:57:51,640 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-21 23:57:52,093 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260521_235751.png
+2026-05-21 23:57:52,093 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260521_235751.png
+2026-05-21 23:57:55,076 - INFO - Browser Closed Successfully
+2026-05-21 23:57:55,077 - INFO - ========================================
+2026-05-22 00:00:10,870 - INFO - Timeout fetched : 10
+2026-05-22 00:00:10,918 - INFO - Loading test data before execution
+2026-05-22 00:00:10,920 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 00:00:10,925 - INFO - ========================================
+2026-05-22 00:00:10,925 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 00:00:10,925 - INFO - Browser fetched : edge
+2026-05-22 00:00:10,925 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 00:00:10,925 - INFO - Implicit wait fetched : 5
+2026-05-22 00:00:10,925 - INFO - Headless mode : False
+2026-05-22 00:00:10,927 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 00:00:10,927 - INFO - Launching Edge Browser
+2026-05-22 00:00:14,274 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:00:20,082 - INFO - Popup closed successfully
+2026-05-22 00:00:20,483 - INFO - 99acres application launched
+2026-05-22 00:00:20,487 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:00:20,672 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:00:20,696 - INFO - Buy tab opened successfully
+2026-05-22 00:00:20,697 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:00:20,724 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:00:20,742 - INFO - Commercial tab opened successfully
+2026-05-22 00:00:20,752 - INFO - Scenario Status : Status.error
+2026-05-22 00:00:20,753 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-22 00:00:21,158 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260522_000020.png
+2026-05-22 00:00:21,159 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260522_000020.png
+2026-05-22 00:00:23,523 - INFO - Browser Closed Successfully
+2026-05-22 00:00:23,523 - INFO - ========================================
+2026-05-22 00:02:28,432 - INFO - Timeout fetched : 10
+2026-05-22 00:02:28,449 - INFO - Loading test data before execution
+2026-05-22 00:02:28,450 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 00:02:28,453 - INFO - ========================================
+2026-05-22 00:02:28,453 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 00:02:28,453 - INFO - Browser fetched : edge
+2026-05-22 00:02:28,453 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 00:02:28,453 - INFO - Implicit wait fetched : 5
+2026-05-22 00:02:28,454 - INFO - Headless mode : False
+2026-05-22 00:02:28,455 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 00:02:28,456 - INFO - Launching Edge Browser
+2026-05-22 00:02:33,414 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:02:40,055 - INFO - Popup closed successfully
+2026-05-22 00:02:40,415 - INFO - 99acres application launched
+2026-05-22 00:02:40,418 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:02:40,458 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:02:40,483 - INFO - Buy tab opened successfully
+2026-05-22 00:02:40,483 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:02:40,520 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:02:40,544 - INFO - Commercial tab opened successfully
+2026-05-22 00:02:40,558 - INFO - Scenario Status : Status.error
+2026-05-22 00:02:40,558 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-22 00:02:40,933 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260522_000240.png
+2026-05-22 00:02:40,934 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260522_000240.png
+2026-05-22 00:02:43,309 - INFO - Browser Closed Successfully
+2026-05-22 00:02:43,310 - INFO - ========================================
+2026-05-22 00:04:57,225 - INFO - Timeout fetched : 10
+2026-05-22 00:04:57,258 - INFO - Loading test data before execution
+2026-05-22 00:04:57,260 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 00:04:57,264 - INFO - ========================================
+2026-05-22 00:04:57,264 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 00:04:57,264 - INFO - Browser fetched : edge
+2026-05-22 00:04:57,264 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 00:04:57,264 - INFO - Implicit wait fetched : 5
+2026-05-22 00:04:57,265 - INFO - Headless mode : False
+2026-05-22 00:04:57,265 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 00:04:57,266 - INFO - Launching Edge Browser
+2026-05-22 00:05:00,200 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:05:06,214 - INFO - Popup closed successfully
+2026-05-22 00:05:06,624 - INFO - 99acres application launched
+2026-05-22 00:05:06,627 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:05:06,804 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:05:06,826 - INFO - Buy tab opened successfully
+2026-05-22 00:05:06,826 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:05:06,857 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:05:06,921 - INFO - Commercial tab opened successfully
+2026-05-22 00:05:06,923 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-22 00:05:32,021 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-22 00:05:32,044 - INFO - Scenario Status : Status.error
+2026-05-22 00:05:32,044 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-22 00:05:32,310 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260522_000532.png
+2026-05-22 00:05:32,310 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260522_000532.png
+2026-05-22 00:05:34,642 - INFO - Browser Closed Successfully
+2026-05-22 00:05:34,642 - INFO - ========================================
+2026-05-22 00:08:32,391 - INFO - Timeout fetched : 10
+2026-05-22 00:08:32,431 - INFO - Loading test data before execution
+2026-05-22 00:08:32,432 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 00:08:32,436 - INFO - ========================================
+2026-05-22 00:08:32,436 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 00:08:32,436 - INFO - Browser fetched : edge
+2026-05-22 00:08:32,436 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 00:08:32,436 - INFO - Implicit wait fetched : 5
+2026-05-22 00:08:32,436 - INFO - Headless mode : False
+2026-05-22 00:08:32,437 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 00:08:32,437 - INFO - Launching Edge Browser
+2026-05-22 00:08:35,328 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:08:41,048 - INFO - Popup closed successfully
+2026-05-22 00:08:41,400 - INFO - 99acres application launched
+2026-05-22 00:08:41,405 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:08:41,457 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:08:41,483 - INFO - Buy tab opened successfully
+2026-05-22 00:08:41,483 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:08:41,517 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:08:41,593 - INFO - Commercial tab opened successfully
+2026-05-22 00:08:41,595 - INFO - Searching commercial property for location: Mumbai
+2026-05-22 00:08:41,596 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Search') or contains(text(),'City') or contains(text(),'Locality')]")
+2026-05-22 00:08:52,116 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Search') or contains(text(),'City') or contains(text(),'Locality')]")
+2026-05-22 00:08:52,116 - INFO - Search box area click skipped
+2026-05-22 00:08:52,670 - INFO - Entered location: Mumbai
+2026-05-22 00:08:53,162 - INFO - Pressed Enter after entering location
+2026-05-22 00:08:53,393 - INFO - Screenshot saved at: reports/screenshots/commercial_search_results_Mumbai_20260522_000853.png
+2026-05-22 00:08:53,393 - INFO - Commercial property searched for location: Mumbai
+2026-05-22 00:08:53,401 - INFO - Scenario Status : Status.error
+2026-05-22 00:08:53,401 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-22 00:08:53,620 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260522_000853.png
+2026-05-22 00:08:53,620 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260522_000853.png
+2026-05-22 00:08:56,040 - INFO - Browser Closed Successfully
+2026-05-22 00:08:56,040 - INFO - ========================================
+2026-05-22 00:10:32,018 - INFO - Timeout fetched : 10
+2026-05-22 00:10:32,073 - INFO - Loading test data before execution
+2026-05-22 00:10:32,074 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 00:10:32,078 - INFO - ========================================
+2026-05-22 00:10:32,078 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 00:10:32,079 - INFO - Browser fetched : edge
+2026-05-22 00:10:32,079 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 00:10:32,079 - INFO - Implicit wait fetched : 5
+2026-05-22 00:10:32,079 - INFO - Headless mode : False
+2026-05-22 00:10:32,079 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 00:10:32,079 - INFO - Launching Edge Browser
+2026-05-22 00:10:35,256 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:10:44,336 - INFO - Popup closed successfully
+2026-05-22 00:10:44,656 - INFO - 99acres application launched
+2026-05-22 00:10:44,659 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:10:44,696 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 00:10:44,715 - INFO - Buy tab opened successfully
+2026-05-22 00:10:44,715 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:10:44,744 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 00:10:44,815 - INFO - Commercial tab opened successfully
+2026-05-22 00:10:44,818 - INFO - Searching commercial property for location: Mumbai
+2026-05-22 00:10:44,818 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Search') or contains(text(),'City') or contains(text(),'Locality')]")
+2026-05-22 00:10:55,336 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Search') or contains(text(),'City') or contains(text(),'Locality')]")
+2026-05-22 00:10:55,337 - INFO - Search box area click skipped
+2026-05-22 00:10:55,898 - INFO - Entered location: Mumbai
+2026-05-22 00:10:56,418 - INFO - Pressed Enter after entering location
+2026-05-22 00:10:56,655 - INFO - Screenshot saved at: reports/screenshots/commercial_search_results_Mumbai_20260522_001056.png
+2026-05-22 00:10:56,655 - INFO - Commercial property searched for location: Mumbai
+2026-05-22 00:10:56,656 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 00:11:05,101 - ERROR - Timeout waiting for visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 00:11:05,101 - INFO - Result locator not visible: ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 00:11:05,101 - INFO - Waiting for element visibility : ('xpath', '//body')
+2026-05-22 00:11:05,122 - INFO - Element visible successfully : ('xpath', '//body')
+2026-05-22 00:11:05,122 - INFO - Commercial results loaded successfully
+2026-05-22 00:11:05,344 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260522_001105.png
+2026-05-22 00:11:05,344 - INFO - Commercial results loaded successfully
+2026-05-22 00:11:05,406 - INFO - Commercial results contain location: Mumbai
+2026-05-22 00:11:05,407 - INFO - Scenario Status : Status.passed
+2026-05-22 00:11:05,407 - INFO - SCENARIO PASSED : Search commercial property by location
+2026-05-22 00:11:07,790 - INFO - Browser Closed Successfully
+2026-05-22 00:11:07,790 - INFO - ========================================

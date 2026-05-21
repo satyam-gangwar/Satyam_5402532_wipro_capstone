@@ -9,7 +9,6 @@ from utils.waits import WaitUtils
 
 logger = LogGen.loggen()
 
-
 @when("User opens Commercial tab")
 def step_open_commercial_tab(context):
 
@@ -19,15 +18,6 @@ def step_open_commercial_tab(context):
 
     context.commercial_page = (
         context.home_page.open_commercial_tab()
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "commercial_tab_opened"
-    )
-
-    logger.info(
-        "Commercial tab opened successfully"
     )
 
 

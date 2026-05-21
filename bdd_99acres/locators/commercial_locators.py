@@ -3,10 +3,22 @@ from selenium.webdriver.common.by import By
 
 class CommercialLocators:
 
+    '''
     SEARCH_INPUT = (
         By.XPATH,
-        "//input[contains(@placeholder,'Search') or contains(@type,'text')]"
+        "//input[contains(@placeholder,'Search') "
+        "or contains(@placeholder,'City') "
+        "or contains(@placeholder,'Locality') "
+        "or @type='text']"
     )
+
+    SEARCH_BUTTON = (
+        By.XPATH,
+        "//*[contains(@id,'search') "
+        "or contains(@class,'search') "
+        "or normalize-space()='Search']"
+    )
+
 
     RESULTS_CONTAINER = (
         By.XPATH,
@@ -96,4 +108,67 @@ class CommercialLocators:
         By.XPATH,
         "//*[contains(@class,'srpTuple') "
         "or contains(@class,'tupleCard')]"
+    )'''
+
+    SEARCH_BOX_AREA = (
+        By.XPATH,
+        "//*[contains(text(),'Search') "
+        "or contains(text(),'City') "
+        "or contains(text(),'Locality')]"
+    )
+
+    SEARCH_INPUT = (
+        By.XPATH,
+        "//input | //*[@contenteditable='true']"
+    )
+
+    SEARCH_BUTTON = (
+        By.XPATH,
+        "//*[contains(text(),'Search') "
+        "or contains(@id,'search') "
+        "or contains(@class,'search')]"
+    )
+
+    RESULTS_CONTAINER = (
+        By.XPATH,
+        "//*[contains(@class,'srpTuple') "
+        "or contains(@class,'tupleCard') "
+        "or contains(@class,'tupleCardWrap') "
+        "or contains(@class,'listings') "
+        "or contains(@class,'results') "
+        "or contains(text(),'properties')]"
+    )
+
+
+    SEARCH_SUGGESTION = (
+        By.XPATH,
+        "(//*[contains(@class,'suggest') "
+        "or contains(@id,'suggest')])[1]"
+    )
+
+
+
+    RESULTS = (
+        By.XPATH,
+        "//*[contains(@class,'tupleCard') "
+        "or contains(@class,'srpTuple') "
+        "or contains(text(),'properties')]"
+    )
+
+    SHOP_OPTION = (
+        By.XPATH,
+        "//*[contains(text(),'Shop') "
+        "or contains(text(),'Retail')]"
+    )
+
+    VIEW_NUMBER_BUTTON = (
+        By.XPATH,
+        "//*[contains(text(),'View Number') "
+        "or contains(text(),'Get Phone') "
+        "or contains(text(),'Contact')]"
+    )
+
+    LOGIN_POPUP = (
+        By.XPATH,
+        "//input[@type='tel']"
     )

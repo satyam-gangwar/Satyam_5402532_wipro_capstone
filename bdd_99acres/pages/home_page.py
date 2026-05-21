@@ -228,53 +228,31 @@ class HomePage:
         except Exception:
             return False
 
-    def open_commercial_tab(self):
+    def open_buy_tab(self):
 
-        logger.info(
-            "Opening Commercial tab"
+        buy_tab = WaitUtils.wait_for_element_clickable(
+            self.driver,
+            HomeLocators.BUY_TAB,
+            timeout=20
         )
 
-        commercial_locators = [
-            HomeLocators.COMMERCIAL_TAB,
-            HomeLocators.COMMERCIAL_TAB_SPAN,
-            HomeLocators.COMMERCIAL_TAB_LINK,
-            HomeLocators.COMMERCIAL_TAB_GENERIC
-        ]
-
-        commercial_tab = None
-
-        for locator in commercial_locators:
-
-            try:
-
-                commercial_tab = (
-                    WaitUtils.wait_for_element_clickable(
-                        self.driver,
-                        locator,
-                        timeout=10
-                    )
-                )
-
-                logger.info(
-                    f"Commercial tab found using locator: {locator}"
-                )
-
-                break
-
-            except Exception:
-
-                logger.info(
-                    f"Commercial tab locator not found: {locator}"
-                )
-
-        if commercial_tab is None:
-            raise AssertionError(
-                "Commercial tab not found on homepage"
-            )
-
         self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            commercial_tab
+            "arguments[0].click();",
+            buy_tab
+        )
+
+        logger.info(
+            "Buy tab opened successfully"
+        )
+
+    def open_commercial_tab(self):
+
+        self.open_buy_tab()
+
+        commercial_tab = WaitUtils.wait_for_element_clickable(
+            self.driver,
+            HomeLocators.COMMERCIAL_TAB,
+            timeout=20
         )
 
         self.driver.execute_script(

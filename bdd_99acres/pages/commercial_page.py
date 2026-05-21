@@ -99,44 +99,68 @@ class CommercialPage:
 
         return True
 
+    from selenium.webdriver.common.keys import Keys
+
     def search_commercial_property(self, location):
 
-        search_box = (
-            WaitUtils.wait_for_element_clickable(
+        logger.info(
+            f"Searching commercial property for location: {location}"
+        )
+
+        try:
+            search_area = WaitUtils.wait_for_element_clickable(
                 self.driver,
-                CommercialLocators.SEARCH_INPUT
+                CommercialLocators.SEARCH_BOX_AREA,
+                timeout=10
             )
+
+            self.driver.execute_script(
+                "arguments[0].click();",
+                search_area
+            )
+
+            logger.info("Clicked search box area")
+
+        except Exception:
+            logger.info("Search box area click skipped")
+
+        search_inputs = self.driver.find_elements(
+            *CommercialLocators.SEARCH_INPUT
         )
 
-        search_box.clear()
+        visible_input = None
 
-        search_box.send_keys(location)
+        for input_box in search_inputs:
 
-        search_box.send_keys(Keys.ENTER)
+            try:
+                if input_box.is_displayed():
+                    visible_input = input_box
+                    break
+
+            except Exception:
+                pass
+
+        if visible_input is None:
+            raise AssertionError(
+                "No visible commercial search input found"
+            )
+
+        visible_input.clear()
+
+        visible_input.send_keys(
+            location
+        )
 
         logger.info(
-            f"Commercial property searched for {location}"
+            f"Entered location: {location}"
         )
 
-    def apply_basic_filters(self):
-
-        self._safe_click(
-            CommercialLocators.VERIFIED_CHECKBOX,
-            "Verified filter selected"
-        )
-
-        self._safe_click(
-            CommercialLocators.BUDGET_MIN,
-            "Budget dropdown opened"
-        )
-
-        self._safe_click(
-            CommercialLocators.BUDGET_MIN_OPTION,
-            "Minimum budget selected"
+        visible_input.send_keys(
+            Keys.ENTER
         )
 
         logger.info(
-            "Commercial filters applied successfully"
+            "Pressed Enter after entering location"
         )
 
     def is_results_loaded(self):
@@ -180,45 +204,32 @@ class CommercialPage:
             in self.driver.page_source.lower()
         )
 
-    def select_property_type(self, property_type):
-
-        if property_type == "Shop":
-
-            xpath = (
-                "//*[contains(text(),'Shop') "
-                "or contains(text(),'Retail')]"
-            )
-
-        elif property_type == "Office Space":
-
-            xpath = (
-                "//*[contains(text(),'Office')]"
-            )
-
-        else:
-
-            xpath = (
-                f"//*[contains(text(),'{property_type}')]"
-            )
-
-        property_option = (
-            WaitUtils.wait_for_element_clickable(
-                self.driver,
-                (
-                    By.XPATH,
-                    xpath
-                )
-            )
-        )
-
-        self.driver.execute_script(
-            "arguments[0].click();",
-            property_option
-        )
+    def select_property_type(
+            self,
+            property_type
+    ):
 
         logger.info(
-            f"Selected property type: {property_type}"
+            f"Selecting property type: {property_type}"
         )
+
+        if property_type.lower() == "shop":
+            option = (
+                WaitUtils.wait_for_element_clickable(
+                    self.driver,
+                    CommercialLocators.SHOP_OPTION,
+                    timeout=15
+                )
+            )
+
+            self.driver.execute_script(
+                "arguments[0].click();",
+                option
+            )
+
+            WaitUtils.slow_execution(2)
+
+
 
     def is_invalid_search_handled(self):
 
