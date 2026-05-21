@@ -148,3 +148,4 @@ class WaitUtils:
                 f"Timeout waiting for invisibility : {locator}"
             )
             raise
+

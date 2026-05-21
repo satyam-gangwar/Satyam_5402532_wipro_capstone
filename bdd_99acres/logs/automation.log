@@ -292,3 +292,1230 @@
 2026-05-21 14:50:33,147 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
 2026-05-21 14:50:35,513 - INFO - Browser Closed Successfully
 2026-05-21 14:50:35,513 - INFO - ========================================
+2026-05-21 14:55:48,485 - INFO - Timeout fetched : 10
+2026-05-21 14:55:48,501 - INFO - ========================================
+2026-05-21 14:55:48,501 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:55:48,501 - INFO - Browser fetched : edge
+2026-05-21 14:55:48,501 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:55:48,501 - INFO - Implicit wait fetched : 5
+2026-05-21 14:55:48,501 - INFO - Headless mode : False
+2026-05-21 14:55:48,502 - INFO - Launching Edge Browser
+2026-05-21 14:55:52,734 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:55:52,737 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:55:54,399 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_145554.png
+2026-05-21 14:55:54,691 - INFO - Opening Login Popup
+2026-05-21 14:55:54,691 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:55:54,734 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:55:55,044 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:55:55,083 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:55:55,204 - INFO - Login popup opened
+2026-05-21 14:55:55,206 - INFO - Entering mobile number: 8299062481
+2026-05-21 14:55:55,206 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:55:55,463 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:55:55,697 - INFO - Mobile number entered
+2026-05-21 14:55:55,697 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:55:56,250 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:55:56,400 - INFO - Continue button clicked
+2026-05-21 14:55:56,401 - INFO - Waiting up to 30 seconds for manual OTP entry
+2026-05-21 14:56:31,789 - ERROR - OTP was not completed before wait time ended
+2026-05-21 14:56:31,793 - INFO - Scenario Status : Status.failed
+2026-05-21 14:56:31,794 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 14:56:32,030 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_145631.png
+2026-05-21 14:56:32,031 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_145631.png
+2026-05-21 14:56:34,350 - INFO - Browser Closed Successfully
+2026-05-21 14:56:34,350 - INFO - ========================================
+2026-05-21 15:06:12,499 - INFO - Timeout fetched : 10
+2026-05-21 15:06:12,516 - INFO - ========================================
+2026-05-21 15:06:12,516 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 15:06:12,516 - INFO - Browser fetched : edge
+2026-05-21 15:06:12,516 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:06:12,516 - INFO - Implicit wait fetched : 5
+2026-05-21 15:06:12,516 - INFO - Headless mode : False
+2026-05-21 15:06:12,517 - INFO - Launching Edge Browser
+2026-05-21 15:06:15,865 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:06:15,869 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:06:17,471 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_150617.png
+2026-05-21 15:06:17,768 - INFO - Opening Login Popup
+2026-05-21 15:06:17,768 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite')]")
+2026-05-21 15:06:17,829 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite')]")
+2026-05-21 15:06:18,115 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'Login/Register')]")
+2026-05-21 15:06:18,151 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'Login/Register')]")
+2026-05-21 15:06:18,313 - INFO - Login popup opened
+2026-05-21 15:06:18,314 - INFO - Entering mobile number: 8299062481
+2026-05-21 15:06:18,314 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 15:06:18,795 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 15:06:19,033 - INFO - Mobile number entered
+2026-05-21 15:06:19,033 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 15:06:19,586 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 15:06:19,694 - INFO - Continue button clicked using ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 15:06:19,695 - INFO - Waiting up to 30 seconds for manual OTP entry
+2026-05-21 15:06:19,796 - INFO - Scenario Status : Status.error
+2026-05-21 15:06:19,796 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 15:06:20,013 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_150619.png
+2026-05-21 15:06:20,013 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_150619.png
+2026-05-21 15:06:22,330 - INFO - Browser Closed Successfully
+2026-05-21 15:06:22,331 - INFO - ========================================
+2026-05-21 15:07:58,407 - INFO - Timeout fetched : 10
+2026-05-21 15:07:58,421 - INFO - ========================================
+2026-05-21 15:07:58,421 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 15:07:58,422 - INFO - Browser fetched : edge
+2026-05-21 15:07:58,422 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:07:58,422 - INFO - Implicit wait fetched : 5
+2026-05-21 15:07:58,422 - INFO - Headless mode : False
+2026-05-21 15:07:58,422 - INFO - Launching Edge Browser
+2026-05-21 15:08:02,320 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:08:02,323 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:08:03,950 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_150803.png
+2026-05-21 15:08:04,227 - INFO - Opening Login Popup
+2026-05-21 15:08:04,227 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite')]")
+2026-05-21 15:08:04,274 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite')]")
+2026-05-21 15:08:04,598 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'Login/Register')]")
+2026-05-21 15:08:04,639 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'Login/Register')]")
+2026-05-21 15:08:04,884 - INFO - Login popup opened
+2026-05-21 15:08:04,886 - INFO - Entering mobile number: 8299062481
+2026-05-21 15:08:04,886 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 15:08:05,236 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 15:08:05,496 - INFO - Mobile number entered
+2026-05-21 15:08:05,496 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 15:08:06,092 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 15:08:06,201 - INFO - Continue button clicked using ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 15:08:06,203 - INFO - Waiting up to 30 seconds for manual OTP entry
+2026-05-21 15:08:39,287 - ERROR - OTP was not completed before wait time ended
+2026-05-21 15:08:39,292 - INFO - Scenario Status : Status.failed
+2026-05-21 15:08:39,292 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 15:08:39,519 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_150839.png
+2026-05-21 15:08:39,519 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_150839.png
+2026-05-21 15:08:41,896 - INFO - Browser Closed Successfully
+2026-05-21 15:08:41,896 - INFO - ========================================
+2026-05-21 15:16:17,396 - INFO - Timeout fetched : 10
+2026-05-21 15:18:16,299 - INFO - Timeout fetched : 10
+2026-05-21 15:18:16,350 - INFO - ========================================
+2026-05-21 15:18:16,350 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:18:16,350 - INFO - Browser fetched : edge
+2026-05-21 15:18:16,350 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:18:16,350 - INFO - Implicit wait fetched : 5
+2026-05-21 15:18:16,350 - INFO - Headless mode : False
+2026-05-21 15:18:16,351 - INFO - Launching Edge Browser
+2026-05-21 15:18:19,777 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:18:19,780 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:18:24,743 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_151824.png
+2026-05-21 15:18:25,094 - INFO - Switching from Buy to Commercial tab
+2026-05-21 15:18:25,094 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Commercial')]")
+2026-05-21 15:18:35,195 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Commercial')]")
+2026-05-21 15:18:35,212 - INFO - Scenario Status : Status.error
+2026-05-21 15:18:35,212 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 15:18:35,453 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_151835.png
+2026-05-21 15:18:35,453 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_151835.png
+2026-05-21 15:18:37,843 - INFO - Browser Closed Successfully
+2026-05-21 15:18:37,843 - INFO - ========================================
+2026-05-21 15:20:17,451 - INFO - Timeout fetched : 10
+2026-05-21 15:20:17,471 - INFO - ========================================
+2026-05-21 15:20:17,471 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:20:17,471 - INFO - Browser fetched : edge
+2026-05-21 15:20:17,471 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:20:17,471 - INFO - Implicit wait fetched : 5
+2026-05-21 15:20:17,471 - INFO - Headless mode : False
+2026-05-21 15:20:17,472 - INFO - Launching Edge Browser
+2026-05-21 15:20:20,144 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:20:20,147 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:20:21,877 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_152021.png
+2026-05-21 15:20:22,167 - INFO - Switching from Buy to Commercial tab
+2026-05-21 15:20:22,167 - INFO - Trying Commercial tab locator: ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:20:22,167 - INFO - Waiting for element clickable : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:20:22,237 - INFO - Element clickable successfully : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:20:22,243 - INFO - Waiting for element clickable : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:20:22,271 - INFO - Element clickable successfully : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:20:22,427 - INFO - Commercial tab opened successfully
+2026-05-21 15:20:22,438 - INFO - Scenario Status : Status.error
+2026-05-21 15:20:22,438 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 15:20:22,893 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_152022.png
+2026-05-21 15:20:22,894 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_152022.png
+2026-05-21 15:20:25,198 - INFO - Browser Closed Successfully
+2026-05-21 15:20:25,198 - INFO - ========================================
+2026-05-21 15:21:55,782 - INFO - Timeout fetched : 10
+2026-05-21 15:21:55,823 - INFO - ========================================
+2026-05-21 15:21:55,823 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:21:55,823 - INFO - Browser fetched : edge
+2026-05-21 15:21:55,823 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:21:55,823 - INFO - Implicit wait fetched : 5
+2026-05-21 15:21:55,823 - INFO - Headless mode : False
+2026-05-21 15:21:55,824 - INFO - Launching Edge Browser
+2026-05-21 15:21:58,905 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:21:58,908 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:22:00,572 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_152200.png
+2026-05-21 15:22:00,839 - INFO - Switching from Buy to Commercial tab
+2026-05-21 15:22:00,839 - INFO - Trying Commercial tab locator: ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:22:00,840 - INFO - Waiting for element clickable : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:22:00,890 - INFO - Element clickable successfully : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:22:00,901 - INFO - Waiting for element clickable : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:22:00,933 - INFO - Element clickable successfully : ('xpath', "//div[contains(normalize-space(),'Commercial')]")
+2026-05-21 15:22:01,409 - INFO - Commercial tab opened successfully
+2026-05-21 15:22:01,410 - INFO - Searching commercial property in: Noida
+2026-05-21 15:22:01,411 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 15:22:21,569 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@placeholder,'City') or contains(@placeholder,'Locality') or @type='text']")
+2026-05-21 15:22:21,578 - INFO - Scenario Status : Status.error
+2026-05-21 15:22:21,578 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 15:22:21,827 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_152221.png
+2026-05-21 15:22:21,827 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_152221.png
+2026-05-21 15:22:24,290 - INFO - Browser Closed Successfully
+2026-05-21 15:22:24,291 - INFO - ========================================
+2026-05-21 15:23:48,931 - INFO - Timeout fetched : 10
+2026-05-21 15:23:48,963 - INFO - ========================================
+2026-05-21 15:23:48,963 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:23:48,963 - INFO - Browser fetched : edge
+2026-05-21 15:23:48,964 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:23:48,964 - INFO - Implicit wait fetched : 5
+2026-05-21 15:23:48,964 - INFO - Headless mode : False
+2026-05-21 15:23:48,964 - INFO - Launching Edge Browser
+2026-05-21 15:24:29,696 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:24:29,699 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:24:35,986 - INFO - Scenario Status : Status.error
+2026-05-21 15:24:35,986 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 15:24:41,134 - INFO - Timeout fetched : 10
+2026-05-21 15:24:41,170 - INFO - ========================================
+2026-05-21 15:24:41,170 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:24:41,170 - INFO - Browser fetched : edge
+2026-05-21 15:24:41,170 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:24:41,170 - INFO - Implicit wait fetched : 5
+2026-05-21 15:24:41,171 - INFO - Headless mode : False
+2026-05-21 15:24:41,171 - INFO - Launching Edge Browser
+2026-05-21 15:24:48,397 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:24:48,400 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:24:48,421 - INFO - Scenario Status : Status.error
+2026-05-21 15:24:48,422 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 15:25:15,128 - INFO - Timeout fetched : 10
+2026-05-21 15:25:15,149 - INFO - ========================================
+2026-05-21 15:25:15,149 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:25:15,149 - INFO - Browser fetched : edge
+2026-05-21 15:25:15,149 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:25:15,149 - INFO - Implicit wait fetched : 5
+2026-05-21 15:25:15,149 - INFO - Headless mode : False
+2026-05-21 15:25:15,150 - INFO - Launching Edge Browser
+2026-05-21 15:25:49,548 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 15:25:49,550 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 15:27:49,854 - INFO - Scenario Status : Status.error
+2026-05-21 15:27:49,854 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 15:27:54,224 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_152749.png
+2026-05-21 15:27:54,224 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_152749.png
+2026-05-21 15:27:56,742 - INFO - Browser Closed Successfully
+2026-05-21 15:27:56,742 - INFO - ========================================
+2026-05-21 15:33:36,217 - INFO - Timeout fetched : 10
+2026-05-21 15:33:36,232 - INFO - ========================================
+2026-05-21 15:33:36,232 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:33:36,232 - INFO - Browser fetched : edge
+2026-05-21 15:33:36,232 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:33:36,232 - INFO - Implicit wait fetched : 5
+2026-05-21 15:33:36,232 - INFO - Headless mode : False
+2026-05-21 15:33:36,233 - INFO - Launching Edge Browser
+2026-05-21 15:35:37,770 - INFO - Scenario Status : Status.hook_error
+2026-05-21 15:35:37,770 - INFO - SCENARIO PASSED : Search commercial property in Noida
+2026-05-21 15:37:37,807 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=62373): Read timed out. (read timeout=120)")': /session/6d6d5ad032bbae4fa0e39e99d988524f
+2026-05-21 15:37:53,499 - INFO - Browser Closed Successfully
+2026-05-21 15:37:53,499 - INFO - ========================================
+2026-05-21 15:41:10,890 - INFO - Timeout fetched : 10
+2026-05-21 15:41:10,932 - INFO - ========================================
+2026-05-21 15:41:10,933 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 15:41:10,933 - INFO - Browser fetched : edge
+2026-05-21 15:41:10,933 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 15:41:10,933 - INFO - Implicit wait fetched : 5
+2026-05-21 15:41:10,933 - INFO - Headless mode : False
+2026-05-21 15:41:10,935 - INFO - Launching Edge Browser
+2026-05-21 15:43:13,014 - INFO - Scenario Status : Status.hook_error
+2026-05-21 15:43:13,015 - INFO - SCENARIO PASSED : Search commercial property in Noida
+2026-05-21 15:44:00,549 - INFO - Browser Closed Successfully
+2026-05-21 15:44:00,550 - INFO - ========================================
+2026-05-21 16:07:09,415 - INFO - Timeout fetched : 10
+2026-05-21 16:07:38,100 - INFO - Timeout fetched : 10
+2026-05-21 16:07:38,200 - INFO - ========================================
+2026-05-21 16:07:38,201 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 16:07:38,201 - INFO - Browser fetched : edge
+2026-05-21 16:07:38,201 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 16:07:38,201 - INFO - Implicit wait fetched : 5
+2026-05-21 16:07:38,201 - INFO - Headless mode : False
+2026-05-21 16:07:38,202 - INFO - Launching Edge Browser
+2026-05-21 16:08:08,526 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 16:08:08,529 - INFO - Scenario Status : Status.error
+2026-05-21 16:08:08,530 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 16:08:08,719 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_160808.png
+2026-05-21 16:08:08,720 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_160808.png
+2026-05-21 16:08:11,622 - INFO - Browser Closed Successfully
+2026-05-21 16:08:11,622 - INFO - ========================================
+2026-05-21 16:08:11,631 - INFO - ========================================
+2026-05-21 16:08:11,632 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 16:08:11,632 - INFO - Browser fetched : edge
+2026-05-21 16:08:11,632 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 16:08:11,632 - INFO - Implicit wait fetched : 5
+2026-05-21 16:08:11,632 - INFO - Headless mode : False
+2026-05-21 16:08:11,634 - INFO - Launching Edge Browser
+2026-05-21 16:09:14,830 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 16:09:14,833 - INFO - Scenario Status : Status.error
+2026-05-21 16:09:14,833 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 16:09:15,378 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_160914.png
+2026-05-21 16:09:15,379 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_160914.png
+2026-05-21 16:09:18,407 - INFO - Browser Closed Successfully
+2026-05-21 16:09:18,407 - INFO - ========================================
+2026-05-21 17:28:53,904 - INFO - Timeout fetched : 10
+2026-05-21 17:28:53,950 - INFO - ========================================
+2026-05-21 17:28:53,950 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 17:28:53,951 - INFO - Browser fetched : edge
+2026-05-21 17:28:53,951 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:28:53,951 - INFO - Implicit wait fetched : 5
+2026-05-21 17:28:53,951 - INFO - Headless mode : False
+2026-05-21 17:28:53,952 - INFO - Launching Edge Browser
+2026-05-21 17:28:58,641 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:28:58,764 - INFO - Scenario Status : Status.error
+2026-05-21 17:28:58,764 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 17:29:03,250 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_172858.png
+2026-05-21 17:29:03,251 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_172858.png
+2026-05-21 17:29:06,131 - INFO - Browser Closed Successfully
+2026-05-21 17:29:06,131 - INFO - ========================================
+2026-05-21 17:29:06,140 - INFO - ========================================
+2026-05-21 17:29:06,140 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 17:29:06,141 - INFO - Browser fetched : edge
+2026-05-21 17:29:06,141 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:29:06,141 - INFO - Implicit wait fetched : 5
+2026-05-21 17:29:06,141 - INFO - Headless mode : False
+2026-05-21 17:29:06,143 - INFO - Launching Edge Browser
+2026-05-21 17:29:10,598 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:29:10,600 - INFO - Scenario Status : Status.error
+2026-05-21 17:29:10,600 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 17:29:11,171 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_172910.png
+2026-05-21 17:29:11,172 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_172910.png
+2026-05-21 17:29:13,680 - INFO - Browser Closed Successfully
+2026-05-21 17:29:13,681 - INFO - ========================================
+2026-05-21 17:38:02,660 - INFO - Timeout fetched : 10
+2026-05-21 17:38:02,680 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:38:02,687 - INFO - ========================================
+2026-05-21 17:38:02,688 - INFO - STARTING SCENARIO : Search commercial property in Noida
+2026-05-21 17:38:02,688 - INFO - Browser fetched : edge
+2026-05-21 17:38:02,688 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:38:02,688 - INFO - Implicit wait fetched : 5
+2026-05-21 17:38:02,688 - INFO - Headless mode : False
+2026-05-21 17:38:02,690 - INFO - Launching Edge Browser
+2026-05-21 17:38:08,073 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:38:08,078 - INFO - Opening URL: https://www.99acres.com/
+2026-05-21 17:38:10,540 - INFO - Scenario Status : Status.error
+2026-05-21 17:38:10,540 - ERROR - SCENARIO FAILED : Search commercial property in Noida
+2026-05-21 17:38:11,073 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_in_Noida_20260521_173810.png
+2026-05-21 17:38:11,074 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_in_Noida_20260521_173810.png
+2026-05-21 17:38:13,671 - INFO - Browser Closed Successfully
+2026-05-21 17:38:13,671 - INFO - ========================================
+2026-05-21 17:38:13,680 - INFO - ========================================
+2026-05-21 17:38:13,680 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 17:38:13,680 - INFO - Browser fetched : edge
+2026-05-21 17:38:13,681 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:38:13,681 - INFO - Implicit wait fetched : 5
+2026-05-21 17:38:13,681 - INFO - Headless mode : False
+2026-05-21 17:38:13,683 - INFO - Launching Edge Browser
+2026-05-21 17:38:18,984 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:38:18,989 - INFO - Opening URL: https://www.99acres.com/
+2026-05-21 17:38:20,693 - INFO - Opening login popup
+2026-05-21 17:38:20,693 - INFO - Waiting for element visibility : ('xpath', "//*[contains(text(),'Login')]")
+2026-05-21 17:38:30,999 - ERROR - Timeout waiting for visibility : ('xpath', "//*[contains(text(),'Login')]")
+2026-05-21 17:38:31,014 - INFO - Scenario Status : Status.error
+2026-05-21 17:38:31,014 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 17:38:31,520 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_173831.png
+2026-05-21 17:38:31,520 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_173831.png
+2026-05-21 17:38:34,295 - INFO - Browser Closed Successfully
+2026-05-21 17:38:34,295 - INFO - ========================================
+2026-05-21 17:42:33,480 - INFO - Timeout fetched : 10
+2026-05-21 17:42:33,557 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:42:33,565 - INFO - ========================================
+2026-05-21 17:42:33,565 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 17:42:33,565 - INFO - Browser fetched : edge
+2026-05-21 17:42:33,565 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:42:33,566 - INFO - Implicit wait fetched : 5
+2026-05-21 17:42:33,566 - INFO - Headless mode : False
+2026-05-21 17:42:33,567 - INFO - Launching Edge Browser
+2026-05-21 17:42:38,111 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:42:38,124 - INFO - Opening URL: https://www.99acres.com/
+2026-05-21 17:42:39,771 - INFO - Opening login popup
+2026-05-21 17:42:39,771 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Login') or contains(text(),'login') or contains(text(),'Sign In') or contains(text(),'LOGIN')]")
+2026-05-21 17:42:54,890 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Login') or contains(text(),'login') or contains(text(),'Sign In') or contains(text(),'LOGIN')]")
+2026-05-21 17:42:54,914 - INFO - Scenario Status : Status.error
+2026-05-21 17:42:54,915 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 17:42:55,359 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_174254.png
+2026-05-21 17:42:55,359 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_174254.png
+2026-05-21 17:42:58,124 - INFO - Browser Closed Successfully
+2026-05-21 17:42:58,125 - INFO - ========================================
+2026-05-21 17:46:20,102 - INFO - Timeout fetched : 10
+2026-05-21 17:46:20,189 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:46:20,194 - INFO - ========================================
+2026-05-21 17:46:20,194 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 17:46:20,194 - INFO - Browser fetched : edge
+2026-05-21 17:46:20,194 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:46:20,194 - INFO - Implicit wait fetched : 5
+2026-05-21 17:46:20,194 - INFO - Headless mode : False
+2026-05-21 17:46:20,195 - INFO - Launching Edge Browser
+2026-05-21 17:46:29,500 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:46:29,505 - INFO - Opening URL: https://www.99acres.com/
+2026-05-21 17:46:31,155 - INFO - Opening login popup
+2026-05-21 17:46:31,155 - INFO - Trying locator: ('xpath', "//*[contains(text(),'Login')]")
+2026-05-21 17:46:31,155 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Login')]")
+2026-05-21 17:46:36,609 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Login')]")
+2026-05-21 17:46:36,609 - INFO - Locator failed
+2026-05-21 17:46:36,609 - INFO - Trying locator: ('xpath', "//*[contains(text(),'LOGIN')]")
+2026-05-21 17:46:36,609 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN')]")
+2026-05-21 17:46:42,009 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'LOGIN')]")
+2026-05-21 17:46:42,010 - INFO - Locator failed
+2026-05-21 17:46:42,010 - INFO - Trying locator: ('xpath', "//*[contains(text(),'Sign In')]")
+2026-05-21 17:46:42,010 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Sign In')]")
+2026-05-21 17:46:47,064 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Sign In')]")
+2026-05-21 17:46:47,064 - INFO - Locator failed
+2026-05-21 17:46:47,065 - INFO - Trying locator: ('xpath', "//div[contains(@class,'login')]")
+2026-05-21 17:46:47,065 - INFO - Waiting for element clickable : ('xpath', "//div[contains(@class,'login')]")
+2026-05-21 17:46:52,451 - ERROR - Timeout waiting for clickable : ('xpath', "//div[contains(@class,'login')]")
+2026-05-21 17:46:52,451 - INFO - Locator failed
+2026-05-21 17:46:52,451 - INFO - Trying locator: ('xpath', "//span[contains(text(),'Login')]")
+2026-05-21 17:46:52,451 - INFO - Waiting for element clickable : ('xpath', "//span[contains(text(),'Login')]")
+2026-05-21 17:46:57,497 - ERROR - Timeout waiting for clickable : ('xpath', "//span[contains(text(),'Login')]")
+2026-05-21 17:46:57,497 - INFO - Locator failed
+2026-05-21 17:46:57,497 - INFO - Trying locator: ('xpath', "//a[contains(text(),'Login')]")
+2026-05-21 17:46:57,498 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Login')]")
+2026-05-21 17:47:02,549 - ERROR - Timeout waiting for clickable : ('xpath', "//a[contains(text(),'Login')]")
+2026-05-21 17:47:02,549 - INFO - Locator failed
+2026-05-21 17:47:02,562 - INFO - Scenario Status : Status.failed
+2026-05-21 17:47:02,562 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 17:47:03,043 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_174702.png
+2026-05-21 17:47:03,044 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_174702.png
+2026-05-21 17:47:05,634 - INFO - Browser Closed Successfully
+2026-05-21 17:47:05,634 - INFO - ========================================
+2026-05-21 17:51:49,271 - INFO - Timeout fetched : 10
+2026-05-21 17:51:49,376 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:51:49,386 - INFO - ========================================
+2026-05-21 17:51:49,386 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 17:51:49,386 - INFO - Browser fetched : edge
+2026-05-21 17:51:49,386 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:51:49,386 - INFO - Implicit wait fetched : 5
+2026-05-21 17:51:49,386 - INFO - Headless mode : False
+2026-05-21 17:51:49,388 - INFO - Launching Edge Browser
+2026-05-21 17:51:55,073 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:51:55,083 - INFO - Opening URL: https://www.99acres.com/
+2026-05-21 17:51:56,745 - INFO - Scenario Status : Status.error
+2026-05-21 17:51:56,746 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 17:51:57,496 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_175156.png
+2026-05-21 17:51:57,496 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_175156.png
+2026-05-21 17:52:00,069 - INFO - Browser Closed Successfully
+2026-05-21 17:52:00,069 - INFO - ========================================
+2026-05-21 17:54:16,641 - INFO - Timeout fetched : 10
+2026-05-21 17:54:16,709 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:54:16,714 - INFO - ========================================
+2026-05-21 17:54:16,715 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 17:54:16,715 - INFO - Browser fetched : edge
+2026-05-21 17:54:16,715 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 17:54:16,715 - INFO - Implicit wait fetched : 5
+2026-05-21 17:54:16,715 - INFO - Headless mode : False
+2026-05-21 17:54:16,717 - INFO - Launching Edge Browser
+2026-05-21 17:54:21,050 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 17:54:21,108 - INFO - Opening URL: https://www.99acres.com/
+2026-05-21 17:54:23,047 - INFO - Waiting for 5 seconds
+2026-05-21 17:54:28,047 - INFO - Checking initial popups
+2026-05-21 17:54:28,048 - INFO - Waiting for element clickable : ('xpath', "//button[contains(text(),'Okay')]")
+2026-05-21 17:54:28,124 - INFO - Element clickable successfully : ('xpath', "//button[contains(text(),'Okay')]")
+2026-05-21 17:54:28,263 - INFO - Popup closed
+2026-05-21 17:54:28,264 - INFO - Waiting for element clickable : ('xpath', "//button[contains(text(),'OK')]")
+2026-05-21 17:54:33,346 - ERROR - Timeout waiting for clickable : ('xpath', "//button[contains(text(),'OK')]")
+2026-05-21 17:54:33,346 - INFO - Popup not present
+2026-05-21 17:54:33,347 - INFO - Waiting for element clickable : ('xpath', "//span[contains(text(),'Close')]")
+2026-05-21 17:54:38,358 - ERROR - Timeout waiting for clickable : ('xpath', "//span[contains(text(),'Close')]")
+2026-05-21 17:54:38,359 - INFO - Popup not present
+2026-05-21 17:54:38,359 - INFO - Waiting for element clickable : ('xpath', "//*[contains(@class,'close')]")
+2026-05-21 17:54:41,583 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(@class,'close')]")
+2026-05-21 17:54:41,583 - INFO - Popup not present
+2026-05-21 17:54:41,583 - INFO - Waiting for element clickable : ('xpath', "//i[contains(@class,'close')]")
+2026-05-21 17:54:44,786 - ERROR - Timeout waiting for clickable : ('xpath', "//i[contains(@class,'close')]")
+2026-05-21 17:54:44,787 - INFO - Popup not present
+2026-05-21 17:54:44,790 - INFO - Opening login popup
+2026-05-21 17:54:44,790 - INFO - Trying locator: ('xpath', "//div[contains(text(),'Login')]")
+2026-05-21 17:54:44,790 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Login')]")
+2026-05-21 17:54:49,837 - ERROR - Timeout waiting for clickable : ('xpath', "//div[contains(text(),'Login')]")
+2026-05-21 17:54:49,837 - INFO - Locator failed
+2026-05-21 17:54:49,838 - INFO - Trying locator: ('xpath', "//span[contains(text(),'Login')]")
+2026-05-21 17:54:49,838 - INFO - Waiting for element clickable : ('xpath', "//span[contains(text(),'Login')]")
+2026-05-21 17:54:54,879 - ERROR - Timeout waiting for clickable : ('xpath', "//span[contains(text(),'Login')]")
+2026-05-21 17:54:54,880 - INFO - Locator failed
+2026-05-21 17:54:54,880 - INFO - Trying locator: ('xpath', "//a[contains(text(),'Login')]")
+2026-05-21 17:54:54,880 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Login')]")
+2026-05-21 17:54:59,966 - ERROR - Timeout waiting for clickable : ('xpath', "//a[contains(text(),'Login')]")
+2026-05-21 17:54:59,967 - INFO - Locator failed
+2026-05-21 17:54:59,967 - INFO - Trying locator: ('xpath', "//*[contains(text(),'LOGIN / REGISTER')]")
+2026-05-21 17:54:59,967 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER')]")
+2026-05-21 17:55:05,363 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER')]")
+2026-05-21 17:55:05,363 - INFO - Locator failed
+2026-05-21 17:55:05,363 - INFO - Trying locator: ('xpath', "//*[contains(text(),'Login / Register')]")
+2026-05-21 17:55:05,363 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Login / Register')]")
+2026-05-21 17:55:10,438 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Login / Register')]")
+2026-05-21 17:55:10,438 - INFO - Locator failed
+2026-05-21 17:55:10,438 - INFO - Trying locator: ('xpath', "//div[contains(@class,'login')]")
+2026-05-21 17:55:10,438 - INFO - Waiting for element clickable : ('xpath', "//div[contains(@class,'login')]")
+2026-05-21 17:55:15,809 - ERROR - Timeout waiting for clickable : ('xpath', "//div[contains(@class,'login')]")
+2026-05-21 17:55:15,809 - INFO - Locator failed
+2026-05-21 17:55:15,810 - INFO - Trying locator: ('xpath', "//span[contains(@class,'login')]")
+2026-05-21 17:55:15,810 - INFO - Waiting for element clickable : ('xpath', "//span[contains(@class,'login')]")
+2026-05-21 17:55:20,851 - ERROR - Timeout waiting for clickable : ('xpath', "//span[contains(@class,'login')]")
+2026-05-21 17:55:20,852 - INFO - Locator failed
+2026-05-21 17:55:20,862 - INFO - Scenario Status : Status.failed
+2026-05-21 17:55:20,862 - ERROR - SCENARIO FAILED : Login with valid mobile number using OTP
+2026-05-21 17:55:21,362 - INFO - Screenshot saved at: reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_175520.png
+2026-05-21 17:55:21,363 - INFO - Screenshot Saved : reports/screenshots/Login_with_valid_mobile_number_using_OTP_20260521_175520.png
+2026-05-21 17:55:24,041 - INFO - Browser Closed Successfully
+2026-05-21 17:55:24,041 - INFO - ========================================
+2026-05-21 22:08:36,529 - INFO - Timeout fetched : 10
+2026-05-21 22:08:36,597 - INFO - ========================================
+2026-05-21 22:08:36,598 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:08:36,598 - INFO - Browser fetched : edge
+2026-05-21 22:08:36,598 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:08:36,598 - INFO - Implicit wait fetched : 5
+2026-05-21 22:08:36,598 - INFO - Headless mode : False
+2026-05-21 22:08:36,599 - INFO - Launching Edge Browser
+2026-05-21 22:08:42,333 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-05-21 22:09:02,538 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:09:05,310 - INFO - Scenario Status : Status.error
+2026-05-21 22:09:05,310 - ERROR - SCENARIO FAILED : Open 99acres login popup
+2026-05-21 22:09:05,595 - INFO - Screenshot saved at: reports/screenshots/Open_99acres_login_popup_20260521_220905.png
+2026-05-21 22:09:05,595 - INFO - Screenshot Saved : reports/screenshots/Open_99acres_login_popup_20260521_220905.png
+2026-05-21 22:09:07,885 - INFO - Browser Closed Successfully
+2026-05-21 22:09:07,885 - INFO - ========================================
+2026-05-21 22:09:07,890 - INFO - ========================================
+2026-05-21 22:09:07,890 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:09:07,890 - INFO - Browser fetched : edge
+2026-05-21 22:09:07,890 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:09:07,890 - INFO - Implicit wait fetched : 5
+2026-05-21 22:09:07,890 - INFO - Headless mode : False
+2026-05-21 22:09:07,891 - INFO - Launching Edge Browser
+2026-05-21 22:09:30,293 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:10:26,118 - INFO - Scenario Status : Status.error
+2026-05-21 22:10:26,119 - ERROR - SCENARIO FAILED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:10:26,130 - INFO - ========================================
+2026-05-21 22:10:26,130 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:10:26,130 - INFO - Browser fetched : edge
+2026-05-21 22:10:26,130 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:10:26,130 - INFO - Implicit wait fetched : 5
+2026-05-21 22:10:26,130 - INFO - Headless mode : False
+2026-05-21 22:10:26,132 - INFO - Launching Edge Browser
+2026-05-21 22:10:29,151 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:10:30,508 - INFO - Scenario Status : Status.error
+2026-05-21 22:10:30,508 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:10:31,098 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221030.png
+2026-05-21 22:10:31,098 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221030.png
+2026-05-21 22:10:33,355 - INFO - Browser Closed Successfully
+2026-05-21 22:10:33,356 - INFO - ========================================
+2026-05-21 22:10:39,796 - INFO - Timeout fetched : 10
+2026-05-21 22:10:39,808 - INFO - ========================================
+2026-05-21 22:10:39,809 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:10:39,809 - INFO - Browser fetched : edge
+2026-05-21 22:10:39,809 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:10:39,809 - INFO - Implicit wait fetched : 5
+2026-05-21 22:10:39,809 - INFO - Headless mode : False
+2026-05-21 22:10:39,810 - INFO - Launching Edge Browser
+2026-05-21 22:10:42,552 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:10:44,068 - INFO - Scenario Status : Status.error
+2026-05-21 22:10:44,068 - ERROR - SCENARIO FAILED : Open 99acres login popup
+2026-05-21 22:10:44,464 - INFO - Screenshot saved at: reports/screenshots/Open_99acres_login_popup_20260521_221044.png
+2026-05-21 22:10:44,464 - INFO - Screenshot Saved : reports/screenshots/Open_99acres_login_popup_20260521_221044.png
+2026-05-21 22:10:46,778 - INFO - Browser Closed Successfully
+2026-05-21 22:10:46,779 - INFO - ========================================
+2026-05-21 22:10:46,783 - INFO - ========================================
+2026-05-21 22:10:46,783 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:10:46,783 - INFO - Browser fetched : edge
+2026-05-21 22:10:46,783 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:10:46,784 - INFO - Implicit wait fetched : 5
+2026-05-21 22:10:46,784 - INFO - Headless mode : False
+2026-05-21 22:10:46,785 - INFO - Launching Edge Browser
+2026-05-21 22:10:51,901 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:10:53,783 - INFO - Scenario Status : Status.error
+2026-05-21 22:10:53,783 - ERROR - SCENARIO FAILED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:10:54,318 - INFO - Screenshot saved at: reports/screenshots/Enter_valid_mobile_number_and_continue_to_OTP_screen_20260521_221053.png
+2026-05-21 22:10:54,318 - INFO - Screenshot Saved : reports/screenshots/Enter_valid_mobile_number_and_continue_to_OTP_screen_20260521_221053.png
+2026-05-21 22:10:56,582 - INFO - Browser Closed Successfully
+2026-05-21 22:10:56,582 - INFO - ========================================
+2026-05-21 22:10:56,587 - INFO - ========================================
+2026-05-21 22:10:56,587 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:10:56,587 - INFO - Browser fetched : edge
+2026-05-21 22:10:56,587 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:10:56,587 - INFO - Implicit wait fetched : 5
+2026-05-21 22:10:56,587 - INFO - Headless mode : False
+2026-05-21 22:10:56,588 - INFO - Launching Edge Browser
+2026-05-21 22:11:02,609 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:11:04,650 - INFO - Scenario Status : Status.error
+2026-05-21 22:11:04,651 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:11:04,974 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221104.png
+2026-05-21 22:11:04,974 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221104.png
+2026-05-21 22:11:07,260 - INFO - Browser Closed Successfully
+2026-05-21 22:11:07,261 - INFO - ========================================
+2026-05-21 22:12:56,897 - INFO - Timeout fetched : 10
+2026-05-21 22:12:56,910 - INFO - ========================================
+2026-05-21 22:12:56,910 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:12:56,910 - INFO - Browser fetched : edge
+2026-05-21 22:12:56,910 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:12:56,910 - INFO - Implicit wait fetched : 5
+2026-05-21 22:12:56,910 - INFO - Headless mode : False
+2026-05-21 22:12:56,911 - INFO - Launching Edge Browser
+2026-05-21 22:13:00,656 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:13:06,532 - INFO - Popup closed successfully
+2026-05-21 22:13:06,860 - INFO - 99acres application launched
+2026-05-21 22:13:06,862 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:13:17,073 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:13:17,111 - INFO - Scenario Status : Status.error
+2026-05-21 22:13:17,112 - ERROR - SCENARIO FAILED : Open 99acres login popup
+2026-05-21 22:13:17,351 - INFO - Screenshot saved at: reports/screenshots/Open_99acres_login_popup_20260521_221317.png
+2026-05-21 22:13:17,351 - INFO - Screenshot Saved : reports/screenshots/Open_99acres_login_popup_20260521_221317.png
+2026-05-21 22:13:19,682 - INFO - Browser Closed Successfully
+2026-05-21 22:13:19,682 - INFO - ========================================
+2026-05-21 22:13:19,687 - INFO - ========================================
+2026-05-21 22:13:19,687 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:13:19,687 - INFO - Browser fetched : edge
+2026-05-21 22:13:19,687 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:13:19,687 - INFO - Implicit wait fetched : 5
+2026-05-21 22:13:19,687 - INFO - Headless mode : False
+2026-05-21 22:13:19,689 - INFO - Launching Edge Browser
+2026-05-21 22:13:22,715 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:13:31,523 - INFO - Popup closed successfully
+2026-05-21 22:13:31,848 - INFO - 99acres application launched
+2026-05-21 22:13:31,849 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:13:42,328 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:13:42,332 - INFO - Scenario Status : Status.error
+2026-05-21 22:13:42,332 - ERROR - SCENARIO FAILED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:13:42,563 - INFO - Screenshot saved at: reports/screenshots/Enter_valid_mobile_number_and_continue_to_OTP_screen_20260521_221342.png
+2026-05-21 22:13:42,563 - INFO - Screenshot Saved : reports/screenshots/Enter_valid_mobile_number_and_continue_to_OTP_screen_20260521_221342.png
+2026-05-21 22:13:44,892 - INFO - Browser Closed Successfully
+2026-05-21 22:13:44,892 - INFO - ========================================
+2026-05-21 22:13:44,898 - INFO - ========================================
+2026-05-21 22:13:44,898 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:13:44,898 - INFO - Browser fetched : edge
+2026-05-21 22:13:44,898 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:13:44,898 - INFO - Implicit wait fetched : 5
+2026-05-21 22:13:44,898 - INFO - Headless mode : False
+2026-05-21 22:13:44,899 - INFO - Launching Edge Browser
+2026-05-21 22:13:52,393 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:13:59,191 - INFO - Popup closed successfully
+2026-05-21 22:13:59,581 - INFO - 99acres application launched
+2026-05-21 22:13:59,587 - INFO - Scenario Status : Status.error
+2026-05-21 22:13:59,588 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:13:59,899 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221359.png
+2026-05-21 22:13:59,899 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221359.png
+2026-05-21 22:14:02,306 - INFO - Browser Closed Successfully
+2026-05-21 22:14:02,306 - INFO - ========================================
+2026-05-21 22:18:42,362 - INFO - Timeout fetched : 10
+2026-05-21 22:18:42,374 - INFO - ========================================
+2026-05-21 22:18:42,374 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:18:42,374 - INFO - Browser fetched : edge
+2026-05-21 22:18:42,374 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:18:42,374 - INFO - Implicit wait fetched : 5
+2026-05-21 22:18:42,374 - INFO - Headless mode : False
+2026-05-21 22:18:42,375 - INFO - Launching Edge Browser
+2026-05-21 22:18:45,593 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:18:51,594 - INFO - Popup closed successfully
+2026-05-21 22:18:51,950 - INFO - 99acres application launched
+2026-05-21 22:18:51,953 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:18:51,979 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:18:52,272 - INFO - Hovered on login icon
+2026-05-21 22:18:52,272 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:18:52,308 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:18:52,335 - INFO - Login button clicked
+2026-05-21 22:18:52,335 - INFO - Clicked on login button
+2026-05-21 22:18:52,853 - INFO - Screenshot saved at: reports/screenshots/login_mobile_field_20260521_221852.png
+2026-05-21 22:18:52,853 - INFO - Mobile number field verified
+2026-05-21 22:18:52,854 - INFO - Scenario Status : Status.passed
+2026-05-21 22:18:52,854 - INFO - SCENARIO PASSED : Open 99acres login popup
+2026-05-21 22:18:55,224 - INFO - Browser Closed Successfully
+2026-05-21 22:18:55,224 - INFO - ========================================
+2026-05-21 22:18:55,227 - INFO - ========================================
+2026-05-21 22:18:55,227 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:18:55,227 - INFO - Browser fetched : edge
+2026-05-21 22:18:55,227 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:18:55,227 - INFO - Implicit wait fetched : 5
+2026-05-21 22:18:55,227 - INFO - Headless mode : False
+2026-05-21 22:18:55,228 - INFO - Launching Edge Browser
+2026-05-21 22:19:01,098 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:19:07,326 - INFO - Popup closed successfully
+2026-05-21 22:19:07,654 - INFO - 99acres application launched
+2026-05-21 22:19:07,655 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:19:07,679 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:19:07,946 - INFO - Hovered on login icon
+2026-05-21 22:19:07,946 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:19:07,980 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:19:08,005 - INFO - Login button clicked
+2026-05-21 22:19:08,005 - INFO - Clicked on login button
+2026-05-21 22:19:08,016 - INFO - Scenario Status : Status.error
+2026-05-21 22:19:08,016 - ERROR - SCENARIO FAILED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:19:08,250 - INFO - Screenshot saved at: reports/screenshots/Enter_valid_mobile_number_and_continue_to_OTP_screen_20260521_221908.png
+2026-05-21 22:19:08,250 - INFO - Screenshot Saved : reports/screenshots/Enter_valid_mobile_number_and_continue_to_OTP_screen_20260521_221908.png
+2026-05-21 22:19:10,579 - INFO - Browser Closed Successfully
+2026-05-21 22:19:10,579 - INFO - ========================================
+2026-05-21 22:19:10,584 - INFO - ========================================
+2026-05-21 22:19:10,584 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:19:10,584 - INFO - Browser fetched : edge
+2026-05-21 22:19:10,584 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:19:10,584 - INFO - Implicit wait fetched : 5
+2026-05-21 22:19:10,584 - INFO - Headless mode : False
+2026-05-21 22:19:10,585 - INFO - Launching Edge Browser
+2026-05-21 22:19:15,325 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:19:22,419 - INFO - Popup closed successfully
+2026-05-21 22:19:22,741 - INFO - 99acres application launched
+2026-05-21 22:19:22,745 - INFO - Scenario Status : Status.error
+2026-05-21 22:19:22,745 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:19:22,989 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221922.png
+2026-05-21 22:19:22,989 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_221922.png
+2026-05-21 22:19:25,368 - INFO - Browser Closed Successfully
+2026-05-21 22:19:25,368 - INFO - ========================================
+2026-05-21 22:21:41,128 - INFO - Timeout fetched : 10
+2026-05-21 22:21:41,139 - INFO - Loading test data before execution
+2026-05-21 22:21:41,140 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 22:21:41,144 - INFO - ========================================
+2026-05-21 22:21:41,144 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:21:41,144 - INFO - Browser fetched : edge
+2026-05-21 22:21:41,144 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:21:41,144 - INFO - Implicit wait fetched : 5
+2026-05-21 22:21:41,144 - INFO - Headless mode : False
+2026-05-21 22:21:41,144 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:21:41,145 - INFO - Launching Edge Browser
+2026-05-21 22:21:46,926 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:21:54,227 - INFO - Popup closed successfully
+2026-05-21 22:21:54,556 - INFO - 99acres application launched
+2026-05-21 22:21:54,558 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:21:54,583 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:21:54,850 - INFO - Hovered on login icon
+2026-05-21 22:21:54,850 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:21:54,888 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:21:54,917 - INFO - Login button clicked
+2026-05-21 22:21:54,917 - INFO - Clicked on login button
+2026-05-21 22:21:55,545 - INFO - Screenshot saved at: reports/screenshots/login_mobile_field_20260521_222155.png
+2026-05-21 22:21:55,545 - INFO - Mobile number field verified
+2026-05-21 22:21:55,546 - INFO - Scenario Status : Status.passed
+2026-05-21 22:21:55,546 - INFO - SCENARIO PASSED : Open 99acres login popup
+2026-05-21 22:21:57,944 - INFO - Browser Closed Successfully
+2026-05-21 22:21:57,945 - INFO - ========================================
+2026-05-21 22:21:57,965 - INFO - ========================================
+2026-05-21 22:21:57,966 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:21:57,967 - INFO - Browser fetched : edge
+2026-05-21 22:21:57,967 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:21:57,968 - INFO - Implicit wait fetched : 5
+2026-05-21 22:21:57,969 - INFO - Headless mode : False
+2026-05-21 22:21:57,977 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:21:57,978 - INFO - Launching Edge Browser
+2026-05-21 22:22:03,665 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:22:12,432 - INFO - Popup closed successfully
+2026-05-21 22:22:12,812 - INFO - 99acres application launched
+2026-05-21 22:22:12,815 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:22:12,844 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:22:13,127 - INFO - Hovered on login icon
+2026-05-21 22:22:13,128 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:22:13,173 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:22:13,208 - INFO - Login button clicked
+2026-05-21 22:22:13,208 - INFO - Clicked on login button
+2026-05-21 22:22:13,209 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:22:13,690 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:22:13,858 - INFO - Mobile number entered
+2026-05-21 22:22:13,858 - INFO - Entered mobile number : 8299062481
+2026-05-21 22:22:13,860 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:22:14,425 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:22:14,678 - INFO - Continue button clicked
+2026-05-21 22:22:14,678 - INFO - Clicked continue button
+2026-05-21 22:22:14,681 - INFO - Waiting for element presence : ('xpath', "//input[@type='tel' or @autocomplete='one-time-code']")
+2026-05-21 22:22:25,248 - ERROR - Timeout waiting for presence : ('xpath', "//input[@type='tel' or @autocomplete='one-time-code']")
+2026-05-21 22:22:25,248 - INFO - OTP input was not detected; login popup may use segmented OTP fields
+2026-05-21 22:22:25,524 - INFO - Screenshot saved at: reports/screenshots/otp_screen_20260521_222225.png
+2026-05-21 22:22:25,525 - INFO - OTP screen displayed successfully
+2026-05-21 22:22:25,525 - INFO - Scenario Status : Status.passed
+2026-05-21 22:22:25,526 - INFO - SCENARIO PASSED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:22:27,869 - INFO - Browser Closed Successfully
+2026-05-21 22:22:27,869 - INFO - ========================================
+2026-05-21 22:22:27,871 - INFO - ========================================
+2026-05-21 22:22:27,871 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:22:27,871 - INFO - Browser fetched : edge
+2026-05-21 22:22:27,871 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:22:27,871 - INFO - Implicit wait fetched : 5
+2026-05-21 22:22:27,871 - INFO - Headless mode : False
+2026-05-21 22:22:27,872 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:22:27,872 - INFO - Launching Edge Browser
+2026-05-21 22:22:35,112 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:22:41,266 - INFO - Popup closed successfully
+2026-05-21 22:22:41,584 - INFO - 99acres application launched
+2026-05-21 22:22:41,585 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:22:52,176 - ERROR - Timeout waiting for clickable : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:22:52,190 - INFO - Scenario Status : Status.error
+2026-05-21 22:22:52,190 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:22:52,422 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_222252.png
+2026-05-21 22:22:52,422 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_222252.png
+2026-05-21 22:22:54,773 - INFO - Browser Closed Successfully
+2026-05-21 22:22:54,773 - INFO - ========================================
+2026-05-21 22:25:20,095 - INFO - Timeout fetched : 10
+2026-05-21 22:25:20,105 - INFO - Loading test data before execution
+2026-05-21 22:25:20,106 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 22:25:20,112 - INFO - ========================================
+2026-05-21 22:25:20,112 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:25:20,112 - INFO - Browser fetched : edge
+2026-05-21 22:25:20,112 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:25:20,112 - INFO - Implicit wait fetched : 5
+2026-05-21 22:25:20,112 - INFO - Headless mode : False
+2026-05-21 22:25:20,113 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:25:20,113 - INFO - Launching Edge Browser
+2026-05-21 22:25:24,747 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:25:30,854 - INFO - Popup closed successfully
+2026-05-21 22:25:31,201 - INFO - 99acres application launched
+2026-05-21 22:25:31,203 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:25:31,229 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:25:31,498 - INFO - Hovered on login icon
+2026-05-21 22:25:31,498 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:25:31,535 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:25:31,562 - INFO - Login button clicked
+2026-05-21 22:25:31,562 - INFO - Clicked on login button
+2026-05-21 22:25:32,286 - INFO - Screenshot saved at: reports/screenshots/login_mobile_field_20260521_222532.png
+2026-05-21 22:25:32,286 - INFO - Mobile number field verified
+2026-05-21 22:25:32,287 - INFO - Scenario Status : Status.passed
+2026-05-21 22:25:32,287 - INFO - SCENARIO PASSED : Open 99acres login popup
+2026-05-21 22:25:34,652 - INFO - Browser Closed Successfully
+2026-05-21 22:25:34,652 - INFO - ========================================
+2026-05-21 22:25:34,656 - INFO - ========================================
+2026-05-21 22:25:34,656 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:25:34,656 - INFO - Browser fetched : edge
+2026-05-21 22:25:34,656 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:25:34,657 - INFO - Implicit wait fetched : 5
+2026-05-21 22:25:34,657 - INFO - Headless mode : False
+2026-05-21 22:25:34,658 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:25:34,658 - INFO - Launching Edge Browser
+2026-05-21 22:25:36,185 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:25:45,850 - INFO - Popup closed successfully
+2026-05-21 22:25:46,184 - INFO - 99acres application launched
+2026-05-21 22:25:46,185 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:25:46,210 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:25:46,507 - INFO - Hovered on login icon
+2026-05-21 22:25:46,507 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:25:46,602 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:25:46,632 - INFO - Login button clicked
+2026-05-21 22:25:46,632 - INFO - Clicked on login button
+2026-05-21 22:25:46,634 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:25:46,890 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:25:47,031 - INFO - Mobile number entered
+2026-05-21 22:25:47,031 - INFO - Entered mobile number : 8299062481
+2026-05-21 22:25:47,033 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:25:47,595 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:25:47,863 - INFO - Continue button clicked
+2026-05-21 22:25:47,863 - INFO - Clicked continue button
+2026-05-21 22:25:47,865 - INFO - Waiting for element presence : ('xpath', "//input[@type='tel' or @autocomplete='one-time-code']")
+2026-05-21 22:25:58,483 - ERROR - Timeout waiting for presence : ('xpath', "//input[@type='tel' or @autocomplete='one-time-code']")
+2026-05-21 22:25:58,484 - INFO - OTP input was not detected; login popup may use segmented OTP fields
+2026-05-21 22:25:58,726 - INFO - Screenshot saved at: reports/screenshots/otp_screen_20260521_222558.png
+2026-05-21 22:25:58,726 - INFO - OTP screen displayed successfully
+2026-05-21 22:25:58,727 - INFO - Scenario Status : Status.passed
+2026-05-21 22:25:58,727 - INFO - SCENARIO PASSED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:26:01,285 - INFO - Browser Closed Successfully
+2026-05-21 22:26:01,286 - INFO - ========================================
+2026-05-21 22:26:01,289 - INFO - ========================================
+2026-05-21 22:26:01,289 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:26:01,289 - INFO - Browser fetched : edge
+2026-05-21 22:26:01,289 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:26:01,289 - INFO - Implicit wait fetched : 5
+2026-05-21 22:26:01,289 - INFO - Headless mode : False
+2026-05-21 22:26:01,291 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:26:01,291 - INFO - Launching Edge Browser
+2026-05-21 22:26:08,732 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:26:14,739 - INFO - Popup closed successfully
+2026-05-21 22:26:15,074 - INFO - 99acres application launched
+2026-05-21 22:26:15,075 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:26:15,312 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:26:15,593 - INFO - Hovered on login icon
+2026-05-21 22:26:15,593 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:26:30,771 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:26:30,784 - INFO - Scenario Status : Status.error
+2026-05-21 22:26:30,784 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:26:31,020 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_222630.png
+2026-05-21 22:26:31,020 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_222630.png
+2026-05-21 22:26:33,352 - INFO - Browser Closed Successfully
+2026-05-21 22:26:33,353 - INFO - ========================================
+2026-05-21 22:30:11,110 - INFO - Timeout fetched : 10
+2026-05-21 22:30:11,121 - INFO - Loading test data before execution
+2026-05-21 22:30:11,122 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 22:30:11,126 - INFO - ========================================
+2026-05-21 22:30:11,126 - INFO - STARTING SCENARIO : Open 99acres login popup
+2026-05-21 22:30:11,126 - INFO - Browser fetched : edge
+2026-05-21 22:30:11,126 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:30:11,126 - INFO - Implicit wait fetched : 5
+2026-05-21 22:30:11,126 - INFO - Headless mode : False
+2026-05-21 22:30:11,127 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:30:11,127 - INFO - Launching Edge Browser
+2026-05-21 22:30:16,395 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:30:23,671 - INFO - Popup closed successfully
+2026-05-21 22:30:24,003 - INFO - 99acres application launched
+2026-05-21 22:30:24,005 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:30:24,036 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:30:24,320 - INFO - Hovered on login icon
+2026-05-21 22:30:24,320 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:30:24,359 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:30:24,388 - INFO - Login button clicked
+2026-05-21 22:30:24,388 - INFO - Clicked on login button
+2026-05-21 22:30:25,069 - INFO - Screenshot saved at: reports/screenshots/login_mobile_field_20260521_223024.png
+2026-05-21 22:30:25,069 - INFO - Mobile number field verified
+2026-05-21 22:30:25,069 - INFO - Scenario Status : Status.passed
+2026-05-21 22:30:25,069 - INFO - SCENARIO PASSED : Open 99acres login popup
+2026-05-21 22:30:27,443 - INFO - Browser Closed Successfully
+2026-05-21 22:30:27,443 - INFO - ========================================
+2026-05-21 22:30:27,446 - INFO - ========================================
+2026-05-21 22:30:27,446 - INFO - STARTING SCENARIO : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:30:27,446 - INFO - Browser fetched : edge
+2026-05-21 22:30:27,446 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:30:27,446 - INFO - Implicit wait fetched : 5
+2026-05-21 22:30:27,446 - INFO - Headless mode : False
+2026-05-21 22:30:27,447 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:30:27,447 - INFO - Launching Edge Browser
+2026-05-21 22:30:33,205 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:30:39,293 - INFO - Popup closed successfully
+2026-05-21 22:30:39,618 - INFO - 99acres application launched
+2026-05-21 22:30:39,619 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:30:39,644 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:30:39,942 - INFO - Hovered on login icon
+2026-05-21 22:30:39,942 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:30:39,976 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:30:40,009 - INFO - Login button clicked
+2026-05-21 22:30:40,009 - INFO - Clicked on login button
+2026-05-21 22:30:40,012 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:30:40,774 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:30:40,899 - INFO - Mobile number entered
+2026-05-21 22:30:40,899 - INFO - Entered mobile number : 8299062481
+2026-05-21 22:30:40,900 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:30:41,640 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:30:41,894 - INFO - Continue button clicked
+2026-05-21 22:30:42,187 - ERROR - Session expired message displayed
+2026-05-21 22:30:43,468 - INFO - Page refreshed due to session expiration
+2026-05-21 22:30:43,468 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:30:43,648 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:30:43,934 - INFO - Hovered on login icon
+2026-05-21 22:30:43,934 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:30:43,966 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:30:44,024 - INFO - Login button clicked
+2026-05-21 22:30:44,024 - INFO - Clicked continue button
+2026-05-21 22:30:44,025 - INFO - Waiting for element presence : ('xpath', "//input[@type='tel' or @autocomplete='one-time-code']")
+2026-05-21 22:30:54,570 - ERROR - Timeout waiting for presence : ('xpath', "//input[@type='tel' or @autocomplete='one-time-code']")
+2026-05-21 22:30:54,570 - INFO - OTP input was not detected; login popup may use segmented OTP fields
+2026-05-21 22:30:54,818 - INFO - Screenshot saved at: reports/screenshots/otp_screen_20260521_223054.png
+2026-05-21 22:30:54,818 - INFO - OTP screen displayed successfully
+2026-05-21 22:30:54,819 - INFO - Scenario Status : Status.passed
+2026-05-21 22:30:54,819 - INFO - SCENARIO PASSED : Enter valid mobile number and continue to OTP screen
+2026-05-21 22:30:57,196 - INFO - Browser Closed Successfully
+2026-05-21 22:30:57,196 - INFO - ========================================
+2026-05-21 22:30:57,198 - INFO - ========================================
+2026-05-21 22:30:57,198 - INFO - STARTING SCENARIO : Complete login with manually entered OTP
+2026-05-21 22:30:57,199 - INFO - Browser fetched : edge
+2026-05-21 22:30:57,199 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:30:57,199 - INFO - Implicit wait fetched : 5
+2026-05-21 22:30:57,199 - INFO - Headless mode : False
+2026-05-21 22:30:57,200 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:30:57,200 - INFO - Launching Edge Browser
+2026-05-21 22:30:58,765 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:31:10,366 - INFO - Popup closed successfully
+2026-05-21 22:31:10,720 - INFO - 99acres application launched
+2026-05-21 22:31:10,721 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:31:10,746 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:31:11,016 - INFO - Hovered on login icon
+2026-05-21 22:31:11,017 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:31:11,053 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:31:11,084 - INFO - Login button clicked
+2026-05-21 22:31:11,084 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:31:11,570 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber' or @placeholder='Phone Number' or @title='Phone Number' or @type='tel']")
+2026-05-21 22:31:11,711 - INFO - Mobile number entered
+2026-05-21 22:31:11,712 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:31:12,482 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 22:31:12,754 - INFO - Continue button clicked
+2026-05-21 22:31:13,042 - ERROR - Session expired message displayed
+2026-05-21 22:31:14,063 - INFO - Page refreshed due to session expiration
+2026-05-21 22:31:14,063 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:31:14,237 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') or contains(@class,'user') or contains(@class,'profile')]")
+2026-05-21 22:31:14,529 - INFO - Hovered on login icon
+2026-05-21 22:31:14,529 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:31:14,563 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 22:31:14,635 - INFO - Login button clicked
+2026-05-21 22:31:19,701 - INFO - Submitted mobile number for OTP
+2026-05-21 22:31:19,702 - INFO - Waiting up to 20 seconds for manual OTP entry
+2026-05-21 22:31:40,407 - ERROR - OTP was not completed before wait time ended
+2026-05-21 22:31:40,654 - INFO - Screenshot saved at: reports/screenshots/manual_otp_entry_20260521_223140.png
+2026-05-21 22:31:40,655 - INFO - Manual OTP entry completed
+2026-05-21 22:31:50,730 - ERROR - Login overlay is still open after manual OTP wait
+2026-05-21 22:31:50,738 - INFO - Scenario Status : Status.failed
+2026-05-21 22:31:50,738 - ERROR - SCENARIO FAILED : Complete login with manually entered OTP
+2026-05-21 22:31:51,054 - INFO - Screenshot saved at: reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_223150.png
+2026-05-21 22:31:51,054 - INFO - Screenshot Saved : reports/screenshots/Complete_login_with_manually_entered_OTP_20260521_223150.png
+2026-05-21 22:31:53,446 - INFO - Browser Closed Successfully
+2026-05-21 22:31:53,446 - INFO - ========================================
+2026-05-21 22:43:35,088 - INFO - Timeout fetched : 10
+2026-05-21 22:43:35,108 - INFO - Loading test data before execution
+2026-05-21 22:43:35,110 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 22:43:35,116 - INFO - ========================================
+2026-05-21 22:43:35,116 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 22:43:35,116 - INFO - Browser fetched : edge
+2026-05-21 22:43:35,116 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:43:35,116 - INFO - Implicit wait fetched : 5
+2026-05-21 22:43:35,116 - INFO - Headless mode : False
+2026-05-21 22:43:35,117 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:43:35,117 - INFO - Launching Edge Browser
+2026-05-21 22:43:38,604 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:43:47,541 - INFO - Popup closed successfully
+2026-05-21 22:43:49,402 - INFO - 99acres application launched
+2026-05-21 22:43:49,539 - INFO - Scenario Status : Status.error
+2026-05-21 22:43:49,540 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-21 22:43:50,676 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260521_224349.png
+2026-05-21 22:43:50,677 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260521_224349.png
+2026-05-21 22:43:53,227 - INFO - Browser Closed Successfully
+2026-05-21 22:43:53,228 - INFO - ========================================
+2026-05-21 22:43:53,234 - INFO - ========================================
+2026-05-21 22:43:53,235 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-21 22:43:53,235 - INFO - Browser fetched : edge
+2026-05-21 22:43:53,235 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:43:53,235 - INFO - Implicit wait fetched : 5
+2026-05-21 22:43:53,235 - INFO - Headless mode : False
+2026-05-21 22:43:53,237 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:43:53,237 - INFO - Launching Edge Browser
+2026-05-21 22:43:59,457 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:44:05,455 - INFO - Popup closed successfully
+2026-05-21 22:44:06,083 - INFO - 99acres application launched
+2026-05-21 22:44:06,087 - INFO - Scenario Status : Status.error
+2026-05-21 22:44:06,087 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.1 
+2026-05-21 22:44:06,352 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_224406.png
+2026-05-21 22:44:06,352 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_224406.png
+2026-05-21 22:44:08,689 - INFO - Browser Closed Successfully
+2026-05-21 22:44:08,691 - INFO - ========================================
+2026-05-21 22:44:08,726 - INFO - ========================================
+2026-05-21 22:44:08,727 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-21 22:44:08,727 - INFO - Browser fetched : edge
+2026-05-21 22:44:08,728 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:44:08,729 - INFO - Implicit wait fetched : 5
+2026-05-21 22:44:08,730 - INFO - Headless mode : False
+2026-05-21 22:44:08,741 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:44:08,742 - INFO - Launching Edge Browser
+2026-05-21 22:44:14,334 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:44:23,512 - INFO - Popup closed successfully
+2026-05-21 22:44:23,887 - INFO - 99acres application launched
+2026-05-21 22:44:23,891 - INFO - Scenario Status : Status.error
+2026-05-21 22:44:23,891 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.2 
+2026-05-21 22:44:24,167 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_224423.png
+2026-05-21 22:44:24,167 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_224423.png
+2026-05-21 22:44:26,446 - INFO - Browser Closed Successfully
+2026-05-21 22:44:26,446 - INFO - ========================================
+2026-05-21 22:44:26,451 - INFO - ========================================
+2026-05-21 22:44:26,451 - INFO - STARTING SCENARIO : Verify View Number button opens login popup
+2026-05-21 22:44:26,451 - INFO - Browser fetched : edge
+2026-05-21 22:44:26,451 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:44:26,451 - INFO - Implicit wait fetched : 5
+2026-05-21 22:44:26,451 - INFO - Headless mode : False
+2026-05-21 22:44:26,452 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:44:26,452 - INFO - Launching Edge Browser
+2026-05-21 22:44:27,796 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:44:37,978 - INFO - Popup closed successfully
+2026-05-21 22:44:38,317 - INFO - 99acres application launched
+2026-05-21 22:44:46,095 - INFO - Opened commercial property page for Noida
+2026-05-21 22:44:46,110 - INFO - Scenario Status : Status.error
+2026-05-21 22:44:46,110 - ERROR - SCENARIO FAILED : Verify View Number button opens login popup
+2026-05-21 22:44:46,452 - INFO - Screenshot saved at: reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_224446.png
+2026-05-21 22:44:46,452 - INFO - Screenshot Saved : reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_224446.png
+2026-05-21 22:44:49,056 - INFO - Browser Closed Successfully
+2026-05-21 22:44:49,058 - INFO - ========================================
+2026-05-21 22:44:49,117 - INFO - ========================================
+2026-05-21 22:44:49,118 - INFO - STARTING SCENARIO : Search invalid commercial location
+2026-05-21 22:44:49,119 - INFO - Browser fetched : edge
+2026-05-21 22:44:49,120 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:44:49,122 - INFO - Implicit wait fetched : 5
+2026-05-21 22:44:49,124 - INFO - Headless mode : False
+2026-05-21 22:44:49,135 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:44:49,136 - INFO - Launching Edge Browser
+2026-05-21 22:44:54,229 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:45:00,562 - INFO - Popup closed successfully
+2026-05-21 22:45:00,940 - INFO - 99acres application launched
+2026-05-21 22:45:00,944 - INFO - Scenario Status : Status.error
+2026-05-21 22:45:00,944 - ERROR - SCENARIO FAILED : Search invalid commercial location
+2026-05-21 22:45:01,522 - INFO - Screenshot saved at: reports/screenshots/Search_invalid_commercial_location_20260521_224500.png
+2026-05-21 22:45:01,522 - INFO - Screenshot Saved : reports/screenshots/Search_invalid_commercial_location_20260521_224500.png
+2026-05-21 22:45:03,946 - INFO - Browser Closed Successfully
+2026-05-21 22:45:03,947 - INFO - ========================================
+2026-05-21 22:45:03,983 - INFO - ========================================
+2026-05-21 22:45:03,984 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.1 
+2026-05-21 22:45:03,985 - INFO - Browser fetched : edge
+2026-05-21 22:45:03,985 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:45:03,986 - INFO - Implicit wait fetched : 5
+2026-05-21 22:45:03,987 - INFO - Headless mode : False
+2026-05-21 22:45:03,997 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:45:03,998 - INFO - Launching Edge Browser
+2026-05-21 22:45:09,517 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:45:17,538 - INFO - Popup closed successfully
+2026-05-21 22:45:17,862 - INFO - 99acres application launched
+2026-05-21 22:45:18,993 - INFO - Scenario Status : Status.error
+2026-05-21 22:45:18,993 - ERROR - SCENARIO FAILED : Open invalid commercial URL -- @1.1 
+2026-05-21 22:45:19,121 - INFO - Screenshot saved at: reports/screenshots/Open_invalid_commercial_URL_--_@1.1__20260521_224518.png
+2026-05-21 22:45:19,121 - INFO - Screenshot Saved : reports/screenshots/Open_invalid_commercial_URL_--_@1.1__20260521_224518.png
+2026-05-21 22:45:21,445 - INFO - Browser Closed Successfully
+2026-05-21 22:45:21,446 - INFO - ========================================
+2026-05-21 22:45:21,475 - INFO - ========================================
+2026-05-21 22:45:21,476 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.2 
+2026-05-21 22:45:21,477 - INFO - Browser fetched : edge
+2026-05-21 22:45:21,478 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:45:21,479 - INFO - Implicit wait fetched : 5
+2026-05-21 22:45:21,479 - INFO - Headless mode : False
+2026-05-21 22:45:21,487 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:45:21,488 - INFO - Launching Edge Browser
+2026-05-21 22:45:27,644 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:45:33,692 - INFO - Popup closed successfully
+2026-05-21 22:45:34,023 - INFO - 99acres application launched
+2026-05-21 22:45:35,616 - INFO - Scenario Status : Status.error
+2026-05-21 22:45:35,618 - ERROR - SCENARIO FAILED : Open invalid commercial URL -- @1.2 
+2026-05-21 22:45:36,392 - INFO - Screenshot saved at: reports/screenshots/Open_invalid_commercial_URL_--_@1.2__20260521_224535.png
+2026-05-21 22:45:36,394 - INFO - Screenshot Saved : reports/screenshots/Open_invalid_commercial_URL_--_@1.2__20260521_224535.png
+2026-05-21 22:45:41,836 - INFO - Browser Closed Successfully
+2026-05-21 22:45:41,836 - INFO - ========================================
+2026-05-21 22:52:28,501 - INFO - Timeout fetched : 10
+2026-05-21 22:52:28,549 - INFO - Loading test data before execution
+2026-05-21 22:52:28,551 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-21 22:52:28,556 - INFO - ========================================
+2026-05-21 22:52:28,556 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-21 22:52:28,557 - INFO - Browser fetched : edge
+2026-05-21 22:52:28,557 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:52:28,557 - INFO - Implicit wait fetched : 5
+2026-05-21 22:52:28,557 - INFO - Headless mode : False
+2026-05-21 22:52:28,557 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:52:28,557 - INFO - Launching Edge Browser
+2026-05-21 22:52:31,604 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:52:37,238 - INFO - Popup closed successfully
+2026-05-21 22:52:37,581 - INFO - 99acres application launched
+2026-05-21 22:52:37,585 - INFO - Opening Commercial tab
+2026-05-21 22:52:37,585 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:52:37,627 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:52:37,628 - INFO - Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:52:37,683 - INFO - Commercial tab opened successfully
+2026-05-21 22:52:37,998 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260521_225237.png
+2026-05-21 22:52:37,998 - INFO - Commercial tab opened successfully
+2026-05-21 22:52:37,999 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@type,'text')]")
+2026-05-21 22:52:48,081 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@type,'text')]")
+2026-05-21 22:52:48,089 - INFO - Scenario Status : Status.error
+2026-05-21 22:52:48,089 - ERROR - SCENARIO FAILED : Search commercial property by location
+2026-05-21 22:52:48,334 - INFO - Screenshot saved at: reports/screenshots/Search_commercial_property_by_location_20260521_225248.png
+2026-05-21 22:52:48,334 - INFO - Screenshot Saved : reports/screenshots/Search_commercial_property_by_location_20260521_225248.png
+2026-05-21 22:52:50,635 - INFO - Browser Closed Successfully
+2026-05-21 22:52:50,635 - INFO - ========================================
+2026-05-21 22:52:50,640 - INFO - ========================================
+2026-05-21 22:52:50,640 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-21 22:52:50,641 - INFO - Browser fetched : edge
+2026-05-21 22:52:50,641 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:52:50,641 - INFO - Implicit wait fetched : 5
+2026-05-21 22:52:50,641 - INFO - Headless mode : False
+2026-05-21 22:52:50,642 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:52:50,642 - INFO - Launching Edge Browser
+2026-05-21 22:52:56,507 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:53:02,954 - INFO - Popup closed successfully
+2026-05-21 22:53:03,277 - INFO - 99acres application launched
+2026-05-21 22:53:03,278 - INFO - Opening Commercial tab
+2026-05-21 22:53:03,278 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:53:03,311 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:53:03,312 - INFO - Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:53:03,337 - INFO - Commercial tab opened successfully
+2026-05-21 22:53:03,668 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260521_225303.png
+2026-05-21 22:53:03,668 - INFO - Commercial tab opened successfully
+2026-05-21 22:53:03,670 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-21 22:53:14,126 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-21 22:53:14,131 - INFO - Scenario Status : Status.error
+2026-05-21 22:53:14,131 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.1 
+2026-05-21 22:53:14,362 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_225314.png
+2026-05-21 22:53:14,362 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.1__20260521_225314.png
+2026-05-21 22:53:16,726 - INFO - Browser Closed Successfully
+2026-05-21 22:53:16,726 - INFO - ========================================
+2026-05-21 22:53:16,731 - INFO - ========================================
+2026-05-21 22:53:16,731 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-21 22:53:16,732 - INFO - Browser fetched : edge
+2026-05-21 22:53:16,732 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:53:16,732 - INFO - Implicit wait fetched : 5
+2026-05-21 22:53:16,732 - INFO - Headless mode : False
+2026-05-21 22:53:16,733 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:53:16,733 - INFO - Launching Edge Browser
+2026-05-21 22:53:19,580 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:53:28,030 - INFO - Popup closed successfully
+2026-05-21 22:53:28,354 - INFO - 99acres application launched
+2026-05-21 22:53:28,355 - INFO - Opening Commercial tab
+2026-05-21 22:53:28,355 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:53:28,391 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:53:28,391 - INFO - Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:53:28,451 - INFO - Commercial tab opened successfully
+2026-05-21 22:53:28,846 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260521_225328.png
+2026-05-21 22:53:28,846 - INFO - Commercial tab opened successfully
+2026-05-21 22:53:28,847 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-21 22:53:39,326 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-21 22:53:39,330 - INFO - Scenario Status : Status.error
+2026-05-21 22:53:39,330 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.2 
+2026-05-21 22:53:39,560 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_225339.png
+2026-05-21 22:53:39,560 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260521_225339.png
+2026-05-21 22:53:41,905 - INFO - Browser Closed Successfully
+2026-05-21 22:53:41,905 - INFO - ========================================
+2026-05-21 22:53:41,910 - INFO - ========================================
+2026-05-21 22:53:41,910 - INFO - STARTING SCENARIO : Verify View Number button opens login popup
+2026-05-21 22:53:41,911 - INFO - Browser fetched : edge
+2026-05-21 22:53:41,911 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:53:41,911 - INFO - Implicit wait fetched : 5
+2026-05-21 22:53:41,911 - INFO - Headless mode : False
+2026-05-21 22:53:41,912 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:53:41,912 - INFO - Launching Edge Browser
+2026-05-21 22:53:47,479 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:53:53,532 - INFO - Popup closed successfully
+2026-05-21 22:53:53,850 - INFO - 99acres application launched
+2026-05-21 22:53:58,176 - INFO - Opened commercial property page for Noida
+2026-05-21 22:53:58,182 - INFO - Scenario Status : Status.error
+2026-05-21 22:53:58,182 - ERROR - SCENARIO FAILED : Verify View Number button opens login popup
+2026-05-21 22:53:58,460 - INFO - Screenshot saved at: reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_225358.png
+2026-05-21 22:53:58,460 - INFO - Screenshot Saved : reports/screenshots/Verify_View_Number_button_opens_login_popup_20260521_225358.png
+2026-05-21 22:54:00,991 - INFO - Browser Closed Successfully
+2026-05-21 22:54:00,991 - INFO - ========================================
+2026-05-21 22:54:01,019 - INFO - ========================================
+2026-05-21 22:54:01,020 - INFO - STARTING SCENARIO : Search invalid commercial location
+2026-05-21 22:54:01,020 - INFO - Browser fetched : edge
+2026-05-21 22:54:01,021 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:54:01,021 - INFO - Implicit wait fetched : 5
+2026-05-21 22:54:01,022 - INFO - Headless mode : False
+2026-05-21 22:54:01,028 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:54:01,029 - INFO - Launching Edge Browser
+2026-05-21 22:54:06,828 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:54:13,038 - INFO - Popup closed successfully
+2026-05-21 22:54:13,378 - INFO - 99acres application launched
+2026-05-21 22:54:13,379 - INFO - Opening Commercial tab
+2026-05-21 22:54:13,379 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:54:13,509 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:54:13,509 - INFO - Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 22:54:13,538 - INFO - Commercial tab opened successfully
+2026-05-21 22:54:13,868 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260521_225413.png
+2026-05-21 22:54:13,868 - INFO - Commercial tab opened successfully
+2026-05-21 22:54:13,869 - INFO - Waiting for element clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@type,'text')]")
+2026-05-21 22:54:24,376 - ERROR - Timeout waiting for clickable : ('xpath', "//input[contains(@placeholder,'Search') or contains(@type,'text')]")
+2026-05-21 22:54:24,380 - INFO - Scenario Status : Status.error
+2026-05-21 22:54:24,380 - ERROR - SCENARIO FAILED : Search invalid commercial location
+2026-05-21 22:54:24,621 - INFO - Screenshot saved at: reports/screenshots/Search_invalid_commercial_location_20260521_225424.png
+2026-05-21 22:54:24,622 - INFO - Screenshot Saved : reports/screenshots/Search_invalid_commercial_location_20260521_225424.png
+2026-05-21 22:54:26,943 - INFO - Browser Closed Successfully
+2026-05-21 22:54:26,943 - INFO - ========================================
+2026-05-21 22:54:26,948 - INFO - ========================================
+2026-05-21 22:54:26,948 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.1 
+2026-05-21 22:54:26,948 - INFO - Browser fetched : edge
+2026-05-21 22:54:26,948 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:54:26,948 - INFO - Implicit wait fetched : 5
+2026-05-21 22:54:26,948 - INFO - Headless mode : False
+2026-05-21 22:54:26,949 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:54:26,949 - INFO - Launching Edge Browser
+2026-05-21 22:54:32,353 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:54:38,347 - INFO - Popup closed successfully
+2026-05-21 22:54:38,663 - INFO - 99acres application launched
+2026-05-21 22:54:39,578 - INFO - Scenario Status : Status.error
+2026-05-21 22:54:39,578 - ERROR - SCENARIO FAILED : Open invalid commercial URL -- @1.1 
+2026-05-21 22:54:39,695 - INFO - Screenshot saved at: reports/screenshots/Open_invalid_commercial_URL_--_@1.1__20260521_225439.png
+2026-05-21 22:54:39,695 - INFO - Screenshot Saved : reports/screenshots/Open_invalid_commercial_URL_--_@1.1__20260521_225439.png
+2026-05-21 22:54:42,071 - INFO - Browser Closed Successfully
+2026-05-21 22:54:42,071 - INFO - ========================================
+2026-05-21 22:54:42,075 - INFO - ========================================
+2026-05-21 22:54:42,075 - INFO - STARTING SCENARIO : Open invalid commercial URL -- @1.2 
+2026-05-21 22:54:42,075 - INFO - Browser fetched : edge
+2026-05-21 22:54:42,075 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 22:54:42,076 - INFO - Implicit wait fetched : 5
+2026-05-21 22:54:42,076 - INFO - Headless mode : False
+2026-05-21 22:54:42,077 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-21 22:54:42,077 - INFO - Launching Edge Browser
+2026-05-21 22:54:47,345 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 22:54:53,271 - INFO - Popup closed successfully
+2026-05-21 22:54:53,616 - INFO - 99acres application launched
+2026-05-21 22:54:54,530 - INFO - Scenario Status : Status.error
+2026-05-21 22:54:54,530 - ERROR - SCENARIO FAILED : Open invalid commercial URL -- @1.2 
+2026-05-21 22:54:54,656 - INFO - Screenshot saved at: reports/screenshots/Open_invalid_commercial_URL_--_@1.2__20260521_225454.png
+2026-05-21 22:54:54,656 - INFO - Screenshot Saved : reports/screenshots/Open_invalid_commercial_URL_--_@1.2__20260521_225454.png
+2026-05-21 22:54:57,032 - INFO - Browser Closed Successfully
+2026-05-21 22:54:57,033 - INFO - ========================================

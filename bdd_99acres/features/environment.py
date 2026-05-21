@@ -7,10 +7,21 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.edge.options import Options as EdgeOptions
 
+
 logger = LogGen.loggen()
 
+
 def before_all(context):
-    context.test_data = CSVReader.first_row("test_data/login_data.csv")
+
+    logger.info("Loading test data before execution")
+
+    context.login_data = CSVReader.first_row(
+        "test_data/login_data.csv"
+    )
+
+    logger.info(
+        f"Login test data loaded : {context.login_data}"
+    )
 
 
 def before_scenario(context, scenario):
@@ -20,74 +31,60 @@ def before_scenario(context, scenario):
         f"STARTING SCENARIO : {scenario.name}"
     )
 
-    # Read Configurations
     browser = ConfigReader.get_browser()
     base_url = ConfigReader.get_base_url()
     implicit_wait = ConfigReader.get_implicit_wait()
     headless = ConfigReader.get_headless()
 
-    # Store values in context
     context.base_url = base_url
 
     login_data = CSVReader.first_row(
         "test_data/login_data.csv"
     )
 
+    context.test_data = login_data
+
     context.mobile_number = (
         login_data["mobile_number"]
     )
 
-    # Chrome Setup
+    context.test_data["mobile"] = (
+        login_data["mobile_number"]
+    )
+
+    logger.info(
+        f"Mobile number loaded from CSV : {context.mobile_number}"
+    )
+
     if browser.lower() == "chrome":
 
         logger.info("Launching Chrome Browser")
 
         chrome_options = Options()
 
-        chrome_options.add_argument(
-            "--disable-notifications"
-        )
-
-        chrome_options.add_argument(
-            "--disable-infobars"
-        )
-
-        chrome_options.add_argument(
-            "--disable-extensions"
-        )
+        chrome_options.add_argument("--disable-notifications")
+        chrome_options.add_argument("--disable-infobars")
+        chrome_options.add_argument("--disable-extensions")
 
         if headless:
-            chrome_options.add_argument(
-                "--headless"
-            )
+            chrome_options.add_argument("--headless")
 
         context.driver = webdriver.Chrome(
             options=chrome_options
         )
 
-    # Edge Setup
     elif browser.lower() == "edge":
 
         logger.info("Launching Edge Browser")
 
         edge_options = EdgeOptions()
 
-        edge_options.add_argument(
-            "--disable-notifications"
-        )
-
-        edge_options.add_argument(
-            "--disable-infobars"
-        )
-
-        edge_options.add_argument(
-            "--disable-extensions"
-        )
+        edge_options.add_argument("--disable-notifications")
+        edge_options.add_argument("--disable-infobars")
+        edge_options.add_argument("--disable-extensions")
 
         if headless:
-            edge_options.add_argument(
-                "--headless"
-            )
+            edge_options.add_argument("--headless")
 
         context.driver = webdriver.Edge(
             options=edge_options
@@ -105,35 +102,26 @@ def before_scenario(context, scenario):
 
         edge_options = EdgeOptions()
 
-        edge_options.add_argument(
-            "--disable-notifications"
-        )
-
-        edge_options.add_argument(
-            "--disable-infobars"
-        )
-
-        edge_options.add_argument(
-            "--disable-extensions"
-        )
+        edge_options.add_argument("--disable-notifications")
+        edge_options.add_argument("--disable-infobars")
+        edge_options.add_argument("--disable-extensions")
 
         if headless:
-            edge_options.add_argument(
-                "--headless"
-            )
+            edge_options.add_argument("--headless")
 
         context.driver = webdriver.Edge(
             options=edge_options
         )
 
-    # Browser Setup
     context.driver.maximize_window()
 
     context.driver.implicitly_wait(
         implicit_wait
     )
 
-    context.driver.get(base_url)
+    context.driver.get(
+        base_url
+    )
 
     logger.info(
         "Browser Opened & Maximized Successfully"
@@ -146,7 +134,10 @@ def after_scenario(context, scenario):
         f"Scenario Status : {scenario.status}"
     )
 
-    if scenario.status.name == "failed":
+    if (
+        scenario.status.name == "failed"
+        or scenario.status.name == "error"
+    ):
 
         logger.error(
             f"SCENARIO FAILED : {scenario.name}"

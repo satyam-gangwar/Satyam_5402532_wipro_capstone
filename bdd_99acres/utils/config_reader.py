@@ -55,3 +55,7 @@ class ConfigReader:
         )
         logger.info(f"Headless mode : {headless}")
         return headless
+
+    @staticmethod
+    def get_manual_otp_wait():
+        return ConfigReader.config.getint("DEFAULT", "manual_otp_wait")

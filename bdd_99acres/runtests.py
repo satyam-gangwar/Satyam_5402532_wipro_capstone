@@ -3,50 +3,86 @@ import shutil
 from datetime import datetime
 
 from utils.logger import LogGen
+
+
 logger = LogGen.loggen()
 
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-timestamp = datetime.now().strftime(
-    "%Y%m%d_%H%M%S"
-)
 logger.info("========================================")
-logger.info("99Acres AUTOMATION EXECUTION STARTED")
+logger.info(
+    f"99ACRES BDD AUTOMATION EXECUTION STARTED: {timestamp}"
+)
 
-# Clean Old Allure Results
+# ========================================
+# DELETE OLD ALLURE RESULTS
+# ========================================
+
 if os.path.exists("reports/allure-results"):
+
     logger.info(
         "Deleting old allure-results folder"
     )
-    shutil.rmtree("reports/allure-results")
 
+    shutil.rmtree(
+        "reports/allure-results"
+    )
 
-# Clean Old Allure Report
+# ========================================
+# DELETE OLD ALLURE REPORT
+# ========================================
+
 if os.path.exists("reports/allure-report"):
+
     logger.info(
         "Deleting old allure-report folder"
     )
-    shutil.rmtree("reports/allure-report")
 
+    shutil.rmtree(
+        "reports/allure-report"
+    )
 
-# Execute Behave Tests
-logger.info("Starting Behave Test Execution")
-behave_status = os.system("behave")
+# ========================================
+# START BEHAVE EXECUTION
+# ========================================
+
 logger.info(
-    f"Behave Execution Completed "
-    f"with status code : {behave_status}"
+    "Starting Behave test execution for 99acres"
 )
 
+behave_status = os.system(
+    "behave"
+)
 
-# Generate Allure HTML Report
-logger.info("Generating Allure HTML Report")
+logger.info(
+    f"Behave execution completed "
+    f"with status code: {behave_status}"
+)
+
+# ========================================
+# GENERATE ALLURE REPORT
+# ========================================
+
+logger.info(
+    "Generating Allure HTML report"
+)
+
 allure_generate_status = os.system(
     "allure generate reports/allure-results "
     "-o reports/allure-report --clean"
 )
+
 logger.info(
-    f"Allure Report Generated "
-    f"with status code : "
-    f"{allure_generate_status}"
+    f"Allure report generated "
+    f"with status code: {allure_generate_status}"
 )
-logger.info("99Acres AUTOMATION EXECUTION COMPLETED")
+
+# ========================================
+# EXECUTION COMPLETED
+# ========================================
+
+logger.info(
+    "99ACRES BDD AUTOMATION EXECUTION COMPLETED"
+)
+
 logger.info("========================================")

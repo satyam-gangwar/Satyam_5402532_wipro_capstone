@@ -1,8 +1,22 @@
-Feature: 99acres Login
+Feature: 99acres Login Functionality
 
-  Scenario: Login with valid mobile number using OTP
-    Given user launches the 99acres application
-    When user opens the login popup
-    And user enters valid mobile number
-    And user waits for OTP verification
-    Then user should be logged in successfully
+  Background:
+    Given User launches 99acres application
+
+  @login @smoke
+  Scenario: Open 99acres login popup
+    When User clicks on Login button
+    Then Login mobile number field should be displayed
+
+  @login
+  Scenario: Enter valid mobile number and continue to OTP screen
+    When User clicks on Login button
+    And User enters valid mobile number from test data
+    And User clicks Continue button
+    Then OTP screen should be displayed
+
+  @login @manual_otp
+  Scenario: Complete login with manually entered OTP
+    When User submits valid mobile number for OTP
+    And User enters OTP manually
+    Then Login flow should continue after manual OTP entry
