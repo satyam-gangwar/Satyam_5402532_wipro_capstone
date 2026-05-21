@@ -1,0 +1,19 @@
+2026-05-21 09:37:43 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-21 09:37:43 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-21 09:37:44 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-21 09:37:44 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-21 09:37:44 | INFO     | PropertyPage | Disclaimer popup closed
+2026-05-21 09:37:45 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_opened_20260521_093744.png
+2026-05-21 09:37:45 | INFO     | PropertyPage | Trying to click Download Brochure button
+2026-05-21 09:37:45 | INFO     | PropertyPage | Download Brochure button found
+2026-05-21 09:37:45 | INFO     | PropertyPage | Scrolled to Download Brochure button
+2026-05-21 09:37:45 | INFO     | PropertyPage | Clicked on Download Brochure button
+2026-05-21 09:37:45 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_brochure_popup_opened_20260521_093745.png
+2026-05-21 09:37:45 | INFO     | PropertyPage | Trying to fill brochure form
+2026-05-21 09:37:52 | INFO     | PropertyPage | Name field located successfully
+2026-05-21 09:37:52 | INFO     | PropertyPage | Scrolled to name input field
+2026-05-21 09:37:52 | INFO     | PropertyPage | Clicked name input field
+2026-05-21 09:37:53 | INFO     | PropertyPage | Cleared existing name field value
+2026-05-21 09:37:53 | INFO     | PropertyPage | Entered name into brochure form: Satyam Gangwar
+2026-05-21 09:37:55 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestPropertyNavigation_test_download_brochure_button_property_case0_20260521_093753.png
+2026-05-21 09:37:55 | INFO     | pytest | Closing browser after complete test session

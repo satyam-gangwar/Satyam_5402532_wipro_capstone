@@ -1,0 +1,64 @@
+2026-05-20 23:32:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 23:32:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 23:32:04 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 23:32:04 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-20 23:32:04 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-20 23:32:09 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-20 23:32:09 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 23:32:09 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260520_233209.png
+2026-05-20 23:32:09 | INFO     | HomePage | Opening Commercial tab
+2026-05-20 23:32:09 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 23:32:09 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-20 23:32:09 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-20 23:32:09 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-20 23:32:10 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260520_233209.png
+2026-05-20 23:32:10 | INFO     | CommercialPage | Searching commercial property for location: Mumbai
+2026-05-20 23:32:10 | INFO     | CommercialPage | Commercial search input found
+2026-05-20 23:32:10 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-20 23:32:11 | INFO     | CommercialPage | Entered location: Mumbai
+2026-05-20 23:32:11 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-20 23:32:12 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-20 23:32:13 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_Mumbai_20260520_233212.png
+2026-05-20 23:32:13 | INFO     | CommercialPage | Applying commercial filters
+2026-05-20 23:32:13 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-20 23:32:14 | INFO     | CommercialPage | Verified filter selected
+2026-05-20 23:32:16 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-20 23:32:16 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-20 23:32:19 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-20 23:32:20 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-20 23:32:22 | INFO     | CommercialPage | Trying to click: Budget maximum dropdown opened
+2026-05-20 23:32:23 | INFO     | CommercialPage | Budget maximum dropdown opened
+2026-05-20 23:32:25 | INFO     | CommercialPage | Trying to click: Maximum budget 50 Lac selected
+2026-05-20 23:32:30 | INFO     | CommercialPage | Maximum budget 50 Lac selected skipped. Error: Message: 
+
+2026-05-20 23:32:30 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-20 23:32:30 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-20 23:32:32 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-20 23:32:32 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-20 23:32:34 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-20 23:32:40 | INFO     | CommercialPage | 2 BHK selected skipped. Error: Message: 
+
+2026-05-20 23:32:40 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-20 23:32:46 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-20 23:32:46 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-20 23:32:46 | INFO     | CommercialPage | Ready to move selected
+2026-05-20 23:32:48 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-20 23:32:49 | INFO     | CommercialPage | Under Construction selected
+2026-05-20 23:32:51 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-20 23:32:51 | INFO     | CommercialPage | Owner selected
+2026-05-20 23:32:53 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-20 23:33:01 | INFO     | CommercialPage | Central Noida selected skipped. Error: Message: 
+
+2026-05-20 23:33:01 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-20 23:33:08 | INFO     | CommercialPage | Sector 150 selected skipped. Error: Message: 
+
+2026-05-20 23:33:08 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/mumbai?city=12&keyword=Mumbai&property_type=C&preference=S&res_com=R
+2026-05-20 23:33:08 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-20 23:33:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_commercial_filters_applied_Mumbai_20260520_233308.png
+2026-05-20 23:33:08 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-20 23:33:08 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-20 23:33:08 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-20 23:33:08 | INFO     | CommercialPage | Validating location in results: Mumbai
+2026-05-20 23:33:09 | INFO     | CommercialPage | Location found in results: Mumbai
+2026-05-20 23:33:09 | INFO     | commercial_test | Commercial search successful for Mumbai

@@ -60,15 +60,6 @@ class CommercialPage(BasePage):
         "//*[contains(text(),'10 Lac')]"
     )
 
-    BUDGET_MAX = (
-        By.XPATH,
-        "//*[contains(text(),'No max')]"
-    )
-
-    BUDGET_MAX_OPTION = (
-        By.XPATH,
-        "//*[contains(text(),'50 Lac')]"
-    )
 
     APARTMENT_CHECKBOX = (
         By.XPATH,
@@ -258,15 +249,7 @@ class CommercialPage(BasePage):
             "Minimum budget 10 Lac selected"
         )
 
-        self._safe_click(
-            self.BUDGET_MAX,
-            "Budget maximum dropdown opened"
-        )
 
-        self._safe_click(
-            self.BUDGET_MAX_OPTION,
-            "Maximum budget 50 Lac selected"
-        )
 
         self._safe_click(
             self.APARTMENT_CHECKBOX,

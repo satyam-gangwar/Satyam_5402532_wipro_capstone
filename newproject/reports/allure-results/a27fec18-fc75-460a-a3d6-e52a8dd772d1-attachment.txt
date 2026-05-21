@@ -1,0 +1,35 @@
+2026-05-20 23:21:56 | INFO     | pytest | Starting browser: edge
+2026-05-20 23:21:59 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 23:21:59 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-20 23:22:03 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 23:22:03 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-20 23:22:03 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-20 23:22:08 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-20 23:22:08 | INFO     | HomePage | Cookie confirmation accepted
+2026-05-20 23:22:08 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-20 23:22:08 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_01_home_20260520_232208.png
+2026-05-20 23:22:08 | INFO     | e2e | Homepage opened successfully
+2026-05-20 23:22:08 | INFO     | HomePage | Opening login popup
+2026-05-20 23:22:09 | INFO     | HomePage | Hovered on login icon
+2026-05-20 23:22:09 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-20 23:22:09 | INFO     | HomePage | Clicked login/register option
+2026-05-20 23:22:10 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_02_login_popup_20260520_232209.png
+2026-05-20 23:22:10 | INFO     | LoginPage | Checking whether login dialog is displayed
+2026-05-20 23:22:10 | INFO     | e2e | Login popup opened successfully
+2026-05-20 23:22:10 | INFO     | LoginPage | Starting mobile login flow
+2026-05-20 23:22:10 | INFO     | LoginPage | Searching for mobile number input field
+2026-05-20 23:22:10 | INFO     | LoginPage | Finding first visible locator
+2026-05-20 23:22:10 | INFO     | LoginPage | Visible locator found: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-20 23:22:10 | INFO     | LoginPage | Mobile number input found using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-20 23:22:10 | INFO     | LoginPage | Mobile number typed into input field
+2026-05-20 23:22:10 | INFO     | LoginPage | Mobile number entered successfully
+2026-05-20 23:22:10 | INFO     | LoginPage | Checking whether session expired message is displayed
+2026-05-20 23:22:16 | INFO     | LoginPage | Clicked available locator: ('xpath', "//button[normalize-space()='Continue']")
+2026-05-20 23:22:16 | INFO     | LoginPage | Clicked Continue button
+2026-05-20 23:22:16 | INFO     | LoginPage | Checking whether session expired message is displayed
+2026-05-20 23:22:20 | INFO     | LoginPage | Waiting 60 seconds for manual OTP entry
+2026-05-20 23:23:20 | INFO     | e2e | Login process started successfully
+2026-05-20 23:23:21 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_03_login_done_20260520_232320.png
+2026-05-20 23:23:21 | INFO     | e2e | Login process completed
+2026-05-20 23:23:21 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_04_login_success_20260520_232321.png
+2026-05-20 23:23:21 | INFO     | e2e | Login validation completed successfully

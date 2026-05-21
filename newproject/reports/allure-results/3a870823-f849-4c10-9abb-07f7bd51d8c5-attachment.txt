@@ -1,0 +1,4 @@
+2026-05-20 23:34:07 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_invalid_commercial_url_loaded_20260520_233407.png
+2026-05-20 23:34:07 | INFO     | CommercialPage | Invalid search handled with message: invalid
+2026-05-20 23:34:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_invalid_url_handled_20260520_233407.png
+2026-05-20 23:34:08 | INFO     | commercial_test | Invalid URL handled successfully: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123

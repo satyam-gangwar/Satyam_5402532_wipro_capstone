@@ -252,7 +252,7 @@ class TestCommercial:
     @pytest.mark.parametrize(
         "invalid_location",
         [
-            
+
             "xyz123invalid"
         ]
     )
