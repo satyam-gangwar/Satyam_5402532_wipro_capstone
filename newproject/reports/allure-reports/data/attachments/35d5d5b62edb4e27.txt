@@ -1,0 +1,10 @@
+2026-05-21 11:31:31 | INFO     | pytest | Starting browser: edge
+2026-05-21 11:31:33 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-21 11:31:33 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-21 11:31:36 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-21 11:31:36 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-21 11:31:36 | INFO     | PropertyPage | Disclaimer popup closed
+2026-05-21 11:31:36 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_location_page_loaded_20260521_113136.png
+2026-05-21 11:31:37 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_location_visible_20260521_113136.png
+2026-05-21 11:31:37 | INFO     | property | Verified locations: Sector 115, Noida
+2026-05-21 11:31:37 | INFO     | pytest | Closing browser after complete test session

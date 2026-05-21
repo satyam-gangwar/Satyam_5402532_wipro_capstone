@@ -5,7 +5,7 @@
     "password": "",
     "before_mobile_entry_pause_seconds": 0,
     "after_mobile_entry_pause_seconds": 0,
-    "otp_pause_seconds": 60
+    "otp_pause_seconds": 30
   },
   "navigation": {
     "primary_menu_items": [

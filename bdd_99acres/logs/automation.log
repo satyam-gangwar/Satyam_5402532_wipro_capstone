@@ -1,0 +1,294 @@
+2026-05-21 13:59:40,943 - INFO - Timeout fetched : 10
+2026-05-21 13:59:41,170 - INFO - ========================================
+2026-05-21 13:59:41,170 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 13:59:41,170 - INFO - Browser fetched : edge
+2026-05-21 13:59:41,170 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 13:59:41,170 - INFO - Implicit wait fetched : 5
+2026-05-21 13:59:41,170 - INFO - Headless mode : False
+2026-05-21 13:59:41,170 - INFO - Launching Edge Browser
+2026-05-21 13:59:46,646 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 13:59:46,698 - INFO - Scenario Status : Status.error
+2026-05-21 13:59:46,698 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 13:59:51,492 - INFO - Browser Closed Successfully
+2026-05-21 13:59:51,493 - INFO - ========================================
+2026-05-21 14:08:14,561 - INFO - Timeout fetched : 10
+2026-05-21 14:08:14,589 - INFO - ========================================
+2026-05-21 14:08:14,589 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:08:14,589 - INFO - Browser fetched : edge
+2026-05-21 14:08:14,589 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:08:14,589 - INFO - Implicit wait fetched : 5
+2026-05-21 14:08:14,589 - INFO - Headless mode : False
+2026-05-21 14:08:14,589 - INFO - Launching Edge Browser
+2026-05-21 14:08:17,653 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:08:17,673 - INFO - Scenario Status : Status.error
+2026-05-21 14:08:17,674 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:08:20,106 - INFO - Browser Closed Successfully
+2026-05-21 14:08:20,106 - INFO - ========================================
+2026-05-21 14:16:43,788 - INFO - Timeout fetched : 10
+2026-05-21 14:17:04,988 - INFO - Timeout fetched : 10
+2026-05-21 14:17:05,010 - INFO - ========================================
+2026-05-21 14:17:05,010 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:17:05,010 - INFO - Browser fetched : edge
+2026-05-21 14:17:05,010 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:17:05,010 - INFO - Implicit wait fetched : 5
+2026-05-21 14:17:05,010 - INFO - Headless mode : False
+2026-05-21 14:17:05,012 - INFO - Launching Edge Browser
+2026-05-21 14:17:08,159 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:17:08,163 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:17:09,815 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_141709.png
+2026-05-21 14:17:10,090 - INFO - Scenario Status : Status.error
+2026-05-21 14:17:10,090 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:17:12,426 - INFO - Browser Closed Successfully
+2026-05-21 14:17:12,427 - INFO - ========================================
+2026-05-21 14:18:21,954 - INFO - Timeout fetched : 10
+2026-05-21 14:18:21,980 - INFO - ========================================
+2026-05-21 14:18:21,980 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:18:21,980 - INFO - Browser fetched : edge
+2026-05-21 14:18:21,980 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:18:21,980 - INFO - Implicit wait fetched : 5
+2026-05-21 14:18:21,980 - INFO - Headless mode : False
+2026-05-21 14:18:21,981 - INFO - Launching Edge Browser
+2026-05-21 14:18:24,806 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:18:24,811 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:18:27,040 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_141826.png
+2026-05-21 14:18:27,317 - INFO - Scenario Status : Status.error
+2026-05-21 14:18:27,318 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:18:29,628 - INFO - Browser Closed Successfully
+2026-05-21 14:18:29,628 - INFO - ========================================
+2026-05-21 14:25:43,090 - INFO - Timeout fetched : 10
+2026-05-21 14:25:43,118 - INFO - ========================================
+2026-05-21 14:25:43,118 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:25:43,119 - INFO - Browser fetched : edge
+2026-05-21 14:25:43,119 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:25:43,119 - INFO - Implicit wait fetched : 5
+2026-05-21 14:25:43,119 - INFO - Headless mode : False
+2026-05-21 14:25:43,119 - INFO - Launching Edge Browser
+2026-05-21 14:25:46,054 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:25:46,060 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:25:47,764 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_142547.png
+2026-05-21 14:25:48,043 - INFO - Opening Login Popup
+2026-05-21 14:25:48,044 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:25:48,459 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:25:48,742 - INFO - Hovered on Login Icon
+2026-05-21 14:25:48,742 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:25:48,780 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:25:48,906 - INFO - Clicked Login/Register Option
+2026-05-21 14:25:49,214 - INFO - Screenshot saved at: reports/screenshots/login_popup_opened_20260521_142548.png
+2026-05-21 14:25:49,473 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:25:49,474 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:25:49,525 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:25:49,939 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:25:49,941 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:25:49,941 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:25:49,959 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:25:50,192 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:25:50,192 - INFO - Clicking Continue Button
+2026-05-21 14:25:50,192 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:25:50,291 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:25:50,462 - INFO - Continue Button Clicked Successfully
+2026-05-21 14:25:50,462 - INFO - Waiting 60 seconds for OTP verification
+2026-05-21 14:26:50,474 - INFO - Scenario Status : Status.passed
+2026-05-21 14:26:50,474 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:26:52,911 - INFO - Browser Closed Successfully
+2026-05-21 14:26:52,911 - INFO - ========================================
+2026-05-21 14:28:07,540 - INFO - Timeout fetched : 10
+2026-05-21 14:28:07,573 - INFO - ========================================
+2026-05-21 14:28:07,573 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:28:07,573 - INFO - Browser fetched : edge
+2026-05-21 14:28:07,573 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:28:07,573 - INFO - Implicit wait fetched : 5
+2026-05-21 14:28:07,573 - INFO - Headless mode : False
+2026-05-21 14:28:07,573 - INFO - Launching Edge Browser
+2026-05-21 14:28:10,914 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:28:10,919 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:28:13,007 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_142812.png
+2026-05-21 14:28:13,279 - INFO - Opening Login Popup
+2026-05-21 14:28:13,279 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:28:13,309 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:28:13,586 - INFO - Hovered on Login Icon
+2026-05-21 14:28:13,586 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:28:13,624 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:28:13,768 - INFO - Clicked Login/Register Option
+2026-05-21 14:28:14,117 - INFO - Screenshot saved at: reports/screenshots/login_popup_opened_20260521_142813.png
+2026-05-21 14:28:14,413 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:28:14,413 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:28:14,430 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:28:14,692 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:28:14,693 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:28:14,693 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:28:14,709 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:28:14,925 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:28:14,925 - INFO - Clicking Continue Button
+2026-05-21 14:28:14,926 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:28:14,973 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:28:15,125 - INFO - Continue Button Clicked Successfully
+2026-05-21 14:28:15,125 - INFO - Waiting 60 seconds for OTP verification
+2026-05-21 14:29:15,141 - INFO - Scenario Status : Status.passed
+2026-05-21 14:29:15,141 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:29:17,544 - INFO - Browser Closed Successfully
+2026-05-21 14:29:17,544 - INFO - ========================================
+2026-05-21 14:32:04,328 - INFO - Timeout fetched : 10
+2026-05-21 14:32:04,362 - INFO - ========================================
+2026-05-21 14:32:04,362 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:32:04,363 - INFO - Browser fetched : edge
+2026-05-21 14:32:04,363 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:32:04,363 - INFO - Implicit wait fetched : 5
+2026-05-21 14:32:04,363 - INFO - Headless mode : False
+2026-05-21 14:32:04,363 - INFO - Launching Edge Browser
+2026-05-21 14:32:07,137 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:32:07,141 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:32:08,724 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_143208.png
+2026-05-21 14:32:09,036 - INFO - Opening Login Popup
+2026-05-21 14:32:09,036 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:32:09,071 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:32:09,377 - INFO - Hovered on Login Icon
+2026-05-21 14:32:09,378 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:32:09,422 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:32:09,606 - INFO - Clicked Login/Register Option
+2026-05-21 14:32:10,009 - INFO - Screenshot saved at: reports/screenshots/login_popup_opened_20260521_143209.png
+2026-05-21 14:32:10,296 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:32:10,297 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:32:10,324 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:32:10,607 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:32:10,609 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:32:10,610 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:32:10,635 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:32:10,933 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:32:10,934 - INFO - Checking Session Expired Message
+2026-05-21 14:32:10,934 - INFO - Waiting for element visibility : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:15,946 - ERROR - Timeout waiting for visibility : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:15,946 - INFO - Session Expired Message Not Displayed
+2026-05-21 14:32:15,946 - INFO - Clicking Continue Button
+2026-05-21 14:32:15,946 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:32:15,975 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:32:16,249 - INFO - Continue Button Clicked Successfully
+2026-05-21 14:32:16,249 - INFO - Checking Session Expired Message
+2026-05-21 14:32:16,249 - INFO - Waiting for element visibility : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:16,380 - INFO - Element visible successfully : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:16,380 - ERROR - Session Expired Message Displayed
+2026-05-21 14:32:16,380 - INFO - Session expired detected after continue click
+2026-05-21 14:32:18,834 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:32:19,004 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:32:19,004 - INFO - Opening Login Popup
+2026-05-21 14:32:19,004 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:32:19,026 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:32:19,302 - INFO - Hovered on Login Icon
+2026-05-21 14:32:19,302 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:32:19,335 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:32:19,444 - INFO - Clicked Login/Register Option
+2026-05-21 14:32:19,718 - INFO - Screenshot saved at: reports/screenshots/login_popup_opened_20260521_143219.png
+2026-05-21 14:32:19,961 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:32:19,961 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:32:19,978 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:32:20,170 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:32:20,170 - INFO - Checking Session Expired Message
+2026-05-21 14:32:20,170 - INFO - Waiting for element visibility : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:25,183 - ERROR - Timeout waiting for visibility : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:25,184 - INFO - Session Expired Message Not Displayed
+2026-05-21 14:32:25,184 - INFO - Clicking Continue Button
+2026-05-21 14:32:25,184 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:32:25,211 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:32:25,327 - INFO - Continue Button Clicked Successfully
+2026-05-21 14:32:25,327 - INFO - Checking Session Expired Message
+2026-05-21 14:32:25,327 - INFO - Waiting for element visibility : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:25,532 - INFO - Element visible successfully : ('xpath', "//*[contains(normalize-space(), 'Your session has been expired') or contains(normalize-space(), 'session has been expired')]")
+2026-05-21 14:32:25,532 - ERROR - Session Expired Message Displayed
+2026-05-21 14:32:25,532 - INFO - Session expired detected after continue click
+2026-05-21 14:32:26,896 - INFO - Scenario Status : Status.error
+2026-05-21 14:32:26,896 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:32:29,237 - INFO - Browser Closed Successfully
+2026-05-21 14:32:29,237 - INFO - ========================================
+2026-05-21 14:34:50,950 - INFO - Timeout fetched : 10
+2026-05-21 14:34:50,976 - INFO - ========================================
+2026-05-21 14:34:50,976 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:34:50,976 - INFO - Browser fetched : edge
+2026-05-21 14:34:50,976 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:34:50,976 - INFO - Implicit wait fetched : 5
+2026-05-21 14:34:50,976 - INFO - Headless mode : False
+2026-05-21 14:34:50,977 - INFO - Launching Edge Browser
+2026-05-21 14:34:54,124 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:34:54,127 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:34:55,776 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_143455.png
+2026-05-21 14:34:56,043 - INFO - Opening Login Popup
+2026-05-21 14:34:56,043 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:34:56,071 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:34:56,346 - INFO - Hovered on Login Icon
+2026-05-21 14:34:56,347 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:34:56,383 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:34:56,498 - INFO - Clicked Login/Register Option
+2026-05-21 14:34:56,775 - INFO - Screenshot saved at: reports/screenshots/login_popup_opened_20260521_143456.png
+2026-05-21 14:34:57,014 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:34:57,014 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:34:57,039 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:34:57,258 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:34:57,258 - INFO - Clicking Continue Button
+2026-05-21 14:34:57,258 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:34:57,807 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:34:57,959 - INFO - Continue Button Clicked Successfully
+2026-05-21 14:34:57,960 - INFO - Waiting 30 seconds for OTP verification
+2026-05-21 14:34:57,975 - INFO - Scenario Status : Status.error
+2026-05-21 14:34:57,975 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:35:00,295 - INFO - Browser Closed Successfully
+2026-05-21 14:35:00,295 - INFO - ========================================
+2026-05-21 14:36:18,991 - INFO - Timeout fetched : 10
+2026-05-21 14:36:19,011 - INFO - ========================================
+2026-05-21 14:36:19,011 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:36:19,011 - INFO - Browser fetched : edge
+2026-05-21 14:36:19,011 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:36:19,012 - INFO - Implicit wait fetched : 5
+2026-05-21 14:36:19,012 - INFO - Headless mode : False
+2026-05-21 14:36:19,012 - INFO - Launching Edge Browser
+2026-05-21 14:36:22,126 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:36:22,128 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:36:24,148 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_143623.png
+2026-05-21 14:36:24,421 - INFO - Opening Login Popup
+2026-05-21 14:36:24,421 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:36:24,449 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:36:24,746 - INFO - Hovered on Login Icon
+2026-05-21 14:36:24,746 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:36:24,783 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:36:24,897 - INFO - Clicked Login/Register Option
+2026-05-21 14:36:25,200 - INFO - Screenshot saved at: reports/screenshots/login_popup_opened_20260521_143624.png
+2026-05-21 14:36:25,470 - INFO - Entering Mobile Number : 8299062481
+2026-05-21 14:36:25,470 - INFO - Waiting for element visibility : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:36:25,495 - INFO - Element visible successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:36:25,702 - INFO - Mobile Number Entered Successfully
+2026-05-21 14:36:25,702 - INFO - Clicking Continue Button
+2026-05-21 14:36:25,702 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:36:26,254 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:36:26,369 - INFO - Continue Button Clicked Successfully
+2026-05-21 14:36:26,370 - INFO - Waiting 30 seconds for OTP verification
+2026-05-21 14:36:26,420 - INFO - Verifying Login Success
+2026-05-21 14:36:26,662 - INFO - Screenshot saved at: reports/screenshots/login_success_20260521_143626.png
+2026-05-21 14:36:26,900 - INFO - Scenario Status : Status.passed
+2026-05-21 14:36:26,900 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:36:29,187 - INFO - Browser Closed Successfully
+2026-05-21 14:36:29,187 - INFO - ========================================
+2026-05-21 14:50:26,244 - INFO - Timeout fetched : 10
+2026-05-21 14:50:26,262 - INFO - ========================================
+2026-05-21 14:50:26,262 - INFO - STARTING SCENARIO : Login with valid mobile number using OTP
+2026-05-21 14:50:26,263 - INFO - Browser fetched : edge
+2026-05-21 14:50:26,263 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-21 14:50:26,263 - INFO - Implicit wait fetched : 5
+2026-05-21 14:50:26,263 - INFO - Headless mode : False
+2026-05-21 14:50:26,264 - INFO - Launching Edge Browser
+2026-05-21 14:50:29,463 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 14:50:29,468 - INFO - Opening URL : https://www.99acres.com/
+2026-05-21 14:50:31,212 - INFO - Screenshot saved at: reports/screenshots/home_page_opened_20260521_145030.png
+2026-05-21 14:50:31,497 - INFO - Opening Login Popup
+2026-05-21 14:50:31,497 - INFO - Waiting for element visibility : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:50:31,530 - INFO - Element visible successfully : ('xpath', "//i[contains(@class,'icon_userWhite') and contains(@class,'theader__dot')]")
+2026-05-21 14:50:31,822 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:50:31,867 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-21 14:50:31,998 - INFO - Login popup opened
+2026-05-21 14:50:31,999 - INFO - Entering mobile number: 8299062481
+2026-05-21 14:50:31,999 - INFO - Waiting for element clickable : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:50:32,201 - INFO - Element clickable successfully : ('xpath', "//input[@data-for='phnNumber']")
+2026-05-21 14:50:32,430 - INFO - Mobile number entered
+2026-05-21 14:50:32,430 - INFO - Waiting for element clickable : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:50:33,034 - INFO - Element clickable successfully : ('xpath', "//button[normalize-space()='Continue']")
+2026-05-21 14:50:33,137 - INFO - Continue button clicked
+2026-05-21 14:50:33,147 - INFO - Scenario Status : Status.error
+2026-05-21 14:50:33,147 - INFO - SCENARIO PASSED : Login with valid mobile number using OTP
+2026-05-21 14:50:35,513 - INFO - Browser Closed Successfully
+2026-05-21 14:50:35,513 - INFO - ========================================

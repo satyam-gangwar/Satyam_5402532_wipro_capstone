@@ -128,7 +128,8 @@ class TestCommercial:
     @pytest.mark.parametrize(
         "location, property_type",
         [
-            ("Noida", "Shop")
+            ("Noida", "Shop"),
+            ("Delhi", "Shop")
         ]
     )
     def test_search_shop_showroom(

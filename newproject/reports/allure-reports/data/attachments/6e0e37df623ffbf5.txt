@@ -1,0 +1,32 @@
+2026-05-21 12:22:19 | INFO     | pytest | Starting browser: edge
+2026-05-21 12:22:21 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-21 12:22:21 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-21 12:22:23 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-21 12:22:23 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-21 12:22:23 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-21 12:22:27 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-21 12:22:27 | INFO     | HomePage | Cookie confirmation accepted
+2026-05-21 12:22:27 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-21 12:22:27 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260521_122227.png
+2026-05-21 12:22:29 | INFO     | HomePage | Opening Commercial tab
+2026-05-21 12:22:29 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 12:22:29 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-21 12:22:29 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-21 12:22:29 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-21 12:22:30 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260521_122229.png
+2026-05-21 12:22:32 | INFO     | CommercialPage | Selecting property type: Shop
+2026-05-21 12:22:32 | INFO     | CommercialPage | Using property type xpath: //*[contains(text(),'Shop') or contains(text(),'Retail')]
+2026-05-21 12:22:32 | INFO     | CommercialPage | Property type option found: Shop
+2026-05-21 12:22:32 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-21 12:22:32 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_property_type_selected_Shop_20260521_122232.png
+2026-05-21 12:22:34 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-21 12:22:34 | INFO     | CommercialPage | Commercial search input found
+2026-05-21 12:22:34 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-21 12:22:34 | INFO     | CommercialPage | Entered location: Noida
+2026-05-21 12:22:35 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-21 12:22:35 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-21 12:22:37 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_Shop_search_results_Noida_20260521_122235.png
+2026-05-21 12:22:40 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-21 12:22:40 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-21 12:22:41 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-21 12:22:41 | INFO     | commercial_test | Shop search successful in Noida

@@ -1,0 +1,10 @@
+2026-05-21 11:28:04 | INFO     | pytest | Starting browser: edge
+2026-05-21 11:28:06 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-21 11:28:06 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-21 11:28:14 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-21 11:28:14 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-21 11:28:21 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-21 11:28:21 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_loaded_20260521_112821.png
+2026-05-21 11:28:22 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_ivory_county_title_visible_20260521_112821.png
+2026-05-21 11:28:22 | INFO     | property | Verified text visible: Ivory County
+2026-05-21 11:28:22 | INFO     | pytest | Closing browser after complete test session

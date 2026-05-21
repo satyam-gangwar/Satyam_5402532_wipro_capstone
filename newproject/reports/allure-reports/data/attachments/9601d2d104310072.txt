@@ -1,0 +1,12 @@
+2026-05-21 13:04:04 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-21 13:04:04 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-21 13:04:05 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-21 13:04:05 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-21 13:04:12 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-21 13:04:12 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_opened_20260521_130412.png
+2026-05-21 13:04:12 | INFO     | PropertyPage | Trying to click Download Brochure button
+2026-05-21 13:04:13 | INFO     | PropertyPage | Clicked on Download Brochure button
+2026-05-21 13:04:13 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_brochure_popup_opened_20260521_130413.png
+2026-05-21 13:04:13 | INFO     | PropertyPage | Trying to fill brochure form
+2026-05-21 13:04:25 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestPropertyNavigation_test_download_brochure_button_property_case0_20260521_130425.png
+2026-05-21 13:04:25 | INFO     | pytest | Closing browser after complete test session

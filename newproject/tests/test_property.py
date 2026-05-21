@@ -119,31 +119,22 @@ class TestPropertyNavigation:
         load_property_data()
     )
     def test_ivory_county_title_visible(
-        self,
-        driver,
-        property_case
+            self,
+            driver,
+            property_case
     ):
-
         project_name = property_case["project_name"]
 
-        driver.get(
-            "https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436"
-        )
+        property_page = PropertyPage(driver)
 
-        wait = WebDriverWait(driver, 30)
-
-        wait.until(
-            EC.presence_of_element_located(
-                (By.TAG_NAME, "body")
-            )
-        )
+        property_page.open_ivory_county_page()
 
         self.attach_screenshot(
             driver,
             "01_ivory_county_page_loaded"
         )
 
-        wait.until(
+        WebDriverWait(driver, 30).until(
             lambda d: project_name in d.page_source
         )
 
@@ -163,27 +154,21 @@ class TestPropertyNavigation:
         "property_case",
         load_property_data()
     )
-    def test_ivory_county_location_visible(
-        self,
-        driver,
-        property_case
-    ):
 
+    def test_ivory_county_location_visible(
+            self,
+            driver,
+            property_case
+    ):
         location1 = property_case["location1"]
 
         location2 = property_case["location2"]
 
-        driver.get(
-            "https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436"
-        )
+        property_page = PropertyPage(driver)
+
+        property_page.open_ivory_county_page()
 
         wait = WebDriverWait(driver, 30)
-
-        wait.until(
-            EC.presence_of_element_located(
-                (By.TAG_NAME, "body")
-            )
-        )
 
         self.attach_screenshot(
             driver,
@@ -210,6 +195,8 @@ class TestPropertyNavigation:
             location1,
             location2
         )
+
+
 
     @pytest.mark.parametrize(
         "property_case",
