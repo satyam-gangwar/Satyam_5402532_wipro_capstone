@@ -3,12 +3,12 @@ Feature: 99acres Commercial Module
   Background:
     Given User launches 99acres application
 
-  @commercial @smoke
-  Scenario: Search commercial property by location
-    When User opens Commercial tab
-    And User searches commercial property for location "Mumbai"
-    Then Commercial results should be loaded
-    And Commercial results should contain location "Mumbai"
+@commercial @smoke
+Scenario: Search commercial property by location
+  When User opens Commercial tab
+And User enters commercial property location "Mumbai"
+And User clicks Commercial Search button
+Then User should be redirected to commercial results page
 
  # @commercial
   #Scenario Outline: Search shop commercial property

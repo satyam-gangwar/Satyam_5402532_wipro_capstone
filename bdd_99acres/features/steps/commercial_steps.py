@@ -202,3 +202,35 @@ def step_open_invalid_commercial_url(context, invalid_url):
     logger.info(
         f"Invalid commercial URL opened: {invalid_url}"
     )
+
+@when("User clicks Commercial Search button")
+def step_click_commercial_search_button(context):
+
+    context.commercial_page.click_search_button()
+
+    logger.info(
+        "Commercial search button clicked"
+    )
+
+
+@then("User should be redirected to commercial results page")
+def step_verify_commercial_results_page(context):
+
+    redirected = context.commercial_page.wait_for_results_page()
+
+    assert redirected, (
+        "User was not redirected to commercial results page"
+    )
+
+    logger.info(
+        f"Redirected URL: {context.driver.current_url}"
+    )
+
+@when('User enters commercial property location "{location}"')
+def step_enter_commercial_location(context, location):
+    context.commercial_page.enter_commercial_location(location)
+
+
+@when("User selects commercial location suggestion")
+def step_select_commercial_location_suggestion(context):
+    context.commercial_page.select_location_suggestion()

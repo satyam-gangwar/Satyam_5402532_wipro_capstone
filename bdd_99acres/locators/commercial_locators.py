@@ -123,11 +123,12 @@ class CommercialLocators:
     )
 
     SEARCH_BUTTON = (
-        By.XPATH,
-        "//*[contains(text(),'Search') "
-        "or contains(@id,'search') "
-        "or contains(@class,'search')]"
+        By.ID,
+        "searchform_search_btn"
     )
+
+
+
 
     RESULTS_CONTAINER = (
         By.XPATH,
@@ -172,3 +173,9 @@ class CommercialLocators:
         By.XPATH,
         "//input[@type='tel']"
     )
+
+    LOCATION_SUGGESTION = (
+        By.XPATH,
+        "(//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')])[1]"
+    )
+
