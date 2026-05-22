@@ -25,17 +25,17 @@ Scenario: Search Noida commercial property and apply filters
 
 
 
- # @commercial
-  #Scenario Outline: Search shop commercial property
-  #  When User opens Commercial tab
-   # And User selects commercial property type "<property_type>"
-    #And User searches commercial property for location "<location>"
-    #Then Commercial results should be loaded
+  @commercial
+Scenario Outline: Search shop commercial property
+  When User opens Commercial tab
+  And User selects commercial property type "<property_type>"
+  And User searches commercial property for location "<location>"
+  Then Commercial results should be loaded
 
-    #Examples:
-     # | location | property_type |
-      #| Noida    | Shop          |
-      #| Delhi    | Shop          |
+Examples:
+  | location | property_type |
+  | Noida    | Shop          |
+  | Delhi    | Shop          |
 
   #@commercial @view_number
   #Scenario: Verify View Number button opens login popup

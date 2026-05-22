@@ -452,82 +452,55 @@ class CommercialPage:
 
         logger.info("Applying Noida commercial filters")
 
-        worked_filters = []
-        failed_filters = []
+        self._safe_click(
+            CommercialLocators.HEADER_OWNER,
+            "Owner header filter selected",
+            wait_time=2
+        )
 
-        filter_steps = [
+        self._safe_click(
+            CommercialLocators.HEADER_VERIFIED,
+            "Verified header filter selected",
+            wait_time=2
+        )
 
-            (
-                CommercialLocators.BUDGET_NO_MIN,
-                "Budget No Min"
-            ),
+        self._safe_click(
+            CommercialLocators.BUDGET_NO_MIN,
+            "Budget minimum dropdown opened",
+            wait_time=2
+        )
 
-            (
-                CommercialLocators.BUDGET_MIN_10_LAC,
-                "Min Budget 10 Lac"
-            ),
+        self._safe_click(
+            CommercialLocators.BUDGET_MIN_10_LAC,
+            "Minimum budget 10 Lac selected"
+        )
 
-            (
-                CommercialLocators.BUDGET_NO_MAX,
-                "Budget No Max"
-            ),
+        self._safe_click(
+            CommercialLocators.BUDGET_NO_MAX,
+            "Budget maximum dropdown opened",
+            wait_time=2
+        )
 
-            (
-                CommercialLocators.SECURITY_GUARD,
-                "Security Guard"
-            ),
+        self._safe_click(
+            CommercialLocators.SHOPS_FILTER,
+            "Shops filter selected"
+        )
 
+        self._safe_click(
+            CommercialLocators.KIOSK_FILTER,
+            "Kiosk filter selected"
+        )
 
+        self._safe_click(
+            CommercialLocators.SECURITY_GUARD,
+            "Security Guard selected"
+        )
 
+        logger.info(
+            "Noida commercial filters applied successfully"
+        )
 
-        ]
-
-        for locator, filter_name in filter_steps:
-
-            try:
-
-                logger.info(f"Trying filter: {filter_name}")
-
-                element = WaitUtils.wait_for_element_clickable(
-                    self.driver,
-                    locator,
-                    timeout=10
-                )
-
-                self.driver.execute_script(
-                    "arguments[0].scrollIntoView({block:'center'});",
-                    element
-                )
-
-                WaitUtils.slow_execution(1)
-
-                self.driver.execute_script(
-                    "arguments[0].click();",
-                    element
-                )
-
-                WaitUtils.slow_execution(3)
-
-                self.driver.execute_script(
-                    "window.scrollTo(0, 0);"
-                )
-
-                logger.info(f"Filter applied: {filter_name}")
-
-                worked_filters.append(filter_name)
-
-            except Exception as error:
-
-                logger.error(
-                    f"Filter failed: {filter_name} | Error: {error}"
-                )
-
-                failed_filters.append(filter_name)
-
-        logger.info(f"WORKING FILTERS: {worked_filters}")
-
-        logger.info(f"FAILED FILTERS: {failed_filters}")
-
+        WaitUtils.slow_execution(10)
 
 
     def click_filter_and_verify(self, locator, filter_name):

@@ -204,7 +204,7 @@ class CommercialLocators:
         "//*[contains(normalize-space(),'Owner')]"
     )
 
-    BUDGET_NO_MIN = (
+    '''BUDGET_NO_MIN = (
         By.XPATH,
         "//*[normalize-space()='No min']"
     )
@@ -251,4 +251,84 @@ class CommercialLocators:
     BARE_SHELL_OFFICES = (
         By.XPATH,
         "//div[contains(.,'Type of property')]//*[contains(.,'Bare shell offices')]"
+    )'''
+
+    SHOPS_RETAIL = (
+        By.XPATH,
+        "//*[contains(text(),'Shops') or contains(text(),'Retail')]"
+    )
+
+    READY_TO_MOVE_OFFICES = (
+        By.XPATH,
+        "//*[contains(text(),'Ready to move offices')]"
+    )
+
+    BARE_SHELL_OFFICES = (
+        By.XPATH,
+        "//*[contains(text(),'Bare shell offices')]"
+    )
+
+    PRE_LEASED_SPACES = (
+        By.XPATH,
+        "//*[contains(text(),'Pre-leased Spaces')]"
+    )
+
+    SECTOR_62 = (
+        By.XPATH,
+        "//*[contains(text(),'Sector 62')]"
+    )
+
+    SECURITY_GUARD = (
+        By.XPATH,
+        "//*[contains(text(),'Security Guard')]"
+    )
+
+    BUDGET_NO_MIN = (
+        By.XPATH,
+        "//*[contains(text(),'No min')]"
+    )
+
+    BUDGET_MIN_10_LAC = (
+        By.XPATH,
+        "//*[contains(text(),'10 Lac')]"
+    )
+
+    BUDGET_NO_MAX = (
+        By.XPATH,
+        "//*[contains(text(),'No max')]"
+    )
+
+    SHOPS_FILTER = (
+        By.XPATH,
+        "//*[contains(text(),'Shops')]"
+    )
+
+    SHOWROOM_FILTER = (
+        By.XPATH,
+        "//*[contains(normalize-space(),'Showroom')]"
+    )
+
+    KIOSK_FILTER = (
+        By.XPATH,
+        "//*[contains(text(),'Kiosk')]"
+    )
+
+    HEADER_OWNER = (
+        By.XPATH,
+        "//*[normalize-space()='Owner']"
+    )
+
+    HEADER_VERIFIED = (
+        By.XPATH,
+        "//*[normalize-space()='Verified']"
+    )
+
+    HEADER_READY_TO_MOVE = (
+        By.XPATH,
+        "//*[normalize-space()='Ready To Move']"
+    )
+
+    HEADER_WITH_PHOTOS = (
+        By.XPATH,
+        "//*[normalize-space()='With Photos']"
     )
