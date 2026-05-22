@@ -1,3 +1,0 @@
-2026-05-20 16:45:36 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_location_page_loaded_20260520_164536.png
-2026-05-20 16:45:36 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_location_visible_20260520_164536.png
-2026-05-20 16:45:36 | INFO     | property | Verified locations: Sector 115, Noida

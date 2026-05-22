@@ -1,8 +1,0 @@
-2026-05-21 23:35:11 | INFO     | PropertyPage | PropertyPage initialized
-2026-05-21 23:35:11 | INFO     | PropertyPage | Opening Ivory County property page
-2026-05-21 23:35:13 | INFO     | PropertyPage | Ivory County page loaded successfully
-2026-05-21 23:35:13 | INFO     | PropertyPage | Checking disclaimer popup
-2026-05-21 23:35:13 | INFO     | PropertyPage | Disclaimer popup closed
-2026-05-21 23:35:13 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_loaded_20260521_233513.png
-2026-05-21 23:35:14 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_ivory_county_title_visible_20260521_233513.png
-2026-05-21 23:35:14 | INFO     | property | Verified text visible: Ivory County

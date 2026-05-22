@@ -3,11 +3,6 @@ from selenium.webdriver.common.by import By
 
 class CommercialLocators:
 
-
-
-
-
-
     SEARCH_BOX_AREA = (
         By.XPATH,
         "//*[contains(text(),'Search') "
@@ -20,17 +15,45 @@ class CommercialLocators:
         "//input | //*[@contenteditable='true']"
     )
 
-    #SEARCH_BUTTON = (
-     #   By.ID,
-      #  "searchform_search_btn"
-    #)
     SEARCH_BUTTON = (
         By.XPATH,
-        "//button[contains(.,'Search')]"
+        "//button[contains(.,'Search')] "
+        "| //*[@id='searchform_search_btn']"
     )
 
+    SEARCH_SUGGESTION = (
+        By.XPATH,
+        "(//*[contains(@class,'suggest') "
+        "or contains(@id,'suggest') "
+        "or contains(@class,'autocomplete')])[1]"
+    )
 
+    LOCATION_SUGGESTION = (
+        By.XPATH,
+        "(//*[contains(text(),'Mumbai') "
+        "or contains(@title,'Mumbai') "
+        "or contains(text(),'Noida') "
+        "or contains(text(),'Delhi')])[1]"
+    )
 
+    LOCATION_SUGGESTION_DYNAMIC = (
+        By.XPATH,
+        "//*[contains(text(),'{location}') "
+        "or contains(@title,'{location}')]"
+    )
+
+    SUGGESTION_BOX = (
+        By.XPATH,
+        "(//*[contains(@class,'suggest') "
+        "or contains(@id,'suggest') "
+        "or contains(@class,'autocomplete') "
+        "or contains(@role,'option')])[1]"
+    )
+
+    MUMBAI_SUGGESTION = (
+        By.XPATH,
+        "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]"
+    )
 
     RESULTS_CONTAINER = (
         By.XPATH,
@@ -42,65 +65,11 @@ class CommercialLocators:
         "or contains(text(),'properties')]"
     )
 
-
-    SEARCH_SUGGESTION = (
-        By.XPATH,
-        "(//*[contains(@class,'suggest') "
-        "or contains(@id,'suggest')])[1]"
-    )
-
-
-
     RESULTS = (
         By.XPATH,
         "//*[contains(@class,'tupleCard') "
         "or contains(@class,'srpTuple') "
         "or contains(text(),'properties')]"
-    )
-
-    SHOP_OPTION = (
-        By.XPATH,
-        "//*[contains(text(),'Shop') "
-        "or contains(text(),'Retail')]"
-    )
-
-    VIEW_NUMBER_BUTTON = (
-        By.XPATH,
-        "//*[contains(text(),'View Number') "
-        "or contains(text(),'Get Phone') "
-        "or contains(text(),'Contact')]"
-    )
-
-    LOGIN_POPUP = (
-        By.XPATH,
-        "//input[@type='tel']"
-    )
-
-    LOCATION_SUGGESTION = (
-        By.XPATH,
-        "(//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')])[1]"
-    )
-
-
-    CONTACT_BUTTON = (
-        By.XPATH,
-        "//button[contains(.,'View Number') or contains(.,'Contact')]"
-    )
-
-    LOGIN_OTP_POPUP = (
-        By.XPATH,
-        "//*[contains(text(),'Login') or contains(text(),'OTP') or contains(text(),'Mobile')]"
-    )
-
-
-    RESULT_CARDS = (
-        By.XPATH,
-        "//*[contains(@class,'tuple') or contains(@class,'card')]"
-    )
-
-    CITY_TEXT = (
-        By.XPATH,
-        "//*[contains(.,'{city}')]"
     )
 
     RESULTS_TEXT = (
@@ -112,91 +81,58 @@ class CommercialLocators:
         "or contains(text(),'Delhi')]"
     )
 
-    LOCATION_SUGGESTION_DYNAMIC = (
+    #RESULT_CARDS = (
+       # By.XPATH,
+       # "//*[contains(@class,'tuple') "
+      #  "or contains(@class,'card') "
+     #   "or contains(@class,'srpTuple')]"
+    #)
+
+    CITY_TEXT = (
         By.XPATH,
-        "//*[contains(text(),'{location}')]"
+        "//*[contains(.,'{city}')]"
     )
 
-    SUGGESTION_BOX = (
+    SHOP_OPTION = (
         By.XPATH,
-        "//*[contains(@class,'suggest') or contains(@id,'suggest')]"
+        "//*[contains(text(),'Shop') "
+        "or contains(text(),'Retail') "
+        "or contains(text(),'Shops')]"
     )
 
-    MUMBAI_SUGGESTION = (
+    VIEW_NUMBER_BUTTON = (
         By.XPATH,
-        "//*[contains(text(),'Mumbai')]"
+        "//*[contains(text(),'View Number') "
+        "or contains(text(),'Get Phone') "
+        "or contains(text(),'Contact')]"
     )
 
-    VERIFIED_CHECKBOX = (
+    CONTACT_BUTTON = (
         By.XPATH,
-        "//*[contains(text(),'Verified')]"
+        "//button[contains(.,'View Number') "
+        "or contains(.,'Contact') "
+        "or contains(.,'Get Phone')]"
     )
 
-    # Type of property section
-
-
-
-
-
-
-    # Investment Options section
-    PRE_LEASED_SPACES = (
+    LOGIN_POPUP = (
         By.XPATH,
-        "//div[contains(.,'Investment Options')]//*[contains(.,'Pre-leased Spaces')]"
+        "//input[@type='tel']"
     )
 
-    CO_WORKING = (
+    LOGIN_OTP_POPUP = (
         By.XPATH,
-        "//div[contains(.,'Investment Options')]//*[contains(.,'Co-working')]"
-    )
-
-    # Localities section
-    SECTOR_62 = (
-        By.XPATH,
-        "//div[contains(.,'Localities')]//*[contains(.,'Sector 62')]"
-    )
-
-    SECTOR_132 = (
-        By.XPATH,
-        "//div[contains(.,'Localities')]//*[contains(.,'Sector 132')]"
-    )
-
-    # Construction Status section
-    READY_TO_MOVE_COMMERCIAL = (
-        By.XPATH,
-        "//div[contains(.,'Construction Status')]//*[contains(.,'Ready to move')]"
-    )
-
-    UNDER_CONSTRUCTION_COMMERCIAL = (
-        By.XPATH,
-        "//div[contains(.,'Construction Status')]//*[contains(.,'Under Construction')]"
-    )
-
-    # Purchase type section
-    RESALE = (
-        By.XPATH,
-        "//div[contains(.,'Purchase type')]//*[contains(.,'Resale')]"
-    )
-
-    NEW_BOOKING = (
-        By.XPATH,
-        "//div[contains(.,'Purchase type')]//*[contains(.,'New Booking')]"
-    )
-
-    # Amenities section
-    LIFT = (
-        By.XPATH,
-        "//div[contains(.,'Amenities')]//*[contains(.,'Lift')]"
-    )
-
-    POWER_BACKUP = (
-        By.XPATH,
-        "//div[contains(.,'Amenities')]//*[contains(.,'Power Backup')]"
+        "//*[contains(text(),'Login') "
+        "or contains(text(),'OTP') "
+        "or contains(text(),'Mobile') "
+        "or contains(text(),'Phone')]"
     )
 
     APPLIED_FILTER_CHIPS = (
         By.XPATH,
-        "//*[contains(@class,'tag') or contains(@class,'chip') or contains(@class,'filter')]"
+        "//*[contains(@class,'tag') "
+        "or contains(@class,'chip') "
+        "or contains(@class,'filter') "
+        "or contains(@class,'selected')]"
     )
 
     OWNER = (
@@ -204,73 +140,108 @@ class CommercialLocators:
         "//*[contains(normalize-space(),'Owner')]"
     )
 
-    '''BUDGET_NO_MIN = (
+    VERIFIED_CHECKBOX = (
         By.XPATH,
-        "//*[normalize-space()='No min']"
-    )
-    COWORKING = (
-        By.XPATH,
-        "//*[contains(text(),'Co-working')]"
+        "//*[contains(text(),'Verified')]"
     )
 
-    RENTAL_YIELD = (
+    HEADER_OWNER = (
         By.XPATH,
-        "//*[contains(text(),'Rental Yield')]"
+        "//*[normalize-space()='Owner' "
+        "or contains(normalize-space(),'Owner')]"
     )
 
+    HEADER_VERIFIED = (
+        By.XPATH,
+        "//*[normalize-space()='Verified' "
+        "or contains(normalize-space(),'Verified')]"
+    )
 
+    HEADER_READY_TO_MOVE = (
+        By.XPATH,
+        "//*[normalize-space()='Ready To Move' "
+        "or normalize-space()='Ready to move' "
+        "or contains(normalize-space(),'Ready')]"
+    )
 
+    HEADER_WITH_PHOTOS = (
+        By.XPATH,
+        "//*[normalize-space()='With Photos' "
+        "or contains(normalize-space(),'Photos')]"
+    )
+
+    BUDGET_NO_MIN = (
+        By.XPATH,
+        "//*[contains(text(),'No min') "
+        "or contains(text(),'Min')]"
+    )
 
     BUDGET_MIN_10_LAC = (
         By.XPATH,
-        "//*[contains(text(),'10 Lac')]"
+        "//*[contains(text(),'10 Lac') "
+        "or contains(text(),'10 Lacs')]"
     )
 
     BUDGET_NO_MAX = (
         By.XPATH,
-        "//*[normalize-space()='No max']"
+        "//*[contains(text(),'No max') "
+        "or contains(text(),'Max')]"
     )
 
+    SHOPS_FILTER = (
+        By.XPATH,
+        "//*[contains(text(),'Shops') "
+        "or contains(text(),'Shop') "
+        "or contains(text(),'Retail')]"
+    )
 
+    SHOWROOM_FILTER = (
+        By.XPATH,
+        "//*[contains(normalize-space(),'Showroom') "
+        "or contains(normalize-space(),'Showrooms')]"
+    )
+
+    KIOSK_FILTER = (
+        By.XPATH,
+        "//*[contains(text(),'Kiosk') "
+        "or contains(text(),'Kiosks')]"
+    )
 
     SECURITY_GUARD = (
         By.XPATH,
-        "//*[contains(text(),'Security Guard')]"
-    )
-
-    READY_TO_MOVE_OFFICES = (
-        By.XPATH,
-        "//div[contains(.,'Type of property')]//*[contains(.,'Ready to move offices')]"
+        "//*[contains(text(),'Security Guard') "
+        "or contains(text(),'Security')]"
     )
 
     SHOPS_RETAIL = (
         By.XPATH,
-        "//div[contains(.,'Type of property')]//*[contains(.,'Shops & Retail')]"
-    )
-
-    BARE_SHELL_OFFICES = (
-        By.XPATH,
-        "//div[contains(.,'Type of property')]//*[contains(.,'Bare shell offices')]"
-    )'''
-
-    SHOPS_RETAIL = (
-        By.XPATH,
-        "//*[contains(text(),'Shops') or contains(text(),'Retail')]"
+        "//*[contains(text(),'Shops') "
+        "or contains(text(),'Retail')]"
     )
 
     READY_TO_MOVE_OFFICES = (
         By.XPATH,
-        "//*[contains(text(),'Ready to move offices')]"
+        "//*[contains(text(),'Ready to move offices') "
+        "or contains(text(),'Ready to move')]"
     )
 
     BARE_SHELL_OFFICES = (
         By.XPATH,
-        "//*[contains(text(),'Bare shell offices')]"
+        "//*[contains(text(),'Bare shell offices') "
+        "or contains(text(),'Bare shell')]"
     )
 
     PRE_LEASED_SPACES = (
         By.XPATH,
-        "//*[contains(text(),'Pre-leased Spaces')]"
+        "//*[contains(text(),'Pre-leased Spaces') "
+        "or contains(text(),'Pre-leased') "
+        "or contains(text(),'Pre leased')]"
+    )
+
+    CO_WORKING = (
+        By.XPATH,
+        "//*[contains(text(),'Co-working') "
+        "or contains(text(),'Coworking')]"
     )
 
     SECTOR_62 = (
@@ -278,57 +249,75 @@ class CommercialLocators:
         "//*[contains(text(),'Sector 62')]"
     )
 
-    SECURITY_GUARD = (
+    SECTOR_132 = (
         By.XPATH,
-        "//*[contains(text(),'Security Guard')]"
+        "//*[contains(text(),'Sector 132')]"
     )
 
-    BUDGET_NO_MIN = (
+    READY_TO_MOVE_COMMERCIAL = (
         By.XPATH,
-        "//*[contains(text(),'No min')]"
+        "//*[contains(text(),'Ready to move') "
+        "or contains(text(),'Ready To Move')]"
     )
 
-    BUDGET_MIN_10_LAC = (
+    UNDER_CONSTRUCTION_COMMERCIAL = (
         By.XPATH,
-        "//*[contains(text(),'10 Lac')]"
+        "//*[contains(text(),'Under Construction') "
+        "or contains(text(),'Under construction')]"
     )
 
-    BUDGET_NO_MAX = (
+    RESALE = (
         By.XPATH,
-        "//*[contains(text(),'No max')]"
+        "//*[contains(text(),'Resale')]"
     )
 
-    SHOPS_FILTER = (
+    NEW_BOOKING = (
         By.XPATH,
-        "//*[contains(text(),'Shops')]"
+        "//*[contains(text(),'New Booking') "
+        "or contains(text(),'New booking')]"
     )
 
-    SHOWROOM_FILTER = (
+    LIFT = (
         By.XPATH,
-        "//*[contains(normalize-space(),'Showroom')]"
+        "//*[contains(text(),'Lift')]"
     )
 
-    KIOSK_FILTER = (
+    POWER_BACKUP = (
         By.XPATH,
-        "//*[contains(text(),'Kiosk')]"
+        "//*[contains(text(),'Power Backup') "
+        "or contains(text(),'Power backup')]"
     )
 
-    HEADER_OWNER = (
+    RESULT_CARDS = (
         By.XPATH,
-        "//*[normalize-space()='Owner']"
+        "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard')]"
     )
 
-    HEADER_VERIFIED = (
+    PROPERTY_TITLE_LINK = (
         By.XPATH,
-        "//*[normalize-space()='Verified']"
+        "(//a[contains(@href,'/property/') "
+        "or contains(@href,'spid') "
+        "or contains(@href,'commercial')])[1]"
     )
 
-    HEADER_READY_TO_MOVE = (
+    PROPERTY_CARD_FALLBACK = (
         By.XPATH,
-        "//*[normalize-space()='Ready To Move']"
+        "(//*[contains(@class,'srpTuple') "
+        "or contains(@class,'tupleCard') "
+        "or contains(@class,'tupleCardWrap')])[1]"
     )
 
-    HEADER_WITH_PHOTOS = (
+    FIXED_PROPERTY = (
         By.XPATH,
-        "//*[normalize-space()='With Photos']"
+        "//a[contains(@href,'property')][1]"
+    )
+
+    FIXED_PROPERTY_TITLE = (
+        By.XPATH,
+        "//*[contains(text(),'12Bedrooms')]"
+    )
+
+    FIXED_PROPERTY_DEALER = (
+        By.XPATH,
+        "//*[contains(text(),'Jagesh')]"
     )

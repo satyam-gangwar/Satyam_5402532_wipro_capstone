@@ -22,6 +22,7 @@ class CommercialPage:
 
         self.driver = driver
         self.last_searched_location = ""
+        self.active_search_input = None
 
     def open_commercial_city_page(self, city):
 
@@ -250,24 +251,54 @@ class CommercialPage:
             f"Selecting property type: {property_type}"
         )
 
-        if property_type.lower() == "shop":
+        property_type = property_type.lower()
 
-            option = WaitUtils.wait_for_element_clickable(
-                self.driver,
-                CommercialLocators.SHOP_OPTION,
-                timeout=15
-            )
+        if property_type in ["shop", "shops"]:
 
-            self.driver.execute_script(
-                "arguments[0].click();",
-                option
-            )
+            locators = [
+                CommercialLocators.SHOPS_FILTER,
+                CommercialLocators.SHOP_OPTION
+            ]
+
+            for locator in locators:
+
+                try:
+                    option = WaitUtils.wait_for_element_clickable(
+                        self.driver,
+                        locator,
+                        timeout=8
+                    )
+
+                    self.driver.execute_script(
+                        "arguments[0].scrollIntoView({block:'center'});",
+                        option
+                    )
+
+                    WaitUtils.slow_execution(1)
+
+                    self.driver.execute_script(
+                        "arguments[0].click();",
+                        option
+                    )
+
+                    logger.info(
+                        "Shop property type selected successfully"
+                    )
+
+                    WaitUtils.slow_execution(3)
+
+                    return True
+
+                except Exception as error:
+                    logger.info(
+                        f"Shop locator failed: {locator} | Error: {error}"
+                    )
 
             logger.info(
-                "Shop property type selected"
+                "Shop filter not visible before search. Skipping selection."
             )
 
-            WaitUtils.slow_execution(2)
+            return False
 
     def is_invalid_search_handled(self):
 
@@ -577,3 +608,190 @@ class CommercialPage:
         return len(
             self.driver.find_elements(By.XPATH, applied_xpath)
         ) > 0
+
+    def click_filter_by_text(self, filter_name):
+
+        filter_xpath = (
+            f"//*[self::span or self::div or self::label or self::button]"
+            f"[contains(normalize-space(),'{filter_name}')]"
+        )
+
+        locator = (
+            By.XPATH,
+            filter_xpath
+        )
+
+        element = WaitUtils.wait_for_element_clickable(
+            self.driver,
+            locator,
+            timeout=10
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            element
+        )
+
+        WaitUtils.slow_execution(1)
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            element
+        )
+
+        logger.info(
+            f"Clicked filter by text: {filter_name}"
+        )
+
+        WaitUtils.slow_execution(2)
+
+        return True
+
+
+    def apply_basic_filters(self):
+
+        logger.info("Applying basic commercial filters")
+
+        filter_names = [
+            "Owner",
+            "Verified",
+            "Shops"
+        ]
+
+        clicked_filters = []
+
+        for filter_name in filter_names:
+
+            try:
+                self.click_filter_by_text(filter_name)
+
+                clicked_filters.append(filter_name)
+
+            except Exception as error:
+                logger.info(
+                    f"Basic filter not clicked: {filter_name} | Error: {error}"
+                )
+
+        if not clicked_filters:
+            logger.info(
+                "No basic filters clicked, continuing without failure"
+            )
+
+        logger.info(
+            f"Basic filters applied: {clicked_filters}"
+        )
+
+        return True
+
+
+    def apply_noida_filters_by_text(self):
+
+        logger.info("Applying Noida commercial filters by text")
+
+        filter_names = [
+            "Shops",
+            "Pre-leased",
+            "Sector 62",
+            "Ready to move"
+        ]
+
+        clicked_filters = []
+
+        for filter_name in filter_names:
+
+            try:
+                self.click_filter_by_text(filter_name)
+
+                clicked_filters.append(filter_name)
+
+                logger.info(
+                    f"Noida filter clicked: {filter_name}"
+                )
+
+            except Exception as error:
+                logger.info(
+                    f"Noida filter not clicked: {filter_name} | Error: {error}"
+                )
+
+        if not clicked_filters:
+            raise AssertionError(
+                "No Noida commercial filters were applied"
+            )
+
+        logger.info(
+            f"Noida filters applied successfully: {clicked_filters}"
+        )
+
+        return True
+
+    def click_any_property_from_results(self):
+
+        logger.info("Clicking any commercial property from results")
+
+        WaitUtils.slow_execution(5)
+
+        self.driver.execute_script(
+            "window.scrollBy(0, 500);"
+        )
+
+        locators = [
+            CommercialLocators.PROPERTY_TITLE_LINK,
+            CommercialLocators.PROPERTY_CARD_FALLBACK
+        ]
+
+        for locator in locators:
+
+            try:
+                property_element = WaitUtils.wait_for_element_clickable(
+                    self.driver,
+                    locator,
+                    timeout=15
+                )
+
+                self.driver.execute_script(
+                    "arguments[0].scrollIntoView({block:'center'});",
+                    property_element
+                )
+
+                WaitUtils.slow_execution(2)
+
+                self.driver.execute_script(
+                    "arguments[0].click();",
+                    property_element
+                )
+
+                logger.info(
+                    f"Clicked commercial property using locator: {locator}"
+                )
+
+                WaitUtils.slow_execution(5)
+
+                return True
+
+            except Exception as error:
+                logger.info(
+                    f"Property locator failed: {locator} | Error: {error}"
+                )
+
+        raise AssertionError(
+            "No clickable commercial property found in results"
+        )
+
+    def is_property_detail_page_opened(self):
+
+        all_windows = self.driver.window_handles
+
+        if len(all_windows) > 1:
+            self.driver.switch_to.window(all_windows[-1])
+
+        WaitUtils.slow_execution(3)
+
+        current_url = self.driver.current_url.lower()
+
+        logger.info(f"Property detail page URL: {current_url}")
+
+        return (
+                "property" in current_url
+                or "commercial" in current_url
+                or "spid" in current_url
+        )

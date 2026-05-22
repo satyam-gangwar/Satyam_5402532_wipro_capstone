@@ -6510,3 +6510,597 @@ Stacktrace:
 2026-05-22 12:48:24,947 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260522_124824.png
 2026-05-22 12:48:27,325 - INFO - Browser Closed Successfully
 2026-05-22 12:48:27,326 - INFO - ========================================
+2026-05-22 13:11:26,694 - INFO - Timeout fetched : 10
+2026-05-22 13:11:26,774 - INFO - Loading test data before execution
+2026-05-22 13:11:26,786 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 13:11:26,816 - INFO - ========================================
+2026-05-22 13:11:26,816 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 13:11:26,816 - INFO - Browser fetched : edge
+2026-05-22 13:11:26,816 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 13:11:26,816 - INFO - Implicit wait fetched : 5
+2026-05-22 13:11:26,816 - INFO - Headless mode : False
+2026-05-22 13:11:26,818 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 13:11:26,818 - INFO - Launching Edge Browser
+2026-05-22 13:11:29,180 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 13:11:35,233 - INFO - Popup closed successfully
+2026-05-22 13:11:35,568 - INFO - 99acres application launched
+2026-05-22 13:11:35,571 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:11:35,800 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:11:35,820 - INFO - Buy tab opened successfully
+2026-05-22 13:11:35,820 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:11:35,846 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:11:35,908 - INFO - Commercial tab opened successfully
+2026-05-22 13:11:36,209 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_131135.png
+2026-05-22 13:11:36,209 - INFO - Commercial tab opened successfully
+2026-05-22 13:11:36,210 - INFO - Entering commercial location: Mumbai
+2026-05-22 13:11:38,993 - INFO - Entered and selected commercial location: Mumbai
+2026-05-22 13:11:41,193 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Mumbai_20260522_131140.png
+2026-05-22 13:11:41,193 - INFO - Commercial location entered: Mumbai
+2026-05-22 13:11:41,201 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 13:11:41,234 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 13:11:45,025 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/mumbai?city=12&property_type=C&preference=S&res_com=C
+2026-05-22 13:11:45,412 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_131145.png
+2026-05-22 13:11:45,412 - INFO - Commercial search button clicked
+2026-05-22 13:11:45,460 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/mumbai?city=12&property_type=C&preference=S&res_com=C
+2026-05-22 13:11:45,792 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_131145.png
+2026-05-22 13:11:45,808 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/mumbai?city=12&property_type=C&preference=S&res_com=C
+2026-05-22 13:11:45,810 - INFO - Scenario Status : Status.passed
+2026-05-22 13:11:45,810 - INFO - SCENARIO PASSED : Search commercial property by location
+2026-05-22 13:11:52,189 - INFO - Browser Closed Successfully
+2026-05-22 13:11:52,189 - INFO - ========================================
+2026-05-22 13:11:52,196 - INFO - ========================================
+2026-05-22 13:11:52,196 - INFO - STARTING SCENARIO : Search Noida commercial property and apply filters
+2026-05-22 13:11:52,196 - INFO - Browser fetched : edge
+2026-05-22 13:11:52,196 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 13:11:52,196 - INFO - Implicit wait fetched : 5
+2026-05-22 13:11:52,196 - INFO - Headless mode : False
+2026-05-22 13:11:52,198 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 13:11:52,198 - INFO - Launching Edge Browser
+2026-05-22 13:11:54,711 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 13:12:03,318 - INFO - Popup closed successfully
+2026-05-22 13:12:03,653 - INFO - 99acres application launched
+2026-05-22 13:12:09,953 - INFO - Popup not present
+2026-05-22 13:12:10,286 - INFO - 99acres application launched
+2026-05-22 13:12:10,287 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:12:10,320 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:12:10,339 - INFO - Buy tab opened successfully
+2026-05-22 13:12:10,340 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:12:10,367 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:12:10,389 - INFO - Commercial tab opened successfully
+2026-05-22 13:12:10,715 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_131210.png
+2026-05-22 13:12:10,715 - INFO - Commercial tab opened successfully
+2026-05-22 13:12:10,717 - INFO - Entering commercial location: Noida
+2026-05-22 13:12:13,400 - INFO - Entered and selected commercial location: Noida
+2026-05-22 13:12:15,610 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_131215.png
+2026-05-22 13:12:15,610 - INFO - Commercial location entered: Noida
+2026-05-22 13:12:15,612 - INFO - Trying to select commercial location suggestion
+2026-05-22 13:12:15,612 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Noida') or contains(@title,'Noida')]")
+2026-05-22 13:12:20,844 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Noida') or contains(@title,'Noida')]")
+2026-05-22 13:12:20,845 - INFO - Suggestion locator failed: ('xpath', "//*[contains(text(),'Noida') or contains(@title,'Noida')]")
+2026-05-22 13:12:20,845 - INFO - Waiting for element clickable : ('xpath', "(//*[contains(@class,'suggest') or contains(@id,'suggest') or contains(@class,'autocomplete') or contains(@role,'option')])[1]")
+2026-05-22 13:12:26,135 - ERROR - Timeout waiting for clickable : ('xpath', "(//*[contains(@class,'suggest') or contains(@id,'suggest') or contains(@class,'autocomplete') or contains(@role,'option')])[1]")
+2026-05-22 13:12:26,136 - INFO - Suggestion locator failed: ('xpath', "(//*[contains(@class,'suggest') or contains(@id,'suggest') or contains(@class,'autocomplete') or contains(@role,'option')])[1]")
+2026-05-22 13:12:26,136 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]")
+2026-05-22 13:12:31,381 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]")
+2026-05-22 13:12:31,382 - INFO - Suggestion locator failed: ('xpath', "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]")
+2026-05-22 13:12:31,382 - INFO - No suggestion found. Continuing without suggestion.
+2026-05-22 13:12:31,593 - INFO - Screenshot saved at: reports/screenshots/commercial_location_suggestion_selected_20260522_131231.png
+2026-05-22 13:12:31,593 - INFO - Commercial location suggestion selected
+2026-05-22 13:12:31,602 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 13:12:31,634 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 13:12:36,032 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 13:12:36,334 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_131236.png
+2026-05-22 13:12:36,334 - INFO - Commercial search button clicked
+2026-05-22 13:12:36,366 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 13:12:36,653 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_131236.png
+2026-05-22 13:12:36,696 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 13:12:36,830 - INFO - Location found in results: Noida
+2026-05-22 13:12:37,251 - INFO - Screenshot saved at: reports/screenshots/commercial_results_contain_Noida_20260522_131236.png
+2026-05-22 13:12:37,251 - INFO - Commercial results contain location: Noida
+2026-05-22 13:12:37,252 - INFO - Applying Noida commercial filters
+2026-05-22 13:12:37,252 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Owner' or contains(normalize-space(),'Owner')]")
+2026-05-22 13:12:37,351 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Owner' or contains(normalize-space(),'Owner')]")
+2026-05-22 13:12:37,458 - INFO - Owner header filter selected
+2026-05-22 13:12:39,459 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Verified' or contains(normalize-space(),'Verified')]")
+2026-05-22 13:12:42,236 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Verified' or contains(normalize-space(),'Verified')]")
+2026-05-22 13:12:42,375 - INFO - Verified header filter selected
+2026-05-22 13:12:44,376 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'No min') or contains(text(),'Min')]")
+2026-05-22 13:12:44,418 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'No min') or contains(text(),'Min')]")
+2026-05-22 13:12:44,467 - INFO - Budget minimum dropdown opened
+2026-05-22 13:12:46,467 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'10 Lac') or contains(text(),'10 Lacs')]")
+2026-05-22 13:12:46,502 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'10 Lac') or contains(text(),'10 Lacs')]")
+2026-05-22 13:12:46,630 - INFO - Minimum budget 10 Lac selected
+2026-05-22 13:12:48,630 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'No max') or contains(text(),'Max')]")
+2026-05-22 13:12:53,916 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'No max') or contains(text(),'Max')]")
+2026-05-22 13:12:53,916 - INFO - Budget maximum dropdown opened skipped. Error: Message: 
+
+2026-05-22 13:12:53,916 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 13:12:59,189 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 13:12:59,189 - INFO - Shops filter selected skipped. Error: Message: 
+
+2026-05-22 13:12:59,190 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Kiosk') or contains(text(),'Kiosks')]")
+2026-05-22 13:13:04,477 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Kiosk') or contains(text(),'Kiosks')]")
+2026-05-22 13:13:04,477 - INFO - Kiosk filter selected skipped. Error: Message: 
+
+2026-05-22 13:13:04,478 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Security Guard') or contains(text(),'Security')]")
+2026-05-22 13:13:04,516 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'Security Guard') or contains(text(),'Security')]")
+2026-05-22 13:13:04,592 - INFO - Security Guard selected
+2026-05-22 13:13:06,593 - INFO - Noida commercial filters applied successfully
+2026-05-22 13:13:16,798 - INFO - Screenshot saved at: reports/screenshots/noida_commercial_filters_applied_20260522_131316.png
+2026-05-22 13:13:16,798 - INFO - Noida commercial filters applied successfully
+2026-05-22 13:13:16,800 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 13:13:16,834 - INFO - Element visible successfully : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 13:13:16,834 - INFO - Commercial results loaded successfully
+2026-05-22 13:13:17,041 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260522_131316.png
+2026-05-22 13:13:17,042 - INFO - Commercial results loaded successfully
+2026-05-22 13:13:17,043 - INFO - Scenario Status : Status.passed
+2026-05-22 13:13:17,043 - INFO - SCENARIO PASSED : Search Noida commercial property and apply filters
+2026-05-22 13:13:19,700 - INFO - Browser Closed Successfully
+2026-05-22 13:13:19,700 - INFO - ========================================
+2026-05-22 13:13:19,732 - INFO - ========================================
+2026-05-22 13:13:19,732 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-22 13:13:19,733 - INFO - Browser fetched : edge
+2026-05-22 13:13:19,733 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 13:13:19,733 - INFO - Implicit wait fetched : 5
+2026-05-22 13:13:19,733 - INFO - Headless mode : False
+2026-05-22 13:13:19,735 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 13:13:19,735 - INFO - Launching Edge Browser
+2026-05-22 13:13:21,132 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 13:13:33,580 - INFO - Popup not present
+2026-05-22 13:13:34,045 - INFO - 99acres application launched
+2026-05-22 13:13:34,047 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:13:34,083 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:13:34,103 - INFO - Buy tab opened successfully
+2026-05-22 13:13:34,103 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:13:34,132 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:13:34,185 - INFO - Commercial tab opened successfully
+2026-05-22 13:13:34,501 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_131334.png
+2026-05-22 13:13:34,501 - INFO - Commercial tab opened successfully
+2026-05-22 13:13:34,503 - INFO - Selecting property type: Shop
+2026-05-22 13:13:34,504 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 13:13:49,661 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 13:13:49,747 - INFO - Scenario Status : Status.error
+2026-05-22 13:13:49,747 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.1 
+2026-05-22 13:13:49,989 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.1__20260522_131349.png
+2026-05-22 13:13:49,989 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.1__20260522_131349.png
+2026-05-22 13:13:52,372 - INFO - Browser Closed Successfully
+2026-05-22 13:13:52,372 - INFO - ========================================
+2026-05-22 13:13:52,377 - INFO - ========================================
+2026-05-22 13:13:52,377 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-22 13:13:52,377 - INFO - Browser fetched : edge
+2026-05-22 13:13:52,378 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 13:13:52,378 - INFO - Implicit wait fetched : 5
+2026-05-22 13:13:52,378 - INFO - Headless mode : False
+2026-05-22 13:13:52,379 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 13:13:52,379 - INFO - Launching Edge Browser
+2026-05-22 13:13:55,328 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 13:14:03,396 - INFO - Popup closed successfully
+2026-05-22 13:14:03,731 - INFO - 99acres application launched
+2026-05-22 13:14:03,733 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:14:03,766 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 13:14:03,786 - INFO - Buy tab opened successfully
+2026-05-22 13:14:03,786 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:14:03,812 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 13:14:03,881 - INFO - Commercial tab opened successfully
+2026-05-22 13:14:04,195 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_131403.png
+2026-05-22 13:14:04,195 - INFO - Commercial tab opened successfully
+2026-05-22 13:14:04,196 - INFO - Selecting property type: Shop
+2026-05-22 13:14:04,196 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 13:14:19,565 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 13:14:19,569 - INFO - Scenario Status : Status.error
+2026-05-22 13:14:19,569 - ERROR - SCENARIO FAILED : Search shop commercial property -- @1.2 
+2026-05-22 13:14:19,843 - INFO - Screenshot saved at: reports/screenshots/Search_shop_commercial_property_--_@1.2__20260522_131419.png
+2026-05-22 13:14:19,843 - INFO - Screenshot Saved : reports/screenshots/Search_shop_commercial_property_--_@1.2__20260522_131419.png
+2026-05-22 13:14:22,199 - INFO - Browser Closed Successfully
+2026-05-22 13:14:22,200 - INFO - ========================================
+2026-05-22 14:36:07,809 - INFO - Timeout fetched : 10
+2026-05-22 14:36:07,863 - INFO - Loading test data before execution
+2026-05-22 14:36:07,866 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 14:36:07,871 - INFO - ========================================
+2026-05-22 14:36:07,871 - INFO - STARTING SCENARIO : Search commercial property by location
+2026-05-22 14:36:07,871 - INFO - Browser fetched : edge
+2026-05-22 14:36:07,871 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:36:07,871 - INFO - Implicit wait fetched : 5
+2026-05-22 14:36:07,871 - INFO - Headless mode : False
+2026-05-22 14:36:07,872 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:36:07,872 - INFO - Launching Edge Browser
+2026-05-22 14:36:12,215 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:36:18,252 - INFO - Popup closed successfully
+2026-05-22 14:36:18,591 - INFO - 99acres application launched
+2026-05-22 14:36:18,594 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:36:18,633 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:36:18,663 - INFO - Buy tab opened successfully
+2026-05-22 14:36:18,663 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:36:18,690 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:36:18,744 - INFO - Commercial tab opened successfully
+2026-05-22 14:36:19,065 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_143618.png
+2026-05-22 14:36:19,065 - INFO - Commercial tab opened successfully
+2026-05-22 14:36:19,067 - INFO - Entering commercial location: Mumbai
+2026-05-22 14:36:21,776 - INFO - Entered and selected commercial location: Mumbai
+2026-05-22 14:36:24,003 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Mumbai_20260522_143623.png
+2026-05-22 14:36:24,003 - INFO - Commercial location entered: Mumbai
+2026-05-22 14:36:24,011 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:36:24,047 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:36:32,990 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/mumbai?city=12&property_type=C&preference=S&res_com=C
+2026-05-22 14:36:33,416 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_143632.png
+2026-05-22 14:36:33,416 - INFO - Commercial search button clicked
+2026-05-22 14:36:33,435 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/mumbai?city=12&property_type=C&preference=S&res_com=C
+2026-05-22 14:36:33,715 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_143633.png
+2026-05-22 14:36:33,721 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/mumbai?city=12&property_type=C&preference=S&res_com=C
+2026-05-22 14:36:33,723 - INFO - Scenario Status : Status.passed
+2026-05-22 14:36:33,723 - INFO - SCENARIO PASSED : Search commercial property by location
+2026-05-22 14:36:36,391 - INFO - Browser Closed Successfully
+2026-05-22 14:36:36,391 - INFO - ========================================
+2026-05-22 14:36:36,394 - INFO - ========================================
+2026-05-22 14:36:36,394 - INFO - STARTING SCENARIO : Search Noida commercial property and apply filters
+2026-05-22 14:36:36,394 - INFO - Browser fetched : edge
+2026-05-22 14:36:36,394 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:36:36,395 - INFO - Implicit wait fetched : 5
+2026-05-22 14:36:36,395 - INFO - Headless mode : False
+2026-05-22 14:36:36,396 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:36:36,396 - INFO - Launching Edge Browser
+2026-05-22 14:36:41,682 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:36:48,490 - INFO - Popup closed successfully
+2026-05-22 14:36:48,822 - INFO - 99acres application launched
+2026-05-22 14:36:54,956 - INFO - Popup not present
+2026-05-22 14:36:55,272 - INFO - 99acres application launched
+2026-05-22 14:36:55,273 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:36:55,304 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:36:55,322 - INFO - Buy tab opened successfully
+2026-05-22 14:36:55,322 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:36:55,350 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:36:55,396 - INFO - Commercial tab opened successfully
+2026-05-22 14:36:55,710 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_143655.png
+2026-05-22 14:36:55,711 - INFO - Commercial tab opened successfully
+2026-05-22 14:36:55,712 - INFO - Entering commercial location: Noida
+2026-05-22 14:36:58,360 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:37:00,579 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_143700.png
+2026-05-22 14:37:00,579 - INFO - Commercial location entered: Noida
+2026-05-22 14:37:00,585 - INFO - Trying to select commercial location suggestion
+2026-05-22 14:37:00,586 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Noida') or contains(@title,'Noida')]")
+2026-05-22 14:37:05,824 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Noida') or contains(@title,'Noida')]")
+2026-05-22 14:37:05,824 - INFO - Suggestion locator failed: ('xpath', "//*[contains(text(),'Noida') or contains(@title,'Noida')]")
+2026-05-22 14:37:05,825 - INFO - Waiting for element clickable : ('xpath', "(//*[contains(@class,'suggest') or contains(@id,'suggest') or contains(@class,'autocomplete') or contains(@role,'option')])[1]")
+2026-05-22 14:37:11,105 - ERROR - Timeout waiting for clickable : ('xpath', "(//*[contains(@class,'suggest') or contains(@id,'suggest') or contains(@class,'autocomplete') or contains(@role,'option')])[1]")
+2026-05-22 14:37:11,105 - INFO - Suggestion locator failed: ('xpath', "(//*[contains(@class,'suggest') or contains(@id,'suggest') or contains(@class,'autocomplete') or contains(@role,'option')])[1]")
+2026-05-22 14:37:11,106 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]")
+2026-05-22 14:37:16,338 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]")
+2026-05-22 14:37:16,338 - INFO - Suggestion locator failed: ('xpath', "//*[contains(text(),'Mumbai') or contains(@title,'Mumbai')]")
+2026-05-22 14:37:16,338 - INFO - No suggestion found. Continuing without suggestion.
+2026-05-22 14:37:16,549 - INFO - Screenshot saved at: reports/screenshots/commercial_location_suggestion_selected_20260522_143716.png
+2026-05-22 14:37:16,549 - INFO - Commercial location suggestion selected
+2026-05-22 14:37:16,557 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:37:16,586 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:37:19,989 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:37:20,310 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_143719.png
+2026-05-22 14:37:20,310 - INFO - Commercial search button clicked
+2026-05-22 14:37:20,328 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:37:20,619 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_143720.png
+2026-05-22 14:37:20,625 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:37:20,737 - INFO - Location found in results: Noida
+2026-05-22 14:37:21,155 - INFO - Screenshot saved at: reports/screenshots/commercial_results_contain_Noida_20260522_143720.png
+2026-05-22 14:37:21,155 - INFO - Commercial results contain location: Noida
+2026-05-22 14:37:21,157 - INFO - Applying Noida commercial filters
+2026-05-22 14:37:21,157 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Owner' or contains(normalize-space(),'Owner')]")
+2026-05-22 14:37:21,248 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Owner' or contains(normalize-space(),'Owner')]")
+2026-05-22 14:37:21,327 - INFO - Owner header filter selected
+2026-05-22 14:37:23,328 - INFO - Waiting for element clickable : ('xpath', "//*[normalize-space()='Verified' or contains(normalize-space(),'Verified')]")
+2026-05-22 14:37:23,457 - INFO - Element clickable successfully : ('xpath', "//*[normalize-space()='Verified' or contains(normalize-space(),'Verified')]")
+2026-05-22 14:37:23,508 - INFO - Verified header filter selected
+2026-05-22 14:37:25,509 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'No min') or contains(text(),'Min')]")
+2026-05-22 14:37:25,548 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'No min') or contains(text(),'Min')]")
+2026-05-22 14:37:25,583 - INFO - Budget minimum dropdown opened
+2026-05-22 14:37:27,584 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'10 Lac') or contains(text(),'10 Lacs')]")
+2026-05-22 14:37:27,621 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'10 Lac') or contains(text(),'10 Lacs')]")
+2026-05-22 14:37:27,755 - INFO - Minimum budget 10 Lac selected
+2026-05-22 14:37:29,756 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'No max') or contains(text(),'Max')]")
+2026-05-22 14:37:35,014 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'No max') or contains(text(),'Max')]")
+2026-05-22 14:37:35,014 - INFO - Budget maximum dropdown opened skipped. Error: Message: 
+
+2026-05-22 14:37:35,014 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 14:37:40,288 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 14:37:40,288 - INFO - Shops filter selected skipped. Error: Message: 
+
+2026-05-22 14:37:40,288 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Kiosk') or contains(text(),'Kiosks')]")
+2026-05-22 14:37:45,572 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Kiosk') or contains(text(),'Kiosks')]")
+2026-05-22 14:37:45,573 - INFO - Kiosk filter selected skipped. Error: Message: 
+
+2026-05-22 14:37:45,573 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Security Guard') or contains(text(),'Security')]")
+2026-05-22 14:37:45,617 - INFO - Element clickable successfully : ('xpath', "//*[contains(text(),'Security Guard') or contains(text(),'Security')]")
+2026-05-22 14:37:45,739 - INFO - Security Guard selected
+2026-05-22 14:37:47,740 - INFO - Noida commercial filters applied successfully
+2026-05-22 14:37:57,908 - INFO - Screenshot saved at: reports/screenshots/noida_commercial_filters_applied_20260522_143757.png
+2026-05-22 14:37:57,908 - INFO - Noida commercial filters applied successfully
+2026-05-22 14:37:57,910 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 14:37:57,947 - INFO - Element visible successfully : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 14:37:57,948 - INFO - Commercial results loaded successfully
+2026-05-22 14:37:58,143 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260522_143757.png
+2026-05-22 14:37:58,143 - INFO - Commercial results loaded successfully
+2026-05-22 14:37:58,144 - INFO - Scenario Status : Status.passed
+2026-05-22 14:37:58,144 - INFO - SCENARIO PASSED : Search Noida commercial property and apply filters
+2026-05-22 14:38:00,726 - INFO - Browser Closed Successfully
+2026-05-22 14:38:00,726 - INFO - ========================================
+2026-05-22 14:38:00,731 - INFO - ========================================
+2026-05-22 14:38:00,731 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.1 
+2026-05-22 14:38:00,731 - INFO - Browser fetched : edge
+2026-05-22 14:38:00,731 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:38:00,731 - INFO - Implicit wait fetched : 5
+2026-05-22 14:38:00,732 - INFO - Headless mode : False
+2026-05-22 14:38:00,732 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:38:00,733 - INFO - Launching Edge Browser
+2026-05-22 14:38:03,640 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:38:12,691 - INFO - Popup closed successfully
+2026-05-22 14:38:13,071 - INFO - 99acres application launched
+2026-05-22 14:38:13,074 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:38:13,170 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:38:13,190 - INFO - Buy tab opened successfully
+2026-05-22 14:38:13,190 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:38:13,494 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:38:13,531 - INFO - Commercial tab opened successfully
+2026-05-22 14:38:13,912 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_143813.png
+2026-05-22 14:38:13,912 - INFO - Commercial tab opened successfully
+2026-05-22 14:38:13,913 - INFO - Entering commercial location: Noida
+2026-05-22 14:38:16,663 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:38:18,904 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_143818.png
+2026-05-22 14:38:18,904 - INFO - Commercial location entered: Noida
+2026-05-22 14:38:18,913 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:38:18,946 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:38:23,702 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:38:23,967 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_143823.png
+2026-05-22 14:38:23,967 - INFO - Commercial search button clicked
+2026-05-22 14:38:23,983 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:38:24,270 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_143823.png
+2026-05-22 14:38:24,277 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:38:24,278 - INFO - Selecting property type: Shop
+2026-05-22 14:38:24,279 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 14:38:32,442 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 14:38:32,443 - INFO - Shop locator failed: ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]") | Error: Message: 
+
+2026-05-22 14:38:32,443 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 14:38:40,888 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 14:38:40,888 - INFO - Shop locator failed: ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]") | Error: Message: 
+
+2026-05-22 14:38:40,888 - INFO - Shop filter not visible before search. Skipping selection.
+2026-05-22 14:38:41,157 - INFO - Screenshot saved at: reports/screenshots/property_type_selected_Shop_20260522_143840.png
+2026-05-22 14:38:41,157 - INFO - Commercial property type selected: Shop
+2026-05-22 14:38:41,159 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 14:38:41,189 - INFO - Element visible successfully : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 14:38:41,189 - INFO - Commercial results loaded successfully
+2026-05-22 14:38:41,431 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260522_143841.png
+2026-05-22 14:38:41,431 - INFO - Commercial results loaded successfully
+2026-05-22 14:38:41,431 - INFO - Scenario Status : Status.passed
+2026-05-22 14:38:41,431 - INFO - SCENARIO PASSED : Search shop commercial property -- @1.1 
+2026-05-22 14:38:43,962 - INFO - Browser Closed Successfully
+2026-05-22 14:38:43,962 - INFO - ========================================
+2026-05-22 14:38:43,965 - INFO - ========================================
+2026-05-22 14:38:43,965 - INFO - STARTING SCENARIO : Search shop commercial property -- @1.2 
+2026-05-22 14:38:43,965 - INFO - Browser fetched : edge
+2026-05-22 14:38:43,965 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:38:43,965 - INFO - Implicit wait fetched : 5
+2026-05-22 14:38:43,965 - INFO - Headless mode : False
+2026-05-22 14:38:43,966 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:38:43,966 - INFO - Launching Edge Browser
+2026-05-22 14:38:45,333 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:38:55,327 - INFO - Popup closed successfully
+2026-05-22 14:38:55,657 - INFO - 99acres application launched
+2026-05-22 14:38:55,658 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:38:55,690 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:38:55,708 - INFO - Buy tab opened successfully
+2026-05-22 14:38:55,709 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:38:55,739 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:38:55,759 - INFO - Commercial tab opened successfully
+2026-05-22 14:38:56,074 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_143855.png
+2026-05-22 14:38:56,074 - INFO - Commercial tab opened successfully
+2026-05-22 14:38:56,075 - INFO - Entering commercial location: Noida
+2026-05-22 14:38:58,948 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:39:01,176 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_143900.png
+2026-05-22 14:39:01,177 - INFO - Commercial location entered: Noida
+2026-05-22 14:39:01,183 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:39:01,215 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:39:04,923 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:39:05,240 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_143904.png
+2026-05-22 14:39:05,241 - INFO - Commercial search button clicked
+2026-05-22 14:39:05,253 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:39:05,564 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_143905.png
+2026-05-22 14:39:05,574 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:39:05,576 - INFO - Selecting property type: Shop
+2026-05-22 14:39:05,576 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 14:39:13,745 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]")
+2026-05-22 14:39:13,746 - INFO - Shop locator failed: ('xpath', "//*[contains(text(),'Shops') or contains(text(),'Shop') or contains(text(),'Retail')]") | Error: Message: 
+
+2026-05-22 14:39:13,746 - INFO - Waiting for element clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 14:39:22,181 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]")
+2026-05-22 14:39:22,181 - INFO - Shop locator failed: ('xpath', "//*[contains(text(),'Shop') or contains(text(),'Retail') or contains(text(),'Shops')]") | Error: Message: 
+
+2026-05-22 14:39:22,181 - INFO - Shop filter not visible before search. Skipping selection.
+2026-05-22 14:39:22,436 - INFO - Screenshot saved at: reports/screenshots/property_type_selected_Shop_20260522_143922.png
+2026-05-22 14:39:22,436 - INFO - Commercial property type selected: Shop
+2026-05-22 14:39:22,437 - INFO - Waiting for element visibility : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 14:39:22,467 - INFO - Element visible successfully : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard') or contains(@class,'tupleCardWrap') or contains(@class,'listings') or contains(@class,'results') or contains(text(),'properties')]")
+2026-05-22 14:39:22,467 - INFO - Commercial results loaded successfully
+2026-05-22 14:39:22,710 - INFO - Screenshot saved at: reports/screenshots/commercial_results_loaded_20260522_143922.png
+2026-05-22 14:39:22,711 - INFO - Commercial results loaded successfully
+2026-05-22 14:39:22,712 - INFO - Scenario Status : Status.passed
+2026-05-22 14:39:22,712 - INFO - SCENARIO PASSED : Search shop commercial property -- @1.2 
+2026-05-22 14:39:25,402 - INFO - Browser Closed Successfully
+2026-05-22 14:39:25,402 - INFO - ========================================
+2026-05-22 14:47:21,167 - INFO - Timeout fetched : 10
+2026-05-22 14:47:21,211 - INFO - Loading test data before execution
+2026-05-22 14:47:21,214 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 14:47:21,229 - INFO - ========================================
+2026-05-22 14:47:21,229 - INFO - STARTING SCENARIO : Navigate to any commercial property from results page
+2026-05-22 14:47:21,230 - INFO - Browser fetched : edge
+2026-05-22 14:47:21,230 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:47:21,230 - INFO - Implicit wait fetched : 5
+2026-05-22 14:47:21,230 - INFO - Headless mode : False
+2026-05-22 14:47:21,231 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:47:21,231 - INFO - Launching Edge Browser
+2026-05-22 14:47:23,296 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:47:30,588 - INFO - Popup closed successfully
+2026-05-22 14:47:31,003 - INFO - 99acres application launched
+2026-05-22 14:47:37,071 - INFO - Popup not present
+2026-05-22 14:47:37,411 - INFO - 99acres application launched
+2026-05-22 14:47:37,413 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:47:37,451 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:47:37,471 - INFO - Buy tab opened successfully
+2026-05-22 14:47:37,471 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:47:37,506 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:47:37,579 - INFO - Commercial tab opened successfully
+2026-05-22 14:47:38,017 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_144737.png
+2026-05-22 14:47:38,018 - INFO - Commercial tab opened successfully
+2026-05-22 14:47:38,019 - INFO - Entering commercial location: Noida
+2026-05-22 14:47:40,776 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:47:42,987 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_144742.png
+2026-05-22 14:47:42,988 - INFO - Commercial location entered: Noida
+2026-05-22 14:47:42,994 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:47:43,025 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:47:48,723 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:47:48,980 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_144748.png
+2026-05-22 14:47:48,980 - INFO - Commercial search button clicked
+2026-05-22 14:47:48,993 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:47:49,296 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_144748.png
+2026-05-22 14:47:49,304 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:47:49,305 - INFO - Clicking any commercial property from results
+2026-05-22 14:47:49,305 - INFO - Waiting for element clickable : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard')]")
+2026-05-22 14:48:10,925 - ERROR - Timeout waiting for clickable : ('xpath', "//*[contains(@class,'srpTuple') or contains(@class,'tupleCard')]")
+2026-05-22 14:48:10,948 - INFO - Scenario Status : Status.error
+2026-05-22 14:48:10,948 - ERROR - SCENARIO FAILED : Navigate to any commercial property from results page
+2026-05-22 14:48:11,204 - INFO - Screenshot saved at: reports/screenshots/Navigate_to_any_commercial_property_from_results_page_20260522_144810.png
+2026-05-22 14:48:11,204 - INFO - Screenshot Saved : reports/screenshots/Navigate_to_any_commercial_property_from_results_page_20260522_144810.png
+2026-05-22 14:48:13,851 - INFO - Browser Closed Successfully
+2026-05-22 14:48:13,851 - INFO - ========================================
+2026-05-22 14:49:45,999 - INFO - Timeout fetched : 10
+2026-05-22 14:49:46,056 - INFO - Loading test data before execution
+2026-05-22 14:49:46,058 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 14:49:46,073 - INFO - ========================================
+2026-05-22 14:49:46,073 - INFO - STARTING SCENARIO : Navigate to any commercial property from results page
+2026-05-22 14:49:46,073 - INFO - Browser fetched : edge
+2026-05-22 14:49:46,073 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:49:46,073 - INFO - Implicit wait fetched : 5
+2026-05-22 14:49:46,073 - INFO - Headless mode : False
+2026-05-22 14:49:46,074 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:49:46,074 - INFO - Launching Edge Browser
+2026-05-22 14:49:50,893 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:49:59,720 - INFO - Popup closed successfully
+2026-05-22 14:50:00,078 - INFO - 99acres application launched
+2026-05-22 14:50:06,319 - INFO - Popup not present
+2026-05-22 14:50:06,636 - INFO - 99acres application launched
+2026-05-22 14:50:06,638 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:50:06,674 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:50:06,692 - INFO - Buy tab opened successfully
+2026-05-22 14:50:06,692 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:50:06,719 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:50:06,737 - INFO - Commercial tab opened successfully
+2026-05-22 14:50:07,070 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_145006.png
+2026-05-22 14:50:07,071 - INFO - Commercial tab opened successfully
+2026-05-22 14:50:07,072 - INFO - Entering commercial location: Noida
+2026-05-22 14:50:09,731 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:50:11,949 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_145011.png
+2026-05-22 14:50:11,949 - INFO - Commercial location entered: Noida
+2026-05-22 14:50:11,957 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:50:11,991 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:50:17,158 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:50:17,410 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_145017.png
+2026-05-22 14:50:17,410 - INFO - Commercial search button clicked
+2026-05-22 14:50:17,430 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:50:17,708 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_145017.png
+2026-05-22 14:50:17,713 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:50:17,714 - INFO - Clicking any commercial property from results
+2026-05-22 14:50:22,723 - INFO - Waiting for element clickable : ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:50:23,048 - INFO - Element clickable successfully : ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:50:25,248 - INFO - Clicked commercial property using locator: ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:50:33,276 - INFO - Property detail page URL: https://www.99acres.com/factory-for-sale-in-sector-3-noida-8396-sqft-r1-spid-d88292152
+2026-05-22 14:50:33,278 - INFO - Scenario Status : Status.passed
+2026-05-22 14:50:33,278 - INFO - SCENARIO PASSED : Navigate to any commercial property from results page
+2026-05-22 14:50:36,403 - INFO - Browser Closed Successfully
+2026-05-22 14:50:36,403 - INFO - ========================================
+2026-05-22 14:50:46,094 - INFO - Timeout fetched : 10
+2026-05-22 14:50:46,143 - INFO - Loading test data before execution
+2026-05-22 14:50:46,144 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 14:50:46,155 - INFO - ========================================
+2026-05-22 14:50:46,155 - INFO - STARTING SCENARIO : Navigate to any commercial property from results page
+2026-05-22 14:50:46,155 - INFO - Browser fetched : edge
+2026-05-22 14:50:46,155 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:50:46,155 - INFO - Implicit wait fetched : 5
+2026-05-22 14:50:46,156 - INFO - Headless mode : False
+2026-05-22 14:50:46,156 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:50:46,156 - INFO - Launching Edge Browser
+2026-05-22 14:50:49,117 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:50:55,769 - INFO - Popup closed successfully
+2026-05-22 14:50:56,096 - INFO - 99acres application launched
+2026-05-22 14:51:02,352 - INFO - Popup not present
+2026-05-22 14:51:02,664 - INFO - 99acres application launched
+2026-05-22 14:51:02,666 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:51:02,703 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:51:02,721 - INFO - Buy tab opened successfully
+2026-05-22 14:51:02,721 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:51:02,751 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:51:02,770 - INFO - Commercial tab opened successfully
+2026-05-22 14:51:03,099 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_145102.png
+2026-05-22 14:51:03,099 - INFO - Commercial tab opened successfully
+2026-05-22 14:51:03,100 - INFO - Entering commercial location: Noida
+2026-05-22 14:51:05,744 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:51:07,949 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_145107.png
+2026-05-22 14:51:07,949 - INFO - Commercial location entered: Noida
+2026-05-22 14:51:07,957 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:51:07,988 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:51:12,025 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:51:12,497 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_145112.png
+2026-05-22 14:51:12,498 - INFO - Commercial search button clicked
+2026-05-22 14:51:12,513 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:51:12,760 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_145112.png
+2026-05-22 14:51:12,766 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:51:12,767 - INFO - Clicking any commercial property from results
+2026-05-22 14:51:17,784 - INFO - Waiting for element clickable : ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:51:18,373 - INFO - Element clickable successfully : ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:51:20,625 - INFO - Clicked commercial property using locator: ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:51:28,665 - INFO - Property detail page URL: https://www.99acres.com/factory-for-sale-in-f-block-sector-6-noida-8611-sqft-spid-m89477350
+2026-05-22 14:51:28,666 - INFO - Scenario Status : Status.passed
+2026-05-22 14:51:28,666 - INFO - SCENARIO PASSED : Navigate to any commercial property from results page
+2026-05-22 14:51:31,140 - INFO - Browser Closed Successfully
+2026-05-22 14:51:31,140 - INFO - ========================================
+2026-05-22 14:54:23,665 - INFO - Timeout fetched : 10
+2026-05-22 14:54:23,687 - INFO - Loading test data before execution
+2026-05-22 14:54:23,689 - INFO - Login test data loaded : {'mobile_number': '8299062481'}
+2026-05-22 14:54:23,704 - INFO - ========================================
+2026-05-22 14:54:23,705 - INFO - STARTING SCENARIO : Navigate to any commercial property from results page
+2026-05-22 14:54:23,705 - INFO - Browser fetched : edge
+2026-05-22 14:54:23,705 - INFO - Base URL fetched : https://www.99acres.com/
+2026-05-22 14:54:23,705 - INFO - Implicit wait fetched : 5
+2026-05-22 14:54:23,705 - INFO - Headless mode : False
+2026-05-22 14:54:23,706 - INFO - Mobile number loaded from CSV : 8299062481
+2026-05-22 14:54:23,707 - INFO - Launching Edge Browser
+2026-05-22 14:54:27,194 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 14:54:33,233 - INFO - Popup closed successfully
+2026-05-22 14:54:33,570 - INFO - 99acres application launched
+2026-05-22 14:54:39,645 - INFO - Popup not present
+2026-05-22 14:54:39,963 - INFO - 99acres application launched
+2026-05-22 14:54:39,965 - INFO - Waiting for element clickable : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:54:40,004 - INFO - Element clickable successfully : ('xpath', "//a[contains(text(),'Buy')]")
+2026-05-22 14:54:40,021 - INFO - Buy tab opened successfully
+2026-05-22 14:54:40,021 - INFO - Waiting for element clickable : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:54:40,052 - INFO - Element clickable successfully : ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 14:54:40,093 - INFO - Commercial tab opened successfully
+2026-05-22 14:54:40,403 - INFO - Screenshot saved at: reports/screenshots/commercial_tab_opened_20260522_145440.png
+2026-05-22 14:54:40,403 - INFO - Commercial tab opened successfully
+2026-05-22 14:54:40,405 - INFO - Entering commercial location: Noida
+2026-05-22 14:54:43,070 - INFO - Entered and selected commercial location: Noida
+2026-05-22 14:54:45,283 - INFO - Screenshot saved at: reports/screenshots/commercial_location_entered_Noida_20260522_145445.png
+2026-05-22 14:54:45,283 - INFO - Commercial location entered: Noida
+2026-05-22 14:54:45,290 - INFO - Waiting for element clickable : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:54:45,323 - INFO - Element clickable successfully : ('xpath', "//button[contains(.,'Search')] | //*[@id='searchform_search_btn']")
+2026-05-22 14:54:47,264 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:54:47,482 - INFO - Screenshot saved at: reports/screenshots/commercial_search_button_clicked_20260522_145447.png
+2026-05-22 14:54:47,482 - INFO - Commercial search button clicked
+2026-05-22 14:54:47,494 - INFO - Commercial results page detected: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:54:47,747 - INFO - Screenshot saved at: reports/screenshots/commercial_results_page_opened_20260522_145447.png
+2026-05-22 14:54:47,752 - INFO - Redirected URL: https://www.99acres.com/search/property/buy/commercial-all/noida?city=7&property_type=C&preference=S&res_com=C
+2026-05-22 14:54:47,755 - INFO - Clicking any commercial property from results
+2026-05-22 14:54:52,767 - INFO - Waiting for element clickable : ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:54:52,845 - INFO - Element clickable successfully : ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:54:55,029 - INFO - Clicked commercial property using locator: ('xpath', "(//a[contains(@href,'/property/') or contains(@href,'spid') or contains(@href,'commercial')])[1]")
+2026-05-22 14:55:03,053 - INFO - Property detail page URL: https://www.99acres.com/factory-for-sale-in-sector-4-noida-8611-sqft-spid-y89583022
+2026-05-22 14:55:03,054 - INFO - Scenario Status : Status.passed
+2026-05-22 14:55:03,054 - INFO - SCENARIO PASSED : Navigate to any commercial property from results page
+2026-05-22 14:55:05,554 - INFO - Browser Closed Successfully
+2026-05-22 14:55:05,554 - INFO - ========================================

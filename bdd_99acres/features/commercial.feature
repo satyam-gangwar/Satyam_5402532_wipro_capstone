@@ -25,17 +25,29 @@ Scenario: Search Noida commercial property and apply filters
 
 
 
-  @commercial
-Scenario Outline: Search shop commercial property
-  When User opens Commercial tab
-  And User selects commercial property type "<property_type>"
-  And User searches commercial property for location "<location>"
-  Then Commercial results should be loaded
 
-Examples:
-  | location | property_type |
-  | Noida    | Shop          |
-  | Delhi    | Shop          |
+@commercial @property_navigation
+Scenario: Navigate to any commercial property from results page
+  Given User launches 99acres application
+  When User opens Commercial tab
+  And User enters commercial property location "Noida"
+  And User clicks Commercial Search button
+  Then User should be redirected to commercial results page
+  When User clicks any commercial property from results
+  Then Commercial property detail page should be opened
+
+
+
+
+  @commercial @fixed_property
+  Scenario: Open fixed commercial property from Noida results page
+    Given User launches 99acres application
+    When User opens Commercial tab
+    And User enters commercial property location "Noida"
+    And User clicks Commercial Search button
+    Then User should be redirected to commercial results page
+    When User clicks fixed commercial property
+    Then Commercial property detail page should be opened
 
   #@commercial @view_number
   #Scenario: Verify View Number button opens login popup

@@ -1,3 +1,0 @@
-2026-05-20 17:13:15 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_loaded_20260520_171314.png
-2026-05-20 17:13:15 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_ivory_county_title_visible_20260520_171315.png
-2026-05-20 17:13:16 | INFO     | property | Verified text visible: Ivory County
