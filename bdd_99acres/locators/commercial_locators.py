@@ -307,17 +307,81 @@ class CommercialLocators:
         "or contains(@class,'tupleCardWrap')])[1]"
     )
 
-    FIXED_PROPERTY = (
+    FIXED_PROPERTY_ONE_FNG = (
         By.XPATH,
-        "//a[contains(@href,'property')][1]"
+        "//*[contains(normalize-space(),'One FNG by Group 108')]"
     )
 
-    FIXED_PROPERTY_TITLE = (
+    FIXED_PROPERTY_ONE_FNG_FALLBACK = (
         By.XPATH,
-        "//*[contains(text(),'12Bedrooms')]"
+        "//*[contains(normalize-space(),'Bare shell Office Space') "
+        "and contains(normalize-space(),'Sector 142')]"
     )
 
-    FIXED_PROPERTY_DEALER = (
+    M3M_THE_LINE_PROPERTY = (
         By.XPATH,
-        "//*[contains(text(),'Jagesh')]"
+        "//*[contains(normalize-space(),'M3M The Line')]"
+    )
+
+    M3M_THE_LINE_FALLBACK = (
+        By.XPATH,
+        "//*[contains(normalize-space(),'Showroom for sale') "
+        "and contains(normalize-space(),'Sector 72')]"
+    )
+
+
+    PROPERTY_DETAIL_PAGE = (
+        By.XPATH,
+        "//*[contains(text(),'Commercial Showrooms for Sale') "
+        "or contains(text(),'Showroom for sale') "
+        "or contains(text(),'Commercial property')]"
+    )
+
+    #CONTACT_OWNER_BUTTON = (
+     #   By.ID,
+      #  "contactDealerBtn"
+    #)
+    OWNER_DETAILS_TAB = (
+        By.XPATH,
+        "//*[contains(translate(normalize-space(.), "
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ', "
+        "'abcdefghijklmnopqrstuvwxyz'), 'owner details') "
+        "or contains(translate(normalize-space(.), "
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ', "
+        "'abcdefghijklmnopqrstuvwxyz'), 'view owner') "
+        "or contains(translate(normalize-space(.), "
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ', "
+        "'abcdefghijklmnopqrstuvwxyz'), 'contact dealer') "
+        "or contains(translate(normalize-space(.), "
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ', "
+        "'abcdefghijklmnopqrstuvwxyz'), 'get phone')]"
+    )
+
+
+
+
+    OWNER_FORM_TRIGGER = (
+        By.XPATH,
+        "//*[@id='contactDealerBtn'] "
+        "|//*[contains(@data-label,'CONTACT_DEALER_OWNER')] "
+        "|//*[contains(translate(normalize-space(.), "
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'contact owner')] "
+        "|//*[contains(translate(normalize-space(.), "
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'view phone')]"
+    )
+
+    OWNER_NAME_INPUT = (
+        By.XPATH,
+        "(//input[@type='text' "
+        "or contains(@placeholder,'Name') "
+        "or contains(@name,'name') "
+        "or contains(@id,'name')])[1]"
+    )
+
+    OWNER_MOBILE_INPUT = (
+        By.XPATH,
+        "(//input[contains(@placeholder,'Mobile') "
+        "or contains(@placeholder,'Phone') "
+        "or contains(@placeholder,'Number') "
+        "or @type='tel'])[last()]"
     )

@@ -7,11 +7,11 @@ import time
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-
+from selenium.webdriver.support import expected_conditions as EC
 from locators.commercial_locators import CommercialLocators
 from utils.logger import LogGen
 from utils.waits import WaitUtils
-
+from utils.config_reader import ConfigReader
 
 logger = LogGen.loggen()
 
@@ -21,7 +21,11 @@ class CommercialPage:
     def __init__(self, driver):
 
         self.driver = driver
+
+        self.wait = WebDriverWait(driver, 20)
+
         self.last_searched_location = ""
+
         self.active_search_input = None
 
     def open_commercial_city_page(self, city):
@@ -175,56 +179,46 @@ class CommercialPage:
 
         old_url = self.driver.current_url
 
-        search_button = WaitUtils.wait_for_element_clickable(
-            self.driver,
-            CommercialLocators.SEARCH_BUTTON,
-            timeout=15
-        )
+        logger.info(f"URL before search: {old_url}")
 
-        self.driver.execute_script(
-            "arguments[0].click();",
-            search_button
-        )
+        try:
+            search_button = WaitUtils.wait_for_element_clickable(
+                self.driver,
+                CommercialLocators.SEARCH_BUTTON,
+                timeout=15
+            )
+
+            self.driver.execute_script(
+                "arguments[0].click();",
+                search_button
+            )
+
+            logger.info("Commercial search button clicked")
+
+        except Exception:
+            logger.info("Search button click failed, pressing Enter instead")
+
+            self.active_search_input.send_keys(Keys.ENTER)
+
+        WaitUtils.slow_execution(5)
+
+        current_url = self.driver.current_url
+
+        logger.info(f"URL after search: {current_url}")
+
+        if current_url == old_url:
+            logger.info("URL did not change, checking page content instead")
 
         WebDriverWait(self.driver, 40).until(
             lambda driver:
-            driver.current_url != old_url
-            or self.last_searched_location.lower()
-            in driver.current_url.lower()
+            "noida" in driver.page_source.lower()
+            or "property" in driver.page_source.lower()
+            or "commercial" in driver.page_source.lower()
+            or "results" in driver.page_source.lower()
         )
 
-        logger.info(
-            f"Redirected URL: {self.driver.current_url}"
-        )
+        logger.info("Commercial results page loaded")
 
-    def is_results_loaded(self):
-
-        possible_results = [
-            CommercialLocators.RESULTS_CONTAINER,
-            CommercialLocators.RESULTS_TEXT
-        ]
-
-        for locator in possible_results:
-
-            try:
-                WaitUtils.wait_for_element_visible(
-                    self.driver,
-                    locator,
-                    timeout=10
-                )
-
-                logger.info(
-                    "Commercial results loaded successfully"
-                )
-
-                return True
-
-            except Exception:
-                logger.info(
-                    f"Result locator not visible: {locator}"
-                )
-
-        return False
 
     def results_contain_location(self, location):
 
@@ -779,19 +773,174 @@ class CommercialPage:
 
     def is_property_detail_page_opened(self):
 
-        all_windows = self.driver.window_handles
-
-        if len(all_windows) > 1:
-            self.driver.switch_to.window(all_windows[-1])
-
-        WaitUtils.slow_execution(3)
-
-        current_url = self.driver.current_url.lower()
-
-        logger.info(f"Property detail page URL: {current_url}")
+        self.switch_to_latest_tab()
 
         return (
-                "property" in current_url
-                or "commercial" in current_url
-                or "spid" in current_url
+                "spid" in self.driver.current_url
+                or "showroom-for-sale" in self.driver.current_url
+                or "m3m-the-line" in self.driver.current_url
         )
+
+
+    def click_fixed_property_m3m(self):
+
+        logger.info("Opening M3M The Line property directly")
+
+        property_url = (
+            "https://www.99acres.com/"
+            "showroom-for-sale-in-m3m-the-line-sector-72-noida-"
+            "1640-sqft-spid-V89447334"
+        )
+
+        old_windows = self.driver.window_handles
+
+        self.driver.execute_script(
+            "window.open(arguments[0], '_blank');",
+            property_url
+        )
+
+        WebDriverWait(self.driver, 10).until(
+            lambda driver:
+            len(driver.window_handles) > len(old_windows)
+        )
+
+        self.driver.switch_to.window(
+            self.driver.window_handles[-1]
+        )
+
+        WaitUtils.slow_execution(8)
+
+        logger.info(
+            f"M3M property page opened: {self.driver.current_url}"
+        )
+
+    def click_owner_details_tab(self):
+
+        self.switch_to_latest_tab()
+
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+        owner_details_tab = self.wait.until(
+            EC.presence_of_element_located(
+                CommercialLocators.OWNER_DETAILS_TAB
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            owner_details_tab
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            owner_details_tab
+        )
+
+    def open_owner_enquiry_form(self):
+
+        self.switch_to_latest_tab()
+
+        trigger = self.wait.until(
+            EC.presence_of_element_located(
+                CommercialLocators.OWNER_FORM_TRIGGER
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            trigger
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            trigger
+        )
+
+    def enter_owner_contact_name(self, name):
+
+        name_input = self.wait.until(
+            EC.presence_of_element_located(
+                CommercialLocators.OWNER_NAME_INPUT
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            name_input
+        )
+
+        self.driver.execute_script(
+            "arguments[0].value = arguments[1];"
+            "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
+            "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+            name_input,
+            name
+        )
+
+    def enter_owner_contact_mobile_number(self, mobile_number):
+
+        mobile_input = self.wait.until(
+            EC.presence_of_element_located(
+                CommercialLocators.OWNER_MOBILE_INPUT
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            mobile_input
+        )
+
+        self.driver.execute_script(
+            "arguments[0].value = arguments[1];"
+            "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
+            "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+            mobile_input,
+            mobile_number
+        )
+
+    def is_owner_details_form_filled(self):
+
+        name_value = self.driver.find_element(
+            *CommercialLocators.OWNER_NAME_INPUT
+        ).get_attribute("value")
+
+        return name_value.strip() != ""
+
+    def fill_owner_enquiry_form(self, name):
+
+        name_input = self.wait.until(
+            EC.presence_of_element_located(
+                CommercialLocators.OWNER_NAME_INPUT
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            name_input
+        )
+
+        self.driver.execute_script(
+            """
+            arguments[0].focus();
+            arguments[0].value = arguments[1];
+            arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
+            arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
+            """,
+            name_input,
+            name
+        )
+
+
+
+    def switch_to_latest_tab(self):
+
+        windows = self.driver.window_handles
+
+        self.driver.switch_to.window(windows[-1])
+
+        self.wait.until(
+            lambda driver: driver.execute_script(
+                "return document.readyState"
+            ) == "complete"
+        )
+

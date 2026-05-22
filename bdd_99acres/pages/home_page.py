@@ -20,6 +20,8 @@ from selenium.webdriver.common.by import By
 logger = LogGen.loggen()
 
 
+
+
 class HomePage:
 
     def __init__(self, driver):
@@ -213,20 +215,33 @@ class HomePage:
 
         return ""
 
-    def is_session_expired_message_displayed(self):
-
-        messages = self.driver.find_elements(
-            *HomeLocators.SESSION_EXPIRED_MESSAGE
-        )
+    def handle_session_expired_popup(self):
 
         try:
-            return any(
-                message.is_displayed()
-                for message in messages
+
+            popup = WebDriverWait(self.driver, 5).until(
+                EC.presence_of_element_located(
+                    HomePage.SESSION_EXPIRED_POPUP
+                )
             )
 
+            if popup.is_displayed():
+                continue_button = WebDriverWait(self.driver, 5).until(
+                    EC.element_to_be_clickable(
+                        HomePage.CONTINUE_BUTTON
+                    )
+                )
+
+                self.driver.execute_script(
+                    "arguments[0].click();",
+                    continue_button
+                )
+
+                print("Session expired popup handled")
+
         except Exception:
-            return False
+
+            print("No session expired popup found")
 
     def open_buy_tab(self):
 
@@ -267,3 +282,17 @@ class HomePage:
         return CommercialPage(
             self.driver
         )
+
+    def is_session_expired_message_displayed(self):
+
+        try:
+            popup = WebDriverWait(self.driver, 3).until(
+                EC.presence_of_element_located(
+                    HomePage.SESSION_EXPIRED_POPUP
+                )
+            )
+
+            return popup.is_displayed()
+
+        except Exception:
+            return False

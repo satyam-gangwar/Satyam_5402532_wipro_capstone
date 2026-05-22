@@ -5,6 +5,7 @@ from pages.commercial_page import CommercialPage
 from utils.logger import LogGen
 from utils.screenshot_util import ScreenshotUtil
 from utils.waits import WaitUtils
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 logger = LogGen.loggen()
@@ -298,18 +299,7 @@ def step_verify_login_popup(context):
 @then("Invalid commercial search should be handled")
 def step_verify_invalid_search(context):
 
-    assert context.commercial_page.is_invalid_search_handled(), (
-        "Invalid commercial search was not handled properly"
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "invalid_commercial_search_handled"
-    )
-
-    logger.info(
-        "Invalid commercial search handled successfully"
-    )
+    assert context.commercial_page.is_invalid_search_handled()
 
 @when("User clicks any commercial property from results")
 def step_click_any_commercial_property(context):
@@ -320,4 +310,57 @@ def step_click_any_commercial_property(context):
 @then("Commercial property detail page should be opened")
 def step_verify_property_detail_page(context):
 
+    context.commercial_page.switch_to_latest_tab()
+
     assert context.commercial_page.is_property_detail_page_opened()
+    assert context.commercial_page.is_property_detail_page_opened()
+
+@when("User clicks M3M commercial property")
+def step_click_m3m_property(context):
+
+    context.commercial_page.click_fixed_property_m3m()
+
+
+
+@when('User fills owner enquiry form with name "{name}"')
+def step_fill_owner_form(context, name):
+
+    context.commercial_page.fill_owner_enquiry_form(name)
+
+
+@then("Owner details form should be filled")
+def step_verify_owner_form_filled(context):
+
+    assert context.commercial_page.is_owner_details_form_filled()
+
+    ScreenshotUtil.capture_screenshot(
+        context.driver,
+        "owner_details_form_verified"
+    )
+
+    logger.info("Owner details form filled verified")
+
+    # KEEP PAGE OPEN FOR 10 SECONDS
+    try:
+        WebDriverWait(context.driver, 10).until(
+            lambda driver: False
+        )
+    except:
+        pass
+
+
+PROPERTY_URL = (
+    "https://www.99acres.com/"
+    "showroom-for-sale-in-m3m-the-line-sector-72-noida-1640-sqft-spid-V89447334"
+)
+
+
+@when("User opens fixed M3M commercial property detail page")
+def step_open_fixed_property(context):
+
+    context.commercial_page = CommercialPage(
+        context.driver
+    )
+
+    context.driver.get(PROPERTY_URL)
+

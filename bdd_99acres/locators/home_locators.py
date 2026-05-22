@@ -31,10 +31,7 @@ class HomeLocators:
         "or @type='tel']"
     )
 
-    CONTINUE_BUTTON = (
-        By.XPATH,
-        "//button[normalize-space()='Continue']"
-    )
+
 
     OTP_INPUT = (
         By.XPATH,
@@ -53,12 +50,11 @@ class HomeLocators:
         "or contains(text(),'Invalid')]"
     )
 
-    SESSION_EXPIRED_MESSAGE = (
+   
+    CONTINUE_BUTTON = (
         By.XPATH,
-        "//*[contains(normalize-space(), "
-        "'Your session has been expired') "
-        "or contains(normalize-space(), "
-        "'session has been expired')]"
+        "//button[contains(.,'Continue')] "
+        "| //span[contains(.,'Continue')]"
     )
 
 
@@ -87,6 +83,11 @@ class HomeLocators:
     COMMERCIAL_TAB_GENERIC = (
         By.XPATH,
         "//*[contains(text(),'Commercial')]"
+    )
+    SESSION_EXPIRED_POPUP = (
+        By.XPATH,
+        "//*[contains(text(),'session has expired') "
+        "or contains(text(),'try again later')]"
     )
 
     BUY_TAB_LOCATORS = (
@@ -125,4 +126,5 @@ class HomeLocators:
             By.XPATH,
             "//span[contains(normalize-space(),'Commercial')]"
         ),
+
     )
