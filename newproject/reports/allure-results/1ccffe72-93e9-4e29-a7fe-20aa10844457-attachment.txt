@@ -1,0 +1,10 @@
+2026-05-22 11:19:52 | INFO     | CommercialPage | Opened commercial property page for Noida
+2026-05-22 11:19:52 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_commercial_city_page_Noida_20260522_111952.png
+2026-05-22 11:19:54 | INFO     | CommercialPage | Page content loaded for Noida
+2026-05-22 11:19:56 | INFO     | CommercialPage | Scrolled down successfully
+2026-05-22 11:19:57 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_contact_button_visible_Noida_20260522_111956.png
+2026-05-22 11:19:57 | INFO     | CommercialPage | Contact button located successfully
+2026-05-22 11:20:02 | INFO     | CommercialPage | View Number button clicked successfully
+2026-05-22 11:20:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_view_number_clicked_Noida_20260522_112007.png
+2026-05-22 11:20:08 | INFO     | CommercialPage | Login/OTP popup displayed successfully
+2026-05-22 11:20:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_login_popup_displayed_Noida_20260522_112008.png

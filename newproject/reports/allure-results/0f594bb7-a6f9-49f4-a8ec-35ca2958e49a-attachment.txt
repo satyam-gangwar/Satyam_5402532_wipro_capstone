@@ -1,0 +1,58 @@
+2026-05-22 11:17:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:17:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:17:04 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:17:04 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:17:04 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:17:08 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:17:08 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:17:09 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_111708.png
+2026-05-22 11:17:09 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:17:09 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:17:09 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:17:09 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:17:09 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:17:09 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_111709.png
+2026-05-22 11:17:09 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 11:17:10 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:17:10 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:17:10 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 11:17:10 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:17:10 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:17:12 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260522_111710.png
+2026-05-22 11:17:12 | INFO     | CommercialPage | Applying commercial filters
+2026-05-22 11:17:12 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-22 11:17:12 | INFO     | CommercialPage | Verified filter selected
+2026-05-22 11:17:14 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-22 11:17:14 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-22 11:17:17 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-22 11:17:18 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-22 11:17:20 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-22 11:17:20 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-22 11:17:22 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-22 11:17:23 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-22 11:17:25 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-22 11:17:31 | INFO     | CommercialPage | 2 BHK selected skipped. Error: Message: 
+
+2026-05-22 11:17:31 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-22 11:17:36 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-22 11:17:36 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-22 11:17:36 | INFO     | CommercialPage | Ready to move selected
+2026-05-22 11:17:38 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-22 11:17:38 | INFO     | CommercialPage | Under Construction selected
+2026-05-22 11:17:40 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-22 11:17:41 | INFO     | CommercialPage | Owner selected
+2026-05-22 11:17:43 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-22 11:17:43 | INFO     | CommercialPage | Central Noida selected
+2026-05-22 11:17:45 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-22 11:17:45 | INFO     | CommercialPage | Sector 150 selected
+2026-05-22 11:17:47 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/noida?city=7&keyword=Noida&property_type=C&preference=S&res_com=R
+2026-05-22 11:17:47 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-22 11:17:48 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_commercial_filters_applied_20260522_111747.png
+2026-05-22 11:17:48 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:17:48 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:17:57 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(text(),'Verified properties')]")
+2026-05-22 11:17:58 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(text(),'Verified properties')]")
+2026-05-22 11:17:58 | INFO     | CommercialPage | Validating location in results: Noida
+2026-05-22 11:17:58 | INFO     | CommercialPage | Location found in results: Noida
+2026-05-22 11:17:58 | INFO     | commercial_test | Commercial flow completed successfully for Noida

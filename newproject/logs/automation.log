@@ -62,3 +62,720 @@
 2026-05-21 23:48:04 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_name_entered_in_brochure_form_20260521_234804.png
 2026-05-21 23:48:14 | INFO     | property | Name entered successfully: Satyam Gangwar
 2026-05-21 23:48:14 | INFO     | pytest | Closing browser after complete test session
+2026-05-22 07:50:41 | INFO     | pytest | Starting browser: edge
+2026-05-22 07:50:45 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:50:45 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:50:48 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:50:48 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:50:48 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:50:52 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-22 07:50:52 | INFO     | HomePage | Cookie confirmation accepted
+2026-05-22 07:50:52 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:50:53 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_01_home_20260522_075052.png
+2026-05-22 07:50:53 | INFO     | HomePage | Opening login popup
+2026-05-22 07:50:53 | INFO     | HomePage | Hovered on login icon
+2026-05-22 07:50:53 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-22 07:50:53 | INFO     | HomePage | Clicked login/register option
+2026-05-22 07:50:54 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_02_login_popup_20260522_075053.png
+2026-05-22 07:50:54 | INFO     | LoginPage | Checking whether login dialog is displayed
+2026-05-22 07:50:54 | INFO     | LoginPage | Starting mobile login flow
+2026-05-22 07:50:54 | INFO     | LoginPage | Searching for mobile number input field
+2026-05-22 07:50:54 | INFO     | LoginPage | Finding first visible locator
+2026-05-22 07:50:54 | INFO     | LoginPage | Visible locator found: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-22 07:50:54 | INFO     | LoginPage | Mobile number input found using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-22 07:50:55 | INFO     | LoginPage | Mobile number typed into input field
+2026-05-22 07:50:55 | INFO     | LoginPage | Mobile number entered successfully
+2026-05-22 07:50:55 | INFO     | LoginPage | Checking whether session expired message is displayed
+2026-05-22 07:51:00 | INFO     | LoginPage | Clicked available locator: ('xpath', "//button[normalize-space()='Continue']")
+2026-05-22 07:51:00 | INFO     | LoginPage | Clicked Continue button
+2026-05-22 07:51:00 | INFO     | LoginPage | Checking whether session expired message is displayed
+2026-05-22 07:51:04 | INFO     | LoginPage | Waiting 30 seconds for manual OTP entry
+2026-05-22 07:51:35 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_03_login_done_20260522_075134.png
+2026-05-22 07:51:36 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_04_login_success_20260522_075135.png
+2026-05-22 07:51:36 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:51:36 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:51:36 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:51:36 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:51:36 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:51:37 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_05_commercial_tab_opened_20260522_075136.png
+2026-05-22 07:51:37 | INFO     | CommercialPage | Searching commercial property for location: Mumbai
+2026-05-22 07:51:37 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:51:37 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:51:38 | INFO     | CommercialPage | Entered location: Mumbai
+2026-05-22 07:51:38 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:51:38 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:51:39 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_06_commercial_results_20260522_075138.png
+2026-05-22 07:51:39 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 07:51:39 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:51:50 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:51:50 | INFO     | e2e | Commercial property search completed successfully
+2026-05-22 07:51:50 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:51:50 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:51:53 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:51:53 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:51:53 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:51:57 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 07:51:57 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:51:58 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_075157.png
+2026-05-22 07:51:58 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:51:58 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:51:58 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:51:58 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:51:58 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:51:58 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_075158.png
+2026-05-22 07:51:58 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 07:51:59 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:51:59 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:51:59 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 07:51:59 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:51:59 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:52:02 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260522_075159.png
+2026-05-22 07:52:02 | INFO     | CommercialPage | Applying commercial filters
+2026-05-22 07:52:02 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-22 07:52:02 | INFO     | CommercialPage | Verified filter selected
+2026-05-22 07:52:04 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-22 07:52:04 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-22 07:52:07 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-22 07:52:09 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-22 07:52:11 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-22 07:52:11 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-22 07:52:13 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-22 07:52:14 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-22 07:52:16 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-22 07:52:18 | INFO     | CommercialPage | 2 BHK selected
+2026-05-22 07:52:20 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-22 07:52:26 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-22 07:52:26 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-22 07:52:32 | INFO     | CommercialPage | Ready to move selected skipped. Error: Message: 
+
+2026-05-22 07:52:32 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-22 07:52:37 | INFO     | CommercialPage | Under Construction selected skipped. Error: Message: 
+
+2026-05-22 07:52:37 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-22 07:52:37 | INFO     | CommercialPage | Owner selected
+2026-05-22 07:52:39 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-22 07:52:40 | INFO     | CommercialPage | Central Noida selected
+2026-05-22 07:52:42 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-22 07:52:49 | INFO     | CommercialPage | Sector 150 selected skipped. Error: Message: 
+
+2026-05-22 07:52:49 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/noida?city=7&keyword=Noida&property_type=C&preference=S&res_com=R
+2026-05-22 07:52:49 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-22 07:52:49 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_commercial_filters_applied_20260522_075249.png
+2026-05-22 07:52:49 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 07:52:49 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:52:49 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:52:49 | INFO     | CommercialPage | Validating location in results: Noida
+2026-05-22 07:52:50 | INFO     | CommercialPage | Location found in results: Noida
+2026-05-22 07:52:50 | INFO     | commercial_test | Commercial flow completed successfully for Noida
+2026-05-22 07:52:50 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:52:50 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:52:52 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:52:52 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:52:52 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:52:57 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 07:52:57 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:52:57 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_075257.png
+2026-05-22 07:52:57 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:52:57 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:52:57 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:52:57 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:52:58 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:52:58 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_075258.png
+2026-05-22 07:52:58 | INFO     | CommercialPage | Searching commercial property for location: Mumbai
+2026-05-22 07:52:58 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:52:58 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:52:59 | INFO     | CommercialPage | Entered location: Mumbai
+2026-05-22 07:53:00 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:53:00 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:53:02 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_Mumbai_20260522_075300.png
+2026-05-22 07:53:02 | INFO     | CommercialPage | Applying commercial filters
+2026-05-22 07:53:02 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-22 07:53:03 | INFO     | CommercialPage | Verified filter selected
+2026-05-22 07:53:05 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-22 07:53:05 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-22 07:53:08 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-22 07:53:09 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-22 07:53:11 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-22 07:53:11 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-22 07:53:13 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-22 07:53:13 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-22 07:53:15 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-22 07:53:21 | INFO     | CommercialPage | 2 BHK selected skipped. Error: Message: 
+
+2026-05-22 07:53:21 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-22 07:53:27 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-22 07:53:27 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-22 07:53:27 | INFO     | CommercialPage | Ready to move selected
+2026-05-22 07:53:29 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-22 07:53:29 | INFO     | CommercialPage | Under Construction selected
+2026-05-22 07:53:31 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-22 07:53:32 | INFO     | CommercialPage | Owner selected
+2026-05-22 07:53:34 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-22 07:53:41 | INFO     | CommercialPage | Central Noida selected skipped. Error: Message: 
+
+2026-05-22 07:53:41 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-22 07:53:48 | INFO     | CommercialPage | Sector 150 selected skipped. Error: Message: 
+
+2026-05-22 07:53:48 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/mumbai?city=12&keyword=Mumbai&property_type=C&preference=S&res_com=R
+2026-05-22 07:53:48 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-22 07:53:49 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_commercial_filters_applied_Mumbai_20260522_075348.png
+2026-05-22 07:53:49 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 07:53:49 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:53:49 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:53:49 | INFO     | CommercialPage | Validating location in results: Mumbai
+2026-05-22 07:53:49 | INFO     | CommercialPage | Location found in results: Mumbai
+2026-05-22 07:53:49 | INFO     | commercial_test | Commercial search successful for Mumbai
+2026-05-22 07:53:49 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:53:49 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:53:51 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:53:51 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:53:51 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:53:55 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 07:53:55 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:53:56 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_075355.png
+2026-05-22 07:53:58 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:53:58 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:53:58 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:53:58 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:53:58 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:53:58 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_075358.png
+2026-05-22 07:54:00 | INFO     | CommercialPage | Selecting property type: Shop
+2026-05-22 07:54:00 | INFO     | CommercialPage | Using property type xpath: //*[contains(text(),'Shop') or contains(text(),'Retail')]
+2026-05-22 07:54:00 | INFO     | CommercialPage | Property type option found: Shop
+2026-05-22 07:54:01 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-22 07:54:02 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_property_type_selected_Shop_20260522_075401.png
+2026-05-22 07:54:04 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 07:54:04 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:54:04 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:54:04 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 07:54:05 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:54:05 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:54:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_Shop_search_results_Noida_20260522_075405.png
+2026-05-22 07:54:11 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 07:54:11 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:54:11 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:54:11 | INFO     | commercial_test | Shop search successful in Noida
+2026-05-22 07:54:17 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:54:17 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:54:18 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:54:18 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:54:18 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:54:23 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 07:54:23 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:54:23 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_075423.png
+2026-05-22 07:54:25 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:54:25 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:54:26 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:54:26 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:54:26 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:54:26 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_075426.png
+2026-05-22 07:54:28 | INFO     | CommercialPage | Selecting property type: Shop
+2026-05-22 07:54:28 | INFO     | CommercialPage | Using property type xpath: //*[contains(text(),'Shop') or contains(text(),'Retail')]
+2026-05-22 07:54:28 | INFO     | CommercialPage | Property type option found: Shop
+2026-05-22 07:54:28 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-22 07:54:29 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_property_type_selected_Shop_20260522_075428.png
+2026-05-22 07:54:31 | INFO     | CommercialPage | Searching commercial property for location: Delhi
+2026-05-22 07:54:31 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:54:31 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:54:32 | INFO     | CommercialPage | Entered location: Delhi
+2026-05-22 07:54:33 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:54:33 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:54:35 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_Shop_search_results_Delhi_20260522_075433.png
+2026-05-22 07:54:38 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 07:54:38 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:54:38 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:54:38 | INFO     | commercial_test | Shop search successful in Delhi
+2026-05-22 07:54:45 | INFO     | CommercialPage | Opened commercial property page for Noida
+2026-05-22 07:54:46 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_commercial_city_page_Noida_20260522_075445.png
+2026-05-22 07:54:48 | INFO     | CommercialPage | Page content loaded for Noida
+2026-05-22 07:54:50 | INFO     | CommercialPage | Scrolled down successfully
+2026-05-22 07:54:50 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_contact_button_visible_Noida_20260522_075450.png
+2026-05-22 07:54:50 | INFO     | CommercialPage | Contact button located successfully
+2026-05-22 07:54:54 | INFO     | CommercialPage | View Number button clicked successfully
+2026-05-22 07:55:00 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_view_number_clicked_Noida_20260522_075459.png
+2026-05-22 07:55:00 | INFO     | CommercialPage | Login/OTP popup displayed successfully
+2026-05-22 07:55:00 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_login_popup_displayed_Noida_20260522_075500.png
+2026-05-22 07:55:00 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:55:00 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:55:02 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:55:02 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:55:02 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:55:07 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 07:55:07 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:55:07 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_invalid_search_20260522_075507.png
+2026-05-22 07:55:07 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:55:07 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:55:07 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:55:07 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:55:07 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:55:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_invalid_search_20260522_075507.png
+2026-05-22 07:55:08 | INFO     | CommercialPage | Searching commercial property for location: xyz123invalid
+2026-05-22 07:55:08 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:55:08 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:55:08 | INFO     | CommercialPage | Entered location: xyz123invalid
+2026-05-22 07:55:09 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:55:09 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:55:10 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_invalid_search_result_xyz123invalid_20260522_075509.png
+2026-05-22 07:55:10 | INFO     | CommercialPage | Invalid search handled with message: invalid
+2026-05-22 07:55:10 | INFO     | commercial_test | Invalid location handled successfully: xyz123invalid
+2026-05-22 07:55:11 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_invalid_commercial_url_loaded_20260522_075511.png
+2026-05-22 07:55:11 | INFO     | CommercialPage | Invalid search handled with message: error
+2026-05-22 07:55:11 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_invalid_url_handled_20260522_075511.png
+2026-05-22 07:55:11 | INFO     | commercial_test | Invalid URL handled successfully: https://www.99acres.com/search/property/buy/commercial-property-in-@@@@
+2026-05-22 07:55:12 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_invalid_commercial_url_loaded_20260522_075512.png
+2026-05-22 07:55:12 | INFO     | CommercialPage | Invalid search handled with message: invalid
+2026-05-22 07:55:13 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_invalid_url_handled_20260522_075512.png
+2026-05-22 07:55:13 | INFO     | commercial_test | Invalid URL handled successfully: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
+2026-05-22 07:55:13 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:55:13 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 07:55:14 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:55:14 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 07:55:14 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 07:55:19 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 07:55:19 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 07:55:19 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_075519.png
+2026-05-22 07:55:19 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 07:55:19 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:55:19 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 07:55:19 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 07:55:19 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 07:55:20 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_075519.png
+2026-05-22 07:55:20 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 07:55:20 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 07:55:20 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 07:55:20 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 07:55:21 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 07:55:21 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 07:55:23 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260522_075521.png
+2026-05-22 07:55:23 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 07:55:23 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:55:23 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 07:55:23 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 07:55:23 | INFO     | PropertyPage | Trying to open fixed property: Ivory County
+2026-05-22 07:55:23 | INFO     | PropertyPage | Finding property link attempt: 1
+2026-05-22 07:55:23 | INFO     | PropertyPage | Property URL found: https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436
+2026-05-22 07:55:26 | INFO     | PropertyPage | Property child page opened successfully
+2026-05-22 07:55:26 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_property_child_page_opened_20260522_075526.png
+2026-05-22 07:55:26 | INFO     | PropertyPage | Property page verification result: True
+2026-05-22 07:55:26 | INFO     | property | Fixed property child page opened successfully
+2026-05-22 07:55:56 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 07:55:56 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 07:55:58 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 07:55:58 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 07:56:05 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 07:56:05 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_loaded_20260522_075605.png
+2026-05-22 07:56:06 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_ivory_county_title_visible_20260522_075605.png
+2026-05-22 07:56:06 | INFO     | property | Verified text visible: Ivory County
+2026-05-22 07:56:06 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 07:56:06 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 07:56:12 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 07:56:12 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 07:56:20 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 07:56:20 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_location_page_loaded_20260522_075620.png
+2026-05-22 07:56:21 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_location_visible_20260522_075620.png
+2026-05-22 07:56:21 | INFO     | property | Verified locations: Sector 115, Noida
+2026-05-22 07:56:21 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 07:56:21 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 07:56:22 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 07:56:22 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 07:56:29 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 07:56:30 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_opened_20260522_075629.png
+2026-05-22 07:56:30 | INFO     | PropertyPage | Trying to click Download Brochure button
+2026-05-22 07:56:30 | INFO     | PropertyPage | Clicked on Download Brochure button
+2026-05-22 07:56:31 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_brochure_popup_opened_20260522_075630.png
+2026-05-22 07:56:31 | INFO     | PropertyPage | Trying to fill brochure form
+2026-05-22 07:56:37 | INFO     | PropertyPage | Verified entered name successfully
+2026-05-22 07:56:38 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_name_entered_in_brochure_form_20260522_075637.png
+2026-05-22 07:56:48 | INFO     | property | Name entered successfully: Satyam Gangwar
+2026-05-22 07:56:48 | INFO     | pytest | Closing browser after complete test session
+2026-05-22 09:50:02 | INFO     | pytest | Starting browser: edge
+2026-05-22 09:50:04 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 09:50:04 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 09:50:08 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 09:50:08 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 09:50:08 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 09:50:11 | INFO     | HomePage | Clicked available locator: ('xpath', "//button[normalize-space()='Okay' or normalize-space()='OK']")
+2026-05-22 09:50:11 | INFO     | HomePage | Cookie confirmation accepted
+2026-05-22 09:50:11 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 09:50:11 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_095011.png
+2026-05-22 09:50:11 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 09:50:11 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 09:50:11 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 09:50:11 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 09:50:11 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 09:50:12 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_095011.png
+2026-05-22 09:50:12 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 09:50:12 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 09:50:12 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 09:50:12 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 09:50:13 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 09:50:13 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 09:50:20 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260522_095013.png
+2026-05-22 09:50:20 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 09:50:20 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 09:50:20 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 09:50:20 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 09:50:20 | INFO     | PropertyPage | Trying to open fixed property: Ivory County
+2026-05-22 09:50:20 | INFO     | PropertyPage | Finding property link attempt: 1
+2026-05-22 09:50:20 | INFO     | PropertyPage | Property URL found: https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436
+2026-05-22 09:50:22 | INFO     | PropertyPage | Property child page opened successfully
+2026-05-22 09:50:26 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_property_child_page_opened_20260522_095022.png
+2026-05-22 09:50:27 | INFO     | PropertyPage | Property page verification result: True
+2026-05-22 09:50:27 | INFO     | property | Fixed property child page opened successfully
+2026-05-22 09:50:57 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 09:50:57 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 09:50:58 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 09:50:58 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 09:51:05 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 09:51:05 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_loaded_20260522_095105.png
+2026-05-22 09:51:06 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_ivory_county_title_visible_20260522_095105.png
+2026-05-22 09:51:06 | INFO     | property | Verified text visible: Ivory County
+2026-05-22 09:51:06 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 09:51:06 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 09:51:07 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 09:51:07 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 09:51:14 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 09:51:14 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_location_page_loaded_20260522_095114.png
+2026-05-22 09:51:15 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_location_visible_20260522_095114.png
+2026-05-22 09:51:15 | INFO     | property | Verified locations: Sector 115, Noida
+2026-05-22 09:51:15 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 09:51:15 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 09:51:16 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 09:51:16 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 09:51:21 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 09:51:23 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_opened_20260522_095121.png
+2026-05-22 09:51:23 | INFO     | PropertyPage | Trying to click Download Brochure button
+2026-05-22 09:51:23 | INFO     | PropertyPage | Clicked on Download Brochure button
+2026-05-22 09:51:24 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_brochure_popup_opened_20260522_095123.png
+2026-05-22 09:51:24 | INFO     | PropertyPage | Trying to fill brochure form
+2026-05-22 09:51:25 | INFO     | PropertyPage | Verified entered name successfully
+2026-05-22 09:51:25 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_name_entered_in_brochure_form_20260522_095125.png
+2026-05-22 09:51:35 | INFO     | property | Name entered successfully: Satyam Gangwar
+2026-05-22 09:51:35 | INFO     | pytest | Closing browser after complete test session
+2026-05-22 11:16:07 | INFO     | pytest | Starting browser: edge
+2026-05-22 11:16:09 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:16:09 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:16:11 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:16:11 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:16:11 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:16:15 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:16:15 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:16:15 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_01_home_20260522_111615.png
+2026-05-22 11:16:15 | INFO     | HomePage | Opening login popup
+2026-05-22 11:16:17 | INFO     | HomePage | Hovered on login icon
+2026-05-22 11:16:17 | INFO     | HomePage | Clicking element: ('xpath', "//*[contains(text(),'LOGIN / REGISTER') or contains(text(),'Login / Register') or contains(text(),'LOGIN/REGISTER') or contains(text(),'Login/Register')]")
+2026-05-22 11:16:17 | INFO     | HomePage | Clicked login/register option
+2026-05-22 11:16:17 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_02_login_popup_20260522_111617.png
+2026-05-22 11:16:17 | INFO     | LoginPage | Checking whether login dialog is displayed
+2026-05-22 11:16:18 | INFO     | LoginPage | Starting mobile login flow
+2026-05-22 11:16:18 | INFO     | LoginPage | Searching for mobile number input field
+2026-05-22 11:16:18 | INFO     | LoginPage | Finding first visible locator
+2026-05-22 11:16:18 | INFO     | LoginPage | Visible locator found: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-22 11:16:18 | INFO     | LoginPage | Mobile number input found using locator: ('xpath', "//input[@data-for='phnNumber']")
+2026-05-22 11:16:18 | INFO     | LoginPage | Mobile number typed into input field
+2026-05-22 11:16:18 | INFO     | LoginPage | Mobile number entered successfully
+2026-05-22 11:16:18 | INFO     | LoginPage | Checking whether session expired message is displayed
+2026-05-22 11:16:23 | INFO     | LoginPage | Clicked available locator: ('xpath', "//button[normalize-space()='Continue']")
+2026-05-22 11:16:23 | INFO     | LoginPage | Clicked Continue button
+2026-05-22 11:16:23 | INFO     | LoginPage | Checking whether session expired message is displayed
+2026-05-22 11:16:27 | INFO     | LoginPage | Waiting 30 seconds for manual OTP entry
+2026-05-22 11:16:58 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_03_login_done_20260522_111657.png
+2026-05-22 11:16:58 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_04_login_success_20260522_111658.png
+2026-05-22 11:16:58 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:16:58 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:16:58 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:16:58 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:16:58 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:16:58 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_05_commercial_tab_opened_20260522_111658.png
+2026-05-22 11:16:58 | INFO     | CommercialPage | Searching commercial property for location: Mumbai
+2026-05-22 11:16:58 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:16:58 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:16:59 | INFO     | CommercialPage | Entered location: Mumbai
+2026-05-22 11:16:59 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:16:59 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:17:02 | INFO     | e2e | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\e2e_06_commercial_results_20260522_111659.png
+2026-05-22 11:17:02 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:17:02 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:17:02 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:17:02 | INFO     | e2e | Commercial property search completed successfully
+2026-05-22 11:17:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:17:02 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:17:04 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:17:04 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:17:04 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:17:08 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:17:08 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:17:09 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_111708.png
+2026-05-22 11:17:09 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:17:09 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:17:09 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:17:09 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:17:09 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:17:09 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_111709.png
+2026-05-22 11:17:09 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 11:17:10 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:17:10 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:17:10 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 11:17:10 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:17:10 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:17:12 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260522_111710.png
+2026-05-22 11:17:12 | INFO     | CommercialPage | Applying commercial filters
+2026-05-22 11:17:12 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-22 11:17:12 | INFO     | CommercialPage | Verified filter selected
+2026-05-22 11:17:14 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-22 11:17:14 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-22 11:17:17 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-22 11:17:18 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-22 11:17:20 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-22 11:17:20 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-22 11:17:22 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-22 11:17:23 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-22 11:17:25 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-22 11:17:31 | INFO     | CommercialPage | 2 BHK selected skipped. Error: Message: 
+
+2026-05-22 11:17:31 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-22 11:17:36 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-22 11:17:36 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-22 11:17:36 | INFO     | CommercialPage | Ready to move selected
+2026-05-22 11:17:38 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-22 11:17:38 | INFO     | CommercialPage | Under Construction selected
+2026-05-22 11:17:40 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-22 11:17:41 | INFO     | CommercialPage | Owner selected
+2026-05-22 11:17:43 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-22 11:17:43 | INFO     | CommercialPage | Central Noida selected
+2026-05-22 11:17:45 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-22 11:17:45 | INFO     | CommercialPage | Sector 150 selected
+2026-05-22 11:17:47 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/noida?city=7&keyword=Noida&property_type=C&preference=S&res_com=R
+2026-05-22 11:17:47 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-22 11:17:48 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_commercial_filters_applied_20260522_111747.png
+2026-05-22 11:17:48 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:17:48 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:17:57 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(text(),'Verified properties')]")
+2026-05-22 11:17:58 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(text(),'Verified properties')]")
+2026-05-22 11:17:58 | INFO     | CommercialPage | Validating location in results: Noida
+2026-05-22 11:17:58 | INFO     | CommercialPage | Location found in results: Noida
+2026-05-22 11:17:58 | INFO     | commercial_test | Commercial flow completed successfully for Noida
+2026-05-22 11:17:58 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:17:58 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:18:00 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:18:00 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:18:00 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:18:05 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:18:05 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:18:05 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_111805.png
+2026-05-22 11:18:05 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:18:05 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:18:05 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:18:05 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:18:05 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:18:05 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_111805.png
+2026-05-22 11:18:05 | INFO     | CommercialPage | Searching commercial property for location: Mumbai
+2026-05-22 11:18:05 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:18:05 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:18:06 | INFO     | CommercialPage | Entered location: Mumbai
+2026-05-22 11:18:06 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:18:06 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:18:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_Mumbai_20260522_111806.png
+2026-05-22 11:18:08 | INFO     | CommercialPage | Applying commercial filters
+2026-05-22 11:18:08 | INFO     | CommercialPage | Trying to click: Verified filter selected
+2026-05-22 11:18:08 | INFO     | CommercialPage | Verified filter selected
+2026-05-22 11:18:10 | INFO     | CommercialPage | Trying to click: Budget minimum dropdown opened
+2026-05-22 11:18:11 | INFO     | CommercialPage | Budget minimum dropdown opened
+2026-05-22 11:18:14 | INFO     | CommercialPage | Trying to click: Minimum budget 10 Lac selected
+2026-05-22 11:18:15 | INFO     | CommercialPage | Minimum budget 10 Lac selected
+2026-05-22 11:18:17 | INFO     | CommercialPage | Trying to click: Residential Apartment selected
+2026-05-22 11:18:17 | INFO     | CommercialPage | Residential Apartment selected
+2026-05-22 11:18:19 | INFO     | CommercialPage | Trying to click: Independent House/Villa selected
+2026-05-22 11:18:19 | INFO     | CommercialPage | Independent House/Villa selected
+2026-05-22 11:18:21 | INFO     | CommercialPage | Trying to click: 2 BHK selected
+2026-05-22 11:18:26 | INFO     | CommercialPage | 2 BHK selected skipped. Error: Message: 
+
+2026-05-22 11:18:26 | INFO     | CommercialPage | Trying to click: 3 BHK selected
+2026-05-22 11:18:32 | INFO     | CommercialPage | 3 BHK selected skipped. Error: Message: 
+
+2026-05-22 11:18:32 | INFO     | CommercialPage | Trying to click: Ready to move selected
+2026-05-22 11:18:32 | INFO     | CommercialPage | Ready to move selected
+2026-05-22 11:18:34 | INFO     | CommercialPage | Trying to click: Under Construction selected
+2026-05-22 11:18:35 | INFO     | CommercialPage | Under Construction selected
+2026-05-22 11:18:37 | INFO     | CommercialPage | Trying to click: Owner selected
+2026-05-22 11:18:37 | INFO     | CommercialPage | Owner selected
+2026-05-22 11:18:39 | INFO     | CommercialPage | Trying to click: Central Noida selected
+2026-05-22 11:18:46 | INFO     | CommercialPage | Central Noida selected skipped. Error: Message: 
+
+2026-05-22 11:18:46 | INFO     | CommercialPage | Trying to click: Sector 150 selected
+2026-05-22 11:18:53 | INFO     | CommercialPage | Sector 150 selected skipped. Error: Message: 
+
+2026-05-22 11:18:53 | INFO     | CommercialPage | Page loaded completely: https://www.99acres.com/search/property/buy/residential-all/mumbai?city=12&keyword=Mumbai&property_type=C&preference=S&res_com=R
+2026-05-22 11:18:53 | INFO     | CommercialPage | Commercial filters applied successfully
+2026-05-22 11:18:53 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_commercial_filters_applied_Mumbai_20260522_111853.png
+2026-05-22 11:18:53 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:18:53 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:18:53 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:18:53 | INFO     | CommercialPage | Validating location in results: Mumbai
+2026-05-22 11:18:53 | INFO     | CommercialPage | Location found in results: Mumbai
+2026-05-22 11:18:53 | INFO     | commercial_test | Commercial search successful for Mumbai
+2026-05-22 11:18:53 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:18:53 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:18:55 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:18:55 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:18:55 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:19:00 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:19:00 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:19:00 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_111900.png
+2026-05-22 11:19:02 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:19:02 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:19:02 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:19:02 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:19:02 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:19:03 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_111902.png
+2026-05-22 11:19:05 | INFO     | CommercialPage | Selecting property type: Shop
+2026-05-22 11:19:05 | INFO     | CommercialPage | Using property type xpath: //*[contains(text(),'Shop') or contains(text(),'Retail')]
+2026-05-22 11:19:05 | INFO     | CommercialPage | Property type option found: Shop
+2026-05-22 11:19:05 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-22 11:19:05 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_property_type_selected_Shop_20260522_111905.png
+2026-05-22 11:19:07 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 11:19:07 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:19:07 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:19:08 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 11:19:08 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:19:08 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:19:09 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_Shop_search_results_Noida_20260522_111908.png
+2026-05-22 11:19:12 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:19:12 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:19:22 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(text(),'Verified properties')]")
+2026-05-22 11:19:22 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(text(),'Verified properties')]")
+2026-05-22 11:19:22 | INFO     | commercial_test | Shop search successful in Noida
+2026-05-22 11:19:27 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:19:27 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:19:29 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:19:29 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:19:29 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:19:32 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:19:33 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:19:33 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_111933.png
+2026-05-22 11:19:35 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:19:35 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:19:35 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:19:35 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:19:35 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:19:36 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_111935.png
+2026-05-22 11:19:38 | INFO     | CommercialPage | Selecting property type: Shop
+2026-05-22 11:19:38 | INFO     | CommercialPage | Using property type xpath: //*[contains(text(),'Shop') or contains(text(),'Retail')]
+2026-05-22 11:19:38 | INFO     | CommercialPage | Property type option found: Shop
+2026-05-22 11:19:38 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-22 11:19:38 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_property_type_selected_Shop_20260522_111938.png
+2026-05-22 11:19:40 | INFO     | CommercialPage | Searching commercial property for location: Delhi
+2026-05-22 11:19:40 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:19:40 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:19:41 | INFO     | CommercialPage | Entered location: Delhi
+2026-05-22 11:19:41 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:19:41 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:19:43 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_Shop_search_results_Delhi_20260522_111941.png
+2026-05-22 11:19:46 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:19:46 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:19:46 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:19:46 | INFO     | commercial_test | Shop search successful in Delhi
+2026-05-22 11:19:52 | INFO     | CommercialPage | Opened commercial property page for Noida
+2026-05-22 11:19:52 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_commercial_city_page_Noida_20260522_111952.png
+2026-05-22 11:19:54 | INFO     | CommercialPage | Page content loaded for Noida
+2026-05-22 11:19:56 | INFO     | CommercialPage | Scrolled down successfully
+2026-05-22 11:19:57 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_contact_button_visible_Noida_20260522_111956.png
+2026-05-22 11:19:57 | INFO     | CommercialPage | Contact button located successfully
+2026-05-22 11:20:02 | INFO     | CommercialPage | View Number button clicked successfully
+2026-05-22 11:20:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_view_number_clicked_Noida_20260522_112007.png
+2026-05-22 11:20:08 | INFO     | CommercialPage | Login/OTP popup displayed successfully
+2026-05-22 11:20:08 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_login_popup_displayed_Noida_20260522_112008.png
+2026-05-22 11:20:08 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:20:08 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:20:10 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:20:10 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:20:10 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:20:14 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:20:14 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:20:14 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_invalid_search_20260522_112014.png
+2026-05-22 11:20:14 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:20:14 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:20:14 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:20:14 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:20:15 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:20:15 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_invalid_search_20260522_112015.png
+2026-05-22 11:20:15 | INFO     | CommercialPage | Searching commercial property for location: xyz123invalid
+2026-05-22 11:20:15 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:20:15 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:20:15 | INFO     | CommercialPage | Entered location: xyz123invalid
+2026-05-22 11:20:16 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:20:16 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:20:16 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_invalid_search_result_xyz123invalid_20260522_112016.png
+2026-05-22 11:20:16 | INFO     | CommercialPage | Invalid search handled with message: invalid
+2026-05-22 11:20:16 | INFO     | commercial_test | Invalid location handled successfully: xyz123invalid
+2026-05-22 11:20:18 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_invalid_commercial_url_loaded_20260522_112017.png
+2026-05-22 11:20:18 | INFO     | CommercialPage | Invalid search handled with message: error
+2026-05-22 11:20:18 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_invalid_url_handled_20260522_112018.png
+2026-05-22 11:20:18 | INFO     | commercial_test | Invalid URL handled successfully: https://www.99acres.com/search/property/buy/commercial-property-in-@@@@
+2026-05-22 11:20:19 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_invalid_commercial_url_loaded_20260522_112019.png
+2026-05-22 11:20:19 | INFO     | CommercialPage | Invalid search handled with message: invalid
+2026-05-22 11:20:19 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_invalid_url_handled_20260522_112019.png
+2026-05-22 11:20:19 | INFO     | commercial_test | Invalid URL handled successfully: https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123
+2026-05-22 11:20:19 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:20:19 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:20:20 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:20:20 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:20:20 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:20:25 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:20:25 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:20:26 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_112025.png
+2026-05-22 11:20:26 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:20:26 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:20:26 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:20:26 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:20:26 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:20:26 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_112026.png
+2026-05-22 11:20:26 | INFO     | CommercialPage | Searching commercial property for location: Noida
+2026-05-22 11:20:26 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:20:26 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:20:26 | INFO     | CommercialPage | Entered location: Noida
+2026-05-22 11:20:27 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:20:27 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:20:29 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_commercial_search_results_20260522_112027.png
+2026-05-22 11:20:29 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:20:29 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:20:29 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:20:29 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 11:20:29 | INFO     | PropertyPage | Trying to open fixed property: Ivory County
+2026-05-22 11:20:29 | INFO     | PropertyPage | Finding property link attempt: 1
+2026-05-22 11:20:29 | INFO     | PropertyPage | Property URL found: https://www.99acres.com/ivory-county-sector-115-noida-npxid-r400436
+2026-05-22 11:20:31 | INFO     | PropertyPage | Property child page opened successfully
+2026-05-22 11:20:31 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_property_child_page_opened_20260522_112031.png
+2026-05-22 11:20:32 | INFO     | PropertyPage | Property page verification result: True
+2026-05-22 11:20:32 | INFO     | property | Fixed property child page opened successfully
+2026-05-22 11:21:02 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 11:21:02 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 11:21:03 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 11:21:03 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 11:21:10 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 11:21:10 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_loaded_20260522_112110.png
+2026-05-22 11:21:11 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_ivory_county_title_visible_20260522_112111.png
+2026-05-22 11:21:11 | INFO     | property | Verified text visible: Ivory County
+2026-05-22 11:21:11 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 11:21:11 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 11:21:12 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 11:21:12 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 11:21:19 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 11:21:20 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_location_page_loaded_20260522_112119.png
+2026-05-22 11:21:20 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_location_visible_20260522_112120.png
+2026-05-22 11:21:20 | INFO     | property | Verified locations: Sector 115, Noida
+2026-05-22 11:21:20 | INFO     | PropertyPage | PropertyPage initialized
+2026-05-22 11:21:20 | INFO     | PropertyPage | Opening Ivory County property page
+2026-05-22 11:21:22 | INFO     | PropertyPage | Ivory County page loaded successfully
+2026-05-22 11:21:22 | INFO     | PropertyPage | Checking disclaimer popup
+2026-05-22 11:21:29 | INFO     | PropertyPage | Disclaimer popup was not shown
+2026-05-22 11:21:31 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_ivory_county_page_opened_20260522_112129.png
+2026-05-22 11:21:31 | INFO     | PropertyPage | Trying to click Download Brochure button
+2026-05-22 11:21:32 | INFO     | PropertyPage | Clicked on Download Brochure button
+2026-05-22 11:21:32 | INFO     | property | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_brochure_popup_opened_20260522_112132.png
+2026-05-22 11:21:32 | INFO     | PropertyPage | Trying to fill brochure form
+2026-05-22 11:21:35 | ERROR    | pytest | Test failed. Screenshot saved: C:\Capstone_99acres\newproject\screenshots\tests_test_property.py_TestPropertyNavigation_test_download_brochure_button_property_case0_20260522_112135.png
+2026-05-22 11:21:35 | INFO     | pytest | Closing browser after complete test session

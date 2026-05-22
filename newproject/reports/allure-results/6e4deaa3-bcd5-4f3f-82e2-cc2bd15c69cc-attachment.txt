@@ -1,0 +1,30 @@
+2026-05-22 11:19:27 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:19:27 | INFO     | HomePage | Opening URL: https://www.99acres.com/
+2026-05-22 11:19:29 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:19:29 | INFO     | HomePage | Page opened successfully: https://www.99acres.com/
+2026-05-22 11:19:29 | INFO     | HomePage | Checking cookie confirmation popup
+2026-05-22 11:19:32 | INFO     | HomePage | Cookie confirmation was not shown
+2026-05-22 11:19:33 | INFO     | HomePage | Page loaded completely: https://www.99acres.com/
+2026-05-22 11:19:33 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\01_homepage_loaded_20260522_111933.png
+2026-05-22 11:19:35 | INFO     | HomePage | Opening Commercial tab
+2026-05-22 11:19:35 | INFO     | HomePage | Trying Commercial tab locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:19:35 | INFO     | HomePage | Commercial tab found using locator: ('xpath', "//div[contains(text(),'Commercial')]")
+2026-05-22 11:19:35 | INFO     | HomePage | Scrolled to Commercial tab
+2026-05-22 11:19:35 | INFO     | HomePage | Commercial tab opened successfully
+2026-05-22 11:19:36 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\02_commercial_tab_opened_20260522_111935.png
+2026-05-22 11:19:38 | INFO     | CommercialPage | Selecting property type: Shop
+2026-05-22 11:19:38 | INFO     | CommercialPage | Using property type xpath: //*[contains(text(),'Shop') or contains(text(),'Retail')]
+2026-05-22 11:19:38 | INFO     | CommercialPage | Property type option found: Shop
+2026-05-22 11:19:38 | INFO     | CommercialPage | Selected property type: Shop
+2026-05-22 11:19:38 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\03_property_type_selected_Shop_20260522_111938.png
+2026-05-22 11:19:40 | INFO     | CommercialPage | Searching commercial property for location: Delhi
+2026-05-22 11:19:40 | INFO     | CommercialPage | Commercial search input found
+2026-05-22 11:19:40 | INFO     | CommercialPage | Cleared commercial search input
+2026-05-22 11:19:41 | INFO     | CommercialPage | Entered location: Delhi
+2026-05-22 11:19:41 | INFO     | CommercialPage | Pressed Enter to trigger commercial search
+2026-05-22 11:19:41 | INFO     | CommercialPage | Commercial search results page loaded
+2026-05-22 11:19:43 | INFO     | commercial_test | Screenshot captured: C:\Capstone_99acres\newproject\screenshots\04_Shop_search_results_Delhi_20260522_111941.png
+2026-05-22 11:19:46 | INFO     | CommercialPage | Waiting for commercial results to load
+2026-05-22 11:19:46 | INFO     | CommercialPage | Checking result locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:19:46 | INFO     | CommercialPage | Commercial results loaded using locator: ('xpath', "//*[contains(@class,'srpTuple')]")
+2026-05-22 11:19:46 | INFO     | commercial_test | Shop search successful in Delhi
