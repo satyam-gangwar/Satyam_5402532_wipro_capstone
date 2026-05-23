@@ -48,36 +48,3 @@ Feature: 99acres Commercial Module
     When User clicks M3M commercial property
     Then Commercial property detail page should be opened
 
-
-  #@commercial @owner_details
-  #Scenario: Open fixed commercial property and fill enquiry form
-
-   # Given User launches 99acres application
-   # When User opens fixed M3M commercial property detail page
-   # Then Commercial property detail page should be opened
-   # When User fills owner enquiry form with name "Satyam"
-   # Then Owner details form should be filled
-
-
-  #@commercial @view_number
-  #Scenario: Verify View Number button opens login popup
-  #  When User opens commercial city page for "Noida"
-   # And User scrolls to View Number button
-    #And User clicks View Number button
-    #Then Login popup should be displayed on commercial page
-
-  #@commercial @negative
-  #Scenario: Search invalid commercial location
-   # When User opens Commercial tab
-   # And User searches commercial property for location "xyz123invalid"
-    #Then Invalid commercial search should be handled
-
-  #@commercial @negative
-  #Scenario Outline: Open invalid commercial URL
-   # When User opens invalid commercial URL "<invalid_url>"
-   # Then Invalid commercial search should be handled
-
-    #Examples:
-     # | invalid_url |
-      #| https://www.99acres.com/search/property/buy/commercial-property-in-@@@@ |
-      #| https://www.99acres.com/search/property/buy/commercial-property-in-invalidcity123 |

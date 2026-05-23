@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import time
 
+from selenium.common import TimeoutException
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -41,6 +42,8 @@ class CommercialPage:
             f"Opened commercial property page for {city}"
         )
 
+
+
     def wait_for_city_content(self, city):
 
         locator = (
@@ -57,6 +60,8 @@ class CommercialPage:
             f"Page content loaded for {city}"
         )
 
+
+
     def scroll_to_contact_button(self):
 
         self.driver.execute_script(
@@ -68,6 +73,8 @@ class CommercialPage:
         logger.info(
             "Scrolled down successfully"
         )
+
+
 
     def click_view_number_button(self):
 
@@ -93,6 +100,8 @@ class CommercialPage:
             "View Number button clicked successfully"
         )
 
+
+
     def verify_login_popup_displayed(self):
 
         WaitUtils.wait_for_presence_of_element(
@@ -106,6 +115,8 @@ class CommercialPage:
         )
 
         return True
+
+
 
     def search_commercial_property(self, location):
 
@@ -175,6 +186,8 @@ class CommercialPage:
 
         WaitUtils.slow_execution(2)
 
+
+
     def click_search_button(self):
 
         old_url = self.driver.current_url
@@ -220,6 +233,7 @@ class CommercialPage:
         logger.info("Commercial results page loaded")
 
 
+
     def results_contain_location(self, location):
 
         result = (
@@ -238,6 +252,8 @@ class CommercialPage:
             )
 
         return result
+
+
 
     def select_property_type(self, property_type):
 
@@ -294,6 +310,8 @@ class CommercialPage:
 
             return False
 
+
+
     def is_invalid_search_handled(self):
 
         page_text = self.driver.page_source.lower()
@@ -324,23 +342,24 @@ class CommercialPage:
 
         return len(result_cards) == 0
 
-    def _safe_click(
-        self,
-        locator,
-        message,
-        wait_time=2
-    ):
+
+
+    def _safe_click(self, locator, message, wait_time=2):
 
         try:
-            element = WaitUtils.wait_for_element_clickable(
-                self.driver,
-                locator,
-                timeout=5
+            element = WebDriverWait(self.driver, 20).until(
+                EC.presence_of_element_located(locator)
             )
 
             self.driver.execute_script(
                 "arguments[0].scrollIntoView({block:'center'});",
                 element
+            )
+
+            WaitUtils.slow_execution(1)
+
+            WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable(locator)
             )
 
             self.driver.execute_script(
@@ -352,10 +371,16 @@ class CommercialPage:
 
             WaitUtils.slow_execution(wait_time)
 
+            return True
+
         except Exception as error:
             logger.info(
                 f"{message} skipped. Error: {error}"
             )
+
+            return False
+
+
 
     def enter_commercial_location(self, location):
 
@@ -401,6 +426,8 @@ class CommercialPage:
         )
 
         WaitUtils.slow_execution(2)
+
+
 
     def select_location_suggestion(self):
 
@@ -473,59 +500,94 @@ class CommercialPage:
 
             return False
 
+
+
     def apply_noida_filters(self):
 
-        logger.info("Applying Noida commercial filters")
+        logger.info("Applying all Noida commercial filters")
 
-        self._safe_click(
-            CommercialLocators.HEADER_OWNER,
-            "Owner header filter selected",
-            wait_time=2
-        )
+        filters = [
 
-        self._safe_click(
-            CommercialLocators.HEADER_VERIFIED,
-            "Verified header filter selected",
-            wait_time=2
-        )
+            (CommercialLocators.OWNER, "Owner"),
+            (CommercialLocators.VERIFIED_CHECKBOX, "Verified Checkbox"),
 
-        self._safe_click(
-            CommercialLocators.BUDGET_NO_MIN,
-            "Budget minimum dropdown opened",
-            wait_time=2
-        )
+            (CommercialLocators.HEADER_OWNER, "Header Owner"),
+            (CommercialLocators.HEADER_VERIFIED, "Header Verified"),
 
-        self._safe_click(
-            CommercialLocators.BUDGET_MIN_10_LAC,
-            "Minimum budget 10 Lac selected"
-        )
+            (CommercialLocators.HEADER_READY_TO_MOVE, "Header Ready To Move"),
+            (CommercialLocators.HEADER_WITH_PHOTOS, "Header With Photos"),
 
-        self._safe_click(
-            CommercialLocators.BUDGET_NO_MAX,
-            "Budget maximum dropdown opened",
-            wait_time=2
-        )
+            (CommercialLocators.BUDGET_NO_MIN, "Budget No Min"),
+            (CommercialLocators.BUDGET_MIN_10_LAC, "Budget Min 10 Lac"),
+            (CommercialLocators.BUDGET_NO_MAX, "Budget No Max"),
 
-        self._safe_click(
-            CommercialLocators.SHOPS_FILTER,
-            "Shops filter selected"
-        )
+            (CommercialLocators.SHOPS_FILTER, "Shops Filter"),
+            (CommercialLocators.SHOWROOM_FILTER, "Showroom Filter"),
+            (CommercialLocators.KIOSK_FILTER, "Kiosk Filter"),
 
-        self._safe_click(
-            CommercialLocators.KIOSK_FILTER,
-            "Kiosk filter selected"
-        )
+            (CommercialLocators.SECURITY_GUARD, "Security Guard"),
 
-        self._safe_click(
-            CommercialLocators.SECURITY_GUARD,
-            "Security Guard selected"
+            (CommercialLocators.SHOPS_RETAIL, "Shops Retail"),
+
+            (CommercialLocators.READY_TO_MOVE_OFFICES, "Ready To Move Offices"),
+            (CommercialLocators.BARE_SHELL_OFFICES, "Bare Shell Offices"),
+
+            (CommercialLocators.PRE_LEASED_SPACES, "Pre Leased Spaces"),
+
+            (CommercialLocators.CO_WORKING, "Co Working"),
+
+            (CommercialLocators.SECTOR_62, "Sector 62"),
+            (CommercialLocators.SECTOR_132, "Sector 132"),
+
+            (CommercialLocators.READY_TO_MOVE_COMMERCIAL, "Ready To Move Commercial"),
+            (CommercialLocators.UNDER_CONSTRUCTION_COMMERCIAL, "Under Construction Commercial"),
+
+            (CommercialLocators.RESALE, "Resale"),
+            (CommercialLocators.NEW_BOOKING, "New Booking"),
+
+            (CommercialLocators.LIFT, "Lift"),
+            (CommercialLocators.POWER_BACKUP, "Power Backup")
+        ]
+
+        working_filters = []
+        failed_filters = []
+
+        for locator, filter_name in filters:
+
+            try:
+
+                result = self._safe_click(
+                    locator,
+                    f"{filter_name} selected",
+                    wait_time=2
+                )
+
+                if result:
+                    working_filters.append(filter_name)
+
+                else:
+                    failed_filters.append(filter_name)
+
+            except Exception as error:
+
+                logger.info(
+                    f"{filter_name} failed | Error: {error}"
+                )
+
+                failed_filters.append(filter_name)
+
+        logger.info(
+            f"WORKING FILTERS: {working_filters}"
         )
 
         logger.info(
-            "Noida commercial filters applied successfully"
+            f"FAILED FILTERS: {failed_filters}"
         )
 
-        WaitUtils.slow_execution(10)
+        WaitUtils.slow_execution(5)
+
+        return working_filters
+
 
 
     def click_filter_and_verify(self, locator, filter_name):
@@ -559,6 +621,8 @@ class CommercialPage:
         logger.error(f"Filter not visible after click: {filter_name}")
         return False
 
+
+
     def click_filter_and_return_top(self, locator, filter_name):
 
         element = WaitUtils.wait_for_element_clickable(
@@ -589,134 +653,8 @@ class CommercialPage:
 
         WaitUtils.slow_execution(3)
 
-    def is_filter_applied_on_screen(self, filter_name):
-
-        applied_xpath = (
-            f"//*[contains(@class,'tag') "
-            f"or contains(@class,'chip') "
-            f"or contains(@class,'applied') "
-            f"or contains(@class,'selected')]"
-            f"[contains(normalize-space(),'{filter_name}')]"
-        )
-
-        return len(
-            self.driver.find_elements(By.XPATH, applied_xpath)
-        ) > 0
-
-    def click_filter_by_text(self, filter_name):
-
-        filter_xpath = (
-            f"//*[self::span or self::div or self::label or self::button]"
-            f"[contains(normalize-space(),'{filter_name}')]"
-        )
-
-        locator = (
-            By.XPATH,
-            filter_xpath
-        )
-
-        element = WaitUtils.wait_for_element_clickable(
-            self.driver,
-            locator,
-            timeout=10
-        )
-
-        self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            element
-        )
-
-        WaitUtils.slow_execution(1)
-
-        self.driver.execute_script(
-            "arguments[0].click();",
-            element
-        )
-
-        logger.info(
-            f"Clicked filter by text: {filter_name}"
-        )
-
-        WaitUtils.slow_execution(2)
-
-        return True
 
 
-    def apply_basic_filters(self):
-
-        logger.info("Applying basic commercial filters")
-
-        filter_names = [
-            "Owner",
-            "Verified",
-            "Shops"
-        ]
-
-        clicked_filters = []
-
-        for filter_name in filter_names:
-
-            try:
-                self.click_filter_by_text(filter_name)
-
-                clicked_filters.append(filter_name)
-
-            except Exception as error:
-                logger.info(
-                    f"Basic filter not clicked: {filter_name} | Error: {error}"
-                )
-
-        if not clicked_filters:
-            logger.info(
-                "No basic filters clicked, continuing without failure"
-            )
-
-        logger.info(
-            f"Basic filters applied: {clicked_filters}"
-        )
-
-        return True
-
-
-    def apply_noida_filters_by_text(self):
-
-        logger.info("Applying Noida commercial filters by text")
-
-        filter_names = [
-            "Shops",
-            "Pre-leased",
-            "Sector 62",
-            "Ready to move"
-        ]
-
-        clicked_filters = []
-
-        for filter_name in filter_names:
-
-            try:
-                self.click_filter_by_text(filter_name)
-
-                clicked_filters.append(filter_name)
-
-                logger.info(
-                    f"Noida filter clicked: {filter_name}"
-                )
-
-            except Exception as error:
-                logger.info(
-                    f"Noida filter not clicked: {filter_name} | Error: {error}"
-                )
-
-        if not clicked_filters:
-            raise AssertionError(
-                "No Noida commercial filters were applied"
-            )
-
-        logger.info(
-            f"Noida filters applied successfully: {clicked_filters}"
-        )
-
-        return True
 
     def click_any_property_from_results(self):
 
@@ -782,6 +720,7 @@ class CommercialPage:
         )
 
 
+
     def click_fixed_property_m3m(self):
 
         logger.info("Opening M3M The Line property directly")
@@ -814,122 +753,6 @@ class CommercialPage:
             f"M3M property page opened: {self.driver.current_url}"
         )
 
-    def click_owner_details_tab(self):
-
-        self.switch_to_latest_tab()
-
-        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-        owner_details_tab = self.wait.until(
-            EC.presence_of_element_located(
-                CommercialLocators.OWNER_DETAILS_TAB
-            )
-        )
-
-        self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            owner_details_tab
-        )
-
-        self.driver.execute_script(
-            "arguments[0].click();",
-            owner_details_tab
-        )
-
-    def open_owner_enquiry_form(self):
-
-        self.switch_to_latest_tab()
-
-        trigger = self.wait.until(
-            EC.presence_of_element_located(
-                CommercialLocators.OWNER_FORM_TRIGGER
-            )
-        )
-
-        self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            trigger
-        )
-
-        self.driver.execute_script(
-            "arguments[0].click();",
-            trigger
-        )
-
-    def enter_owner_contact_name(self, name):
-
-        name_input = self.wait.until(
-            EC.presence_of_element_located(
-                CommercialLocators.OWNER_NAME_INPUT
-            )
-        )
-
-        self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            name_input
-        )
-
-        self.driver.execute_script(
-            "arguments[0].value = arguments[1];"
-            "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
-            "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
-            name_input,
-            name
-        )
-
-    def enter_owner_contact_mobile_number(self, mobile_number):
-
-        mobile_input = self.wait.until(
-            EC.presence_of_element_located(
-                CommercialLocators.OWNER_MOBILE_INPUT
-            )
-        )
-
-        self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            mobile_input
-        )
-
-        self.driver.execute_script(
-            "arguments[0].value = arguments[1];"
-            "arguments[0].dispatchEvent(new Event('input', { bubbles: true }));"
-            "arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
-            mobile_input,
-            mobile_number
-        )
-
-    def is_owner_details_form_filled(self):
-
-        name_value = self.driver.find_element(
-            *CommercialLocators.OWNER_NAME_INPUT
-        ).get_attribute("value")
-
-        return name_value.strip() != ""
-
-    def fill_owner_enquiry_form(self, name):
-
-        name_input = self.wait.until(
-            EC.presence_of_element_located(
-                CommercialLocators.OWNER_NAME_INPUT
-            )
-        )
-
-        self.driver.execute_script(
-            "arguments[0].scrollIntoView({block:'center'});",
-            name_input
-        )
-
-        self.driver.execute_script(
-            """
-            arguments[0].focus();
-            arguments[0].value = arguments[1];
-            arguments[0].dispatchEvent(new Event('input', { bubbles: true }));
-            arguments[0].dispatchEvent(new Event('change', { bubbles: true }));
-            """,
-            name_input,
-            name
-        )
-
 
 
     def switch_to_latest_tab(self):
@@ -944,3 +767,34 @@ class CommercialPage:
             ) == "complete"
         )
 
+
+
+    def is_results_loaded(self):
+
+        try:
+            WebDriverWait(self.driver, 30).until(
+                lambda driver: (
+                        "commercial" in driver.current_url.lower()
+                        or "search" in driver.current_url.lower()
+                        or "property" in driver.current_url.lower()
+                )
+            )
+
+            WebDriverWait(self.driver, 30).until(
+                EC.presence_of_element_located(
+                    (
+                        By.XPATH,
+                        "//body//*[contains(text(),'Commercial')]"
+                        " | //body//*[contains(text(),'Office')]"
+                        " | //body//*[contains(text(),'Shop')]"
+                        " | //body//*[contains(text(),'Showroom')]"
+                        " | //body//*[contains(text(),'Property')]"
+                        " | //body//*[contains(text(),'results')]"
+                    )
+                )
+            )
+
+            return True
+
+        except TimeoutException:
+            return False

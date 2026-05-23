@@ -2,7 +2,6 @@ from selenium.webdriver.common.by import By
 
 
 class HomeLocators:
-
     POPUP_CLOSE = (
         By.XPATH,
         "//button[normalize-space()='Okay' or normalize-space()='OK']"
@@ -31,8 +30,6 @@ class HomeLocators:
         "or @type='tel']"
     )
 
-
-
     OTP_INPUT = (
         By.XPATH,
         "//input[@type='tel' or @autocomplete='one-time-code']"
@@ -50,13 +47,11 @@ class HomeLocators:
         "or contains(text(),'Invalid')]"
     )
 
-   
     CONTINUE_BUTTON = (
         By.XPATH,
         "//button[contains(.,'Continue')] "
         "| //span[contains(.,'Continue')]"
     )
-
 
     BUY_TAB = (
         By.XPATH,
@@ -67,8 +62,6 @@ class HomeLocators:
         By.XPATH,
         "//div[contains(text(),'Commercial')]"
     )
-
-
 
     COMMERCIAL_TAB_SPAN = (
         By.XPATH,

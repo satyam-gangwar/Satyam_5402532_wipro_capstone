@@ -363,4 +363,3 @@ def step_open_fixed_property(context):
     )
 
     context.driver.get(PROPERTY_URL)
-

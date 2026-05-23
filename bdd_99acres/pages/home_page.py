@@ -52,6 +52,8 @@ class HomePage:
         except Exception:
             logger.info("Page offset click skipped")
 
+
+
     def click_login(self):
 
         try:
@@ -83,6 +85,8 @@ class HomePage:
 
         logger.info("Login button clicked")
 
+
+
     def enter_mobile_number(self, mobile):
         mobile_field = WaitUtils.wait_for_element_clickable(
             self.driver,
@@ -91,6 +95,8 @@ class HomePage:
         mobile_field.clear()
         mobile_field.send_keys(mobile)
         logger.info("Mobile number entered")
+
+
 
     def click_continue(self):
 
@@ -116,11 +122,15 @@ class HomePage:
 
             self.click_login()
 
+
+
     def login_with_mobile_until_otp(self, mobile):
         self.click_login()
         self.enter_mobile_number(mobile)
         self.click_continue()
         logger.info("Mobile submitted; waiting for OTP screen")
+
+
 
     def wait_for_otp_screen(self):
         try:
@@ -137,6 +147,8 @@ class HomePage:
                 "OTP input was not detected; login popup may use segmented OTP fields"
             )
             return self.is_mobile_field_displayed()
+
+
 
     def wait_for_manual_otp_entry(self):
         wait_time = ConfigReader.get_manual_otp_wait()
@@ -162,6 +174,8 @@ class HomePage:
             logger.error("OTP was not completed before wait time ended")
             return False
 
+
+
     def wait_for_login_overlay_to_close(self):
         try:
             WebDriverWait(
@@ -178,6 +192,8 @@ class HomePage:
         except TimeoutException:
             logger.error("Login overlay is still open after manual OTP wait")
             return False
+
+
 
     def is_login_overlay_open(self):
         login_elements = (
@@ -198,12 +214,16 @@ class HomePage:
             )
             return True
 
+
+
     def is_mobile_field_displayed(self):
         return len(
             self.driver.find_elements(
                 *HomeLocators.MOBILE_NUMBER
             )
         ) > 0
+
+
 
     def get_mobile_validation_message(self):
         messages = self.driver.find_elements(
@@ -214,6 +234,8 @@ class HomePage:
             return messages[0].text
 
         return ""
+
+
 
     def handle_session_expired_popup(self):
 
@@ -243,6 +265,8 @@ class HomePage:
 
             print("No session expired popup found")
 
+
+
     def open_buy_tab(self):
 
         buy_tab = WaitUtils.wait_for_element_clickable(
@@ -259,6 +283,8 @@ class HomePage:
         logger.info(
             "Buy tab opened successfully"
         )
+
+
 
     def open_commercial_tab(self):
 
@@ -282,6 +308,8 @@ class HomePage:
         return CommercialPage(
             self.driver
         )
+
+
 
     def is_session_expired_message_displayed(self):
 
