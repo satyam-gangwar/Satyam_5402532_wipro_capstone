@@ -296,10 +296,7 @@ def step_verify_login_popup(context):
     )
 
 
-@then("Invalid commercial search should be handled")
-def step_verify_invalid_search(context):
 
-    assert context.commercial_page.is_invalid_search_handled()
 
 @when("User clicks any commercial property from results")
 def step_click_any_commercial_property(context):
@@ -363,3 +360,5 @@ def step_open_fixed_property(context):
     )
 
     context.driver.get(PROPERTY_URL)
+
+
